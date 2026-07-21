@@ -1454,5 +1454,83 @@
       "Polateli",
       "Alanya"
     ]
+  },
+  {
+    "id": "gen-440633",
+    "hash": "de478127477e30915ff3e9b0eb0509ccb35597fa99f46b40302c1e1d72ce276e",
+    "category": "türkiye eğitim",
+    "difficulty": "Uzman",
+    "question": "Jessica'nın Büyük ve Küçük Dünyası ile ilgili: yıl?",
+    "correctAnswer": "2023",
+    "distractors": [
+      "Çemişgezek",
+      "Söke",
+      "Karacasu"
+    ]
+  },
+  {
+    "id": "gen-391848",
+    "hash": "9f9440f67ae146816d0102b520abe210d1384389ec83791a8a4842011b2d3296",
+    "category": "türk tarihi",
+    "difficulty": "Orta",
+    "question": "On İkinci Hanedan ile ilgili: yıl?",
+    "correctAnswer": "1991",
+    "distractors": [
+      "Kürtün",
+      "Görele",
+      "Malatya"
+    ]
+  },
+  {
+    "id": "gen-498905",
+    "hash": "be5a416619a06e25e62ea0170aeb7d9e34c991ab350a90c9ba8ab0fc7708308c",
+    "category": "türk folklorü",
+    "difficulty": "Normal",
+    "question": "Fenerbahçe (futbol takımı) 2013-14 sezonu ile ilgili: yıl?",
+    "correctAnswer": "2013",
+    "distractors": [
+      "Akyaka",
+      "Merkez",
+      "Türkeli"
+    ]
+  },
+  {
+    "id": "gen-735089",
+    "hash": "3ce5654efcc00e6f1aac39a3a3584062ab6f1cd885c100131e2794432fff41ec",
+    "category": "spor - futbol",
+    "difficulty": "Orta",
+    "question": "Bursaspor (futbol takımı) sezonları listesi ile ilgili: yıl?",
+    "correctAnswer": "1963",
+    "distractors": [
+      "Iğdır",
+      "Köşk",
+      "Geyve"
+    ]
+  },
+  {
+    "id": "gen-884310",
+    "hash": "43147dd3f78c44531689d06ce03ca2313938e32510c6c73fc66dc01da8742a2d",
+    "category": "türk yerel yönetim",
+    "difficulty": "Normal",
+    "question": "Amasyaspor FK 2023-24 sezonu ile ilgili: yıl?",
+    "correctAnswer": "2023",
+    "distractors": [
+      "Gölbaşı",
+      "Kargı",
+      "Güneysu"
+    ]
+  },
+  {
+    "id": "gen-711593",
+    "hash": "43019acff46b461d3894ae44af3204ea27305e3547e91f8591735b45fb97137a",
+    "category": "türk folklorik kıyafet",
+    "difficulty": "Normal",
+    "question": "Hikaru Hironiwa ile ilgili: yıl?",
+    "correctAnswer": "2004",
+    "distractors": [
+      "Karlıova",
+      "Bayat",
+      "İkizdere"
+    ]
   }
 ]

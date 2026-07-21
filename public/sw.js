@@ -1,5 +1,6 @@
 const CACHE_NAME = 'kim-milyoner-v1';
-const STATIC_ASSETS = ['/', '/index.html', '/manifest.json', '/favicon.svg'];
+const BASE = '/kimmilyoner/';
+const STATIC_ASSETS = [BASE, `${BASE}index.html`, `${BASE}manifest.json`, `${BASE}favicon.svg`];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
@@ -31,7 +32,7 @@ self.addEventListener('fetch', (event) => {
           caches.open(CACHE_NAME).then((c) => c.put(request, copy));
           return res;
         })
-        .catch(() => caches.match(request).then((r) => r || caches.match('/index.html')))
+        .catch(() => caches.match(request).then((r) => r || caches.match(`${BASE}index.html`)))
     );
     return;
   }

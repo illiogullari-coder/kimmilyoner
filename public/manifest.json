@@ -3,15 +3,15 @@
   "short_name": "Milyoner",
   "description": "Türkiye temalı sonsuz bilgi yarışması",
   "lang": "tr",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "/kimmilyoner/",
+  "scope": "/kimmilyoner/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#050816",
   "theme_color": "#050816",
   "icons": [
     {
-      "src": "/favicon.svg",
+      "src": "/kimmilyoner/favicon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any maskable"

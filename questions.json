@@ -1623,5 +1623,122 @@
       "Beşiktaş",
       "Uzundere"
     ]
+  },
+  {
+    "id": "gen-426468",
+    "hash": "9b006704d2f6a56670163de1527a78dbdbf78798f480b44cd3307409b1d7ec71",
+    "category": "Göktürkler",
+    "difficulty": "Orta",
+    "question": "Gizli Yüz ile ilgili: yıl?",
+    "correctAnswer": "1991",
+    "distractors": [
+      "Babaeski",
+      "Korgun",
+      "Torbalı"
+    ]
+  },
+  {
+    "id": "gen-372158",
+    "hash": "754ede5a5edda7d2292a2aedf3007cf7b5fa5d42ed7fbe82879df9e8c6b5f436",
+    "category": "Göktürkler",
+    "difficulty": "Zor",
+    "question": "Gizli Yüz ile ilgili: yıl?",
+    "correctAnswer": "1992",
+    "distractors": [
+      "Üsküdar",
+      "Digor",
+      "Bayat"
+    ]
+  },
+  {
+    "id": "gen-215230",
+    "hash": "37e350117be8a14c5ab8934cd677bd3621f5269a3014b4d6132f4937208f5346",
+    "category": "Göktürkler",
+    "difficulty": "Zor",
+    "question": "Fenerbahçe (kadın voleybol takımı) 2006-07 sezonu ile ilgili: yıl?",
+    "correctAnswer": "2006",
+    "distractors": [
+      "Sarıveliler",
+      "Gömeç",
+      "Emet"
+    ]
+  },
+  {
+    "id": "gen-312296",
+    "hash": "18aa187ae494c7c017fee247db9f71bfe3a22e6c15597e58ce2c28fef262275b",
+    "category": "türk folklorü",
+    "difficulty": "Final",
+    "question": "Haki Cabbar ilçesi ile ilgili: Haki Cabbar ilçesi (Peştuca: د خاکجبار ولسوالۍ), Afganistan'?",
+    "correctAnswer": "د خاکجبار ولسوالۍ)",
+    "distractors": [
+      "Karakeçili",
+      "Abana",
+      "Aydıncık"
+    ]
+  },
+  {
+    "id": "gen-628742",
+    "hash": "9e10311f1d10cea6d7a8a2fba07595fbbc778cfe7deb7d6b2fe0e06f30b4bca4",
+    "category": "türk tarihi",
+    "difficulty": "Profesör",
+    "question": "Yalta Konferansı ile ilgili: yıl?",
+    "correctAnswer": "1945",
+    "distractors": [
+      "Tarsus",
+      "Beyşehir",
+      "Pazaryeri"
+    ]
+  },
+  {
+    "id": "gen-904284",
+    "hash": "52c2a3c66725075dd998fa7093b017b993ce13d0fecb3d7e6b305dee8cd84f77",
+    "category": "türk folklorü",
+    "difficulty": "Normal",
+    "question": "Çatalağaç, Gürgentepe ile ilgili: yıl?",
+    "correctAnswer": "2017",
+    "distractors": [
+      "İmamoğlu",
+      "Ağlı",
+      "Merkez"
+    ]
+  },
+  {
+    "id": "gen-366293",
+    "hash": "32dd5f2e4f91c481cf0fd5ba9e23c4e2806c8665891bb6d4585bd1b1fdaf025c",
+    "category": "türk folklorü",
+    "difficulty": "Çok Zor",
+    "question": "Çatalağaç, Gürgentepe ile ilgili: yıl?",
+    "correctAnswer": "1990",
+    "distractors": [
+      "Suruç",
+      "Gölcük",
+      "Of"
+    ]
+  },
+  {
+    "id": "gen-590580",
+    "hash": "1f9b51627208face591311d8440b85e9eed44a713e5bd3db524dd33498cf515a",
+    "category": "türk savunma",
+    "difficulty": "Orta",
+    "question": "Mauser C96 ile ilgili: yıl?",
+    "correctAnswer": "1937",
+    "distractors": [
+      "Zeytinburnu",
+      "Sarayönü",
+      "Demre"
+    ]
+  },
+  {
+    "id": "gen-805397",
+    "hash": "eeae54aab3969b59b732393c8bcd737cb3947862851a84b8f9ba60d394c297a7",
+    "category": "türk yerel yönetim",
+    "difficulty": "Kolay",
+    "question": "Sonar Entertainment ile ilgili: yıl?",
+    "correctAnswer": "1980",
+    "distractors": [
+      "Kapaklı",
+      "Dikmen",
+      "Erdemli"
+    ]
   }
 ]

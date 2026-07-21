@@ -3326,5 +3326,148 @@
       "Fethiye",
       "Bayramiç"
     ]
+  },
+  {
+    "id": "gen-174772",
+    "hash": "0c7eb28788babb7a5f46549da77ad25089cf1fef07fac497ccd1634c1f1ebba8",
+    "category": "türk yerel yönetim",
+    "difficulty": "Orta",
+    "question": "Trol ile ilgili: Trol şu anlamlara gelebilir:Trol (ağ), gemilerde kullanılan ?",
+    "correctAnswer": "Trol (ağ)",
+    "distractors": [
+      "Kahta",
+      "Amasya",
+      "Altınordu"
+    ]
+  },
+  {
+    "id": "gen-671910",
+    "hash": "b1f42de1f121ef6d8d1899bace1354590d2939f591b5882f34a9f84e03bbe928",
+    "category": "türk tarihi",
+    "difficulty": "Profesör",
+    "question": "Hamas geçici komitesi ile ilgili: yıl?",
+    "correctAnswer": "2024",
+    "distractors": [
+      "Tavşanlı",
+      "Karakoyunlu",
+      "Merkez"
+    ]
+  },
+  {
+    "id": "gen-907814",
+    "hash": "1acb0ecd60258bc9909e6905fd05dfbf80a59137711e383b50f78e8994383a2d",
+    "category": "Göktürkler",
+    "difficulty": "Zor",
+    "question": "Çotanak ile ilgili: yıl?",
+    "correctAnswer": "1957",
+    "distractors": [
+      "Kurşunlu",
+      "Elbeyli",
+      "Gölmarmara"
+    ]
+  },
+  {
+    "id": "gen-261417",
+    "hash": "3008d74c2d193e26ab3ecf26bf5f4db88bd652413627979be9a32fe682693db9",
+    "category": "türk kültürü",
+    "difficulty": "Final",
+    "question": "Trump Barış Planı ile ilgili: Refah İçin Barış: Genellikle Trump Barış Planı olarak biline?",
+    "correctAnswer": "Genellikle Trump Barış Planı olarak bilinen Filistin ve İsrail Halkının Yaşamlarını İyileştirme Vizyonu",
+    "distractors": [
+      "Urla",
+      "Karabağlar",
+      "Gülyalı"
+    ]
+  },
+  {
+    "id": "gen-975942",
+    "hash": "ada9850c7d6d5661bb7442fce813186bd09a8f413fa70b34ec95a8c96038f40a",
+    "category": "türk kültürü",
+    "difficulty": "Çok Zor",
+    "question": "Trump Barış Planı ile ilgili: yıl?",
+    "correctAnswer": "2020",
+    "distractors": [
+      "Kırkağaç",
+      "Baskil",
+      "Manisa"
+    ]
+  },
+  {
+    "id": "gen-515393",
+    "hash": "cd0b75f37099841e8378c38077e9faebae686e9ccff8a093c2329256fe1af44e",
+    "category": "türk tarihi",
+    "difficulty": "Normal",
+    "question": "Bursa Deniz Otobüsleri ile ilgili: yıl?",
+    "correctAnswer": "2013",
+    "distractors": [
+      "Kilis",
+      "Bilecik",
+      "Keban"
+    ]
+  },
+  {
+    "id": "gen-535100",
+    "hash": "7fa3591c12c58d386631dfe1d16db34015daeeb5a2cdbce42b665389082510e2",
+    "category": "Göktürkler",
+    "difficulty": "Uzman",
+    "question": "Eylül 2012 Hakkâri-Yüksekova-Şemdinli Harekâtı ile ilgili: yıl?",
+    "correctAnswer": "2012",
+    "distractors": [
+      "Merkez",
+      "Ereğli",
+      "Güçlükonak"
+    ]
+  },
+  {
+    "id": "gen-431149",
+    "hash": "3f22ef0a96b5524ab12edaca2ae4b4b3cd2f56d89c05021e13d209cec151dc60",
+    "category": "Göktürkler",
+    "difficulty": "Zor",
+    "question": "Kuzey Kıbrıs-Somali ilişkileri ile ilgili: yıl?",
+    "correctAnswer": "2004",
+    "distractors": [
+      "Pazaryeri",
+      "Bismil",
+      "Şemdinli"
+    ]
+  },
+  {
+    "id": "gen-630154",
+    "hash": "f792267620e8db7346605d00e1c192fbbc08f0863868f3e9d4b06b567d7ec9b5",
+    "category": "Göktürkler",
+    "difficulty": "Final",
+    "question": "Kuzey Kıbrıs-Somali ilişkileri ile ilgili: yıl?",
+    "correctAnswer": "2011",
+    "distractors": [
+      "Zara",
+      "Pülümür",
+      "Urla"
+    ]
+  },
+  {
+    "id": "gen-281341",
+    "hash": "9ef57c4fef2f75afe59906249cf6f10344642e3673addd7000f1613f234c482b",
+    "category": "türk yerel yönetim",
+    "difficulty": "Orta",
+    "question": "Karsan Atak ile ilgili: yıl?",
+    "correctAnswer": "2014",
+    "distractors": [
+      "Erciş",
+      "Yeniçağa",
+      "Boğazlıyan"
+    ]
+  },
+  {
+    "id": "gen-349426",
+    "hash": "80f4be04f6206efa85a6c09b6033b355a8248ab33de2d90366550dd1477ecb40",
+    "category": "türk folklorik kıyafet",
+    "difficulty": "Normal",
+    "question": "Seiji Hada ile ilgili: yıl?",
+    "correctAnswer": "1997",
+    "distractors": [
+      "Hozat",
+      "Bayrampaşa",
+      "Akseki"
+    ]
   }
 ]

@@ -2754,5 +2754,174 @@
       "Sarıyahşi",
       "Şirvan"
     ]
+  },
+  {
+    "id": "gen-568763",
+    "hash": "f6943b67bf87922fc65db21e8c84efc9431f1afc47ee0bc6290239f704d8f157",
+    "category": "türk enerji",
+    "difficulty": "Normal",
+    "question": "Titusville, Pensilvanya ile ilgili: yıl?",
+    "correctAnswer": "2020",
+    "distractors": [
+      "Sarıgöl",
+      "Pınarhisar",
+      "Termal"
+    ]
+  },
+  {
+    "id": "gen-728340",
+    "hash": "3c78c27044c255233f474f10b4942bc32e2bdf0f7612d71e05ba80c45b823cbc",
+    "category": "Karahanlılar",
+    "difficulty": "Orta",
+    "question": "Ahmet Arif Edebiyat Müzesi ile ilgili: yıl?",
+    "correctAnswer": "2011",
+    "distractors": [
+      "Malatya",
+      "Mecitözü",
+      "İbradı"
+    ]
+  },
+  {
+    "id": "gen-191651",
+    "hash": "7ae2d4d9273ee0a434ce587d38e8f0e65019f618a691a8adba2780e0c784eb91",
+    "category": "türk siyaset",
+    "difficulty": "Zor",
+    "question": "Fransız Komünist Partisi ile ilgili: yıl?",
+    "correctAnswer": "1980",
+    "distractors": [
+      "Çamlıdere",
+      "Elmalı",
+      "Abana"
+    ]
+  },
+  {
+    "id": "gen-964964",
+    "hash": "badcc19ab2b0463b6f0bb73269ca3ad24f0042648eb956bebb2b50d9d90157aa",
+    "category": "türk tarihi",
+    "difficulty": "Orta",
+    "question": "Kadın müzesi ile ilgili: yıl?",
+    "correctAnswer": "2018",
+    "distractors": [
+      "Merkez",
+      "Kınık",
+      "Ladik"
+    ]
+  },
+  {
+    "id": "gen-288535",
+    "hash": "156ee95b5c585e530280767935c8142c3df3a3cfbb12aeaff5833ca4a58c8b8d",
+    "category": "türk yerel yönetim",
+    "difficulty": "Zor",
+    "question": "Daneliya Tuleşova ile ilgili: yıl?",
+    "correctAnswer": "2018",
+    "distractors": [
+      "Bucak",
+      "Ağrı",
+      "Çankırı"
+    ]
+  },
+  {
+    "id": "gen-321855",
+    "hash": "801395a6f0a32deaa1528d01a3182db185682aaecf242fd405b4a8734c680788",
+    "category": "türk basını",
+    "difficulty": "Orta",
+    "question": "Arkivoc ile ilgili: yıl?",
+    "correctAnswer": "2014",
+    "distractors": [
+      "Kayseri",
+      "Bafra",
+      "Acıpayam"
+    ]
+  },
+  {
+    "id": "gen-869729",
+    "hash": "b378e70fbe70e11f2ee5c73652065c0dea39f580634b27c194140b39547ed64d",
+    "category": "türk yerel yönetim",
+    "difficulty": "Normal",
+    "question": "Oliveira do Mondego ile ilgili: yıl?",
+    "correctAnswer": "2013",
+    "distractors": [
+      "Şirvan",
+      "Avanos",
+      "Beyoğlu"
+    ]
+  },
+  {
+    "id": "gen-403745",
+    "hash": "06758b2bfeb50a934ed69fd50db6c81f78f584895f2f4a63350c5407546b420a",
+    "category": "türkiye gıda",
+    "difficulty": "Normal",
+    "question": "Frechen ile ilgili: yıl?",
+    "correctAnswer": "2010",
+    "distractors": [
+      "Kozluk",
+      "Ulubey",
+      "Şalpazarı"
+    ]
+  },
+  {
+    "id": "gen-953295",
+    "hash": "1cb1e06e99e4fc82357d60ff48a19ec1045306ebf6267392d01aecf6a4bc827a",
+    "category": "türk yerel yönetim",
+    "difficulty": "Orta",
+    "question": "Güllü Ağalarzade ile ilgili: yıl?",
+    "correctAnswer": "2022",
+    "distractors": [
+      "Bornova",
+      "Tonya",
+      "Ilgın"
+    ]
+  },
+  {
+    "id": "gen-482102",
+    "hash": "2dc27cbc68ff7578947ba6c5cdd2582b01638063862d76085f1a560a773be6b9",
+    "category": "türk yerel yönetim",
+    "difficulty": "Normal",
+    "question": "Güllü Ağalarzade ile ilgili: yıl?",
+    "correctAnswer": "2024",
+    "distractors": [
+      "Refahiye",
+      "İstanbul",
+      "Samsun"
+    ]
+  },
+  {
+    "id": "gen-186423",
+    "hash": "9de63354ee94b82402d237c9259644711edb78a44d8cb65036cdae0866919806",
+    "category": "türk yerel yönetim",
+    "difficulty": "Zor",
+    "question": "Thyssen Henschel UR-416 ile ilgili: yıl?",
+    "correctAnswer": "1969",
+    "distractors": [
+      "Mardin",
+      "Doğanşehir",
+      "İskilip"
+    ]
+  },
+  {
+    "id": "gen-197595",
+    "hash": "b23515e542a26d7ec584f4b652a294d024e635097b3b99396fc8e3d08f753e35",
+    "category": "türk kültürü",
+    "difficulty": "Çok Zor",
+    "question": "Birinci Çekoslovak Cumhuriyeti ile ilgili: yıl?",
+    "correctAnswer": "1918",
+    "distractors": [
+      "Afşin",
+      "Kaman",
+      "Karaçoban"
+    ]
+  },
+  {
+    "id": "gen-399913",
+    "hash": "c236eb14332c73f7ca433edabd8535407871f07c3329476fe901ce35a3f7b19c",
+    "category": "türk tarihi",
+    "difficulty": "Orta",
+    "question": "Savigliano ile ilgili: yıl?",
+    "correctAnswer": "2013",
+    "distractors": [
+      "Dalaman",
+      "Silvan",
+      "Merkez"
+    ]
   }
 ]

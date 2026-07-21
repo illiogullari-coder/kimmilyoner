@@ -3105,5 +3105,135 @@
       "Güngören",
       "Avanos"
     ]
+  },
+  {
+    "id": "gen-103930",
+    "hash": "c002044305d0570e7bd34cbda3cffd1074f7cd4e4295c6c7e4367fc36ae1eb8b",
+    "category": "türkiye sağlık turizmi",
+    "difficulty": "Zor",
+    "question": "Nikaragua'da COVID-19 pandemisi ile ilgili: yıl?",
+    "correctAnswer": "2019",
+    "distractors": [
+      "Akkışla",
+      "Karaisalı",
+      "Kızılcahamam"
+    ]
+  },
+  {
+    "id": "gen-364560",
+    "hash": "8113ae8ceef5a0b000b314d4166577c299df097a78d1f40ed03c7f02ef3b4d14",
+    "category": "türkiye sağlık turizmi",
+    "difficulty": "Normal",
+    "question": "Nikaragua'da COVID-19 pandemisi ile ilgili: yıl?",
+    "correctAnswer": "2020",
+    "distractors": [
+      "Tunceli",
+      "Aşkale",
+      "İspir"
+    ]
+  },
+  {
+    "id": "gen-469117",
+    "hash": "2d3fed025156df7e76ec15969a581000515284d7021ccdd87b8923ae4bf2da70",
+    "category": "türk yerel yönetim",
+    "difficulty": "Orta",
+    "question": "2018 Avrupa Su Sporları Şampiyonası'nda açık su yüzme - Erkekler 10 km ile ilgili: yıl?",
+    "correctAnswer": "2018",
+    "distractors": [
+      "Perşembe",
+      "Altınözü",
+      "Pazarlar"
+    ]
+  },
+  {
+    "id": "gen-647929",
+    "hash": "41b1a437ffd011050320f39f5c86651beb711639218b15fce7c289f4baf22f28",
+    "category": "türk tarihi",
+    "difficulty": "Normal",
+    "question": "Takarazuka ile ilgili: yıl?",
+    "correctAnswer": "1954",
+    "distractors": [
+      "Cihanbeyli",
+      "Çan",
+      "Ataşehir"
+    ]
+  },
+  {
+    "id": "gen-787502",
+    "hash": "cdfdf8084f3e0c7ebee21dcebc4e9b8e8b5c010be2280d7bf431184b1c0b79ed",
+    "category": "türk tarihi",
+    "difficulty": "Orta",
+    "question": "Takarazuka ile ilgili: yıl?",
+    "correctAnswer": "2008",
+    "distractors": [
+      "Amasya",
+      "Güneysınır",
+      "Ataşehir"
+    ]
+  },
+  {
+    "id": "gen-696492",
+    "hash": "9ef094af523b7e6a3b0758f43ab27f82ec77c7e3f01012f58e9f5f7d66871c00",
+    "category": "türk folklorü",
+    "difficulty": "Normal",
+    "question": "Messene ile ilgili: yıl?",
+    "correctAnswer": "2011",
+    "distractors": [
+      "Nevşehir",
+      "Ordu",
+      "Elmalı"
+    ]
+  },
+  {
+    "id": "gen-929450",
+    "hash": "a059ba55fe004afeb2ce56b00f527c2639df9791986342d5592a9ccd6c16ad03",
+    "category": "Uygur Kağanlığı",
+    "difficulty": "Zor",
+    "question": "Altın Dziga ile ilgili: yıl?",
+    "correctAnswer": "2017",
+    "distractors": [
+      "Kabadüz",
+      "Sarıkamış",
+      "Bahçelievler"
+    ]
+  },
+  {
+    "id": "gen-914382",
+    "hash": "7c176073355cc55abe8b387bfa4a85be18ddae051b2b16a186a1cee39acc9124",
+    "category": "Göktürkler",
+    "difficulty": "Profesör",
+    "question": "Çoker ile ilgili: Çoker, bir soyadı, şu anlamlara gelebilir:Adnan Çoker (1927)?",
+    "correctAnswer": "Adnan Çoker (1927)",
+    "distractors": [
+      "Merkez",
+      "Çeşme",
+      "Kayseri"
+    ]
+  },
+  {
+    "id": "gen-879806",
+    "hash": "2aff01a47703940d51d8100943b711f2bbdcca2951143212f706ed2ba2d4e8ce",
+    "category": "Göktürkler",
+    "difficulty": "Uzman",
+    "question": "Çoker ile ilgili: yıl?",
+    "correctAnswer": "1927",
+    "distractors": [
+      "İyidere",
+      "Arifiye",
+      "Tillo"
+    ]
+  },
+  {
+    "id": "gen-847670",
+    "hash": "cbbc3f09363c434df6774f9fe0e26b83af51ee7b28bdda5dca7d52e701aadfc1",
+    "category": "Göktürkler",
+    "difficulty": "Çok Zor",
+    "question": "Malatya'da 2019 Türkiye yerel seçimleri ile ilgili: yıl?",
+    "correctAnswer": "2019",
+    "distractors": [
+      "Ahlat",
+      "Beşiri",
+      "Safranbolu"
+    ]
   }
 ]

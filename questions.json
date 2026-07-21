@@ -1142,5 +1142,317 @@
       "Bafra",
       "Yığılca"
     ]
+  },
+  {
+    "id": "gen-673521",
+    "hash": "df538bddbc4a10b4af09efb58cab22450ffbea10125ebfdb6e01b44c3bea26d6",
+    "category": "Türkiye bölgeleri",
+    "difficulty": "Orta",
+    "question": "Anne Kristin Sydnes ile ilgili: yıl?",
+    "correctAnswer": "2000",
+    "distractors": [
+      "İpekyolu",
+      "Battalgazi",
+      "Altınyayla"
+    ]
+  },
+  {
+    "id": "gen-813203",
+    "hash": "66ea37f8aa99015434e14722cd2e2418dd7d99be4e2aadfff3a0f742625d4c69",
+    "category": "Türkiye bölgeleri",
+    "difficulty": "Zor",
+    "question": "Anne Kristin Sydnes ile ilgili: yıl?",
+    "correctAnswer": "2017",
+    "distractors": [
+      "Menemen",
+      "İvrindi",
+      "Honaz"
+    ]
+  },
+  {
+    "id": "gen-835500",
+    "hash": "a176886d886cebbeef1783f4a4de2854707c5c90008617f5b0185a079a13e698",
+    "category": "türk tarihi",
+    "difficulty": "Zor",
+    "question": "Viktoriya Azarenka ile ilgili: yıl?",
+    "correctAnswer": "2005",
+    "distractors": [
+      "Gölpazarı",
+      "Hekimhan",
+      "Hayrat"
+    ]
+  },
+  {
+    "id": "gen-946318",
+    "hash": "8945df3d2f02ec6ea1b77a6a802b13c04df1096e5ce16dc6080aed505d75a721",
+    "category": "türk tarihi",
+    "difficulty": "Orta",
+    "question": "Viktoriya Azarenka ile ilgili: yıl?",
+    "correctAnswer": "2013",
+    "distractors": [
+      "Olur",
+      "Sancaktepe",
+      "Delice"
+    ]
+  },
+  {
+    "id": "gen-962708",
+    "hash": "a034614988078ebc7eb2ddedc11628d4c4ebdc51fbb938c437f2dac6da71f11e",
+    "category": "türk tarihi",
+    "difficulty": "Orta",
+    "question": "Viktoriya Azarenka ile ilgili: yıl?",
+    "correctAnswer": "2016",
+    "distractors": [
+      "Arifiye",
+      "Niksar",
+      "Gürün"
+    ]
+  },
+  {
+    "id": "gen-816500",
+    "hash": "b1a7b2c604eb55d3460d96602166f60c20dc2f5c7933f9a669714dd72ab7ae21",
+    "category": "türk tarihi",
+    "difficulty": "Zor",
+    "question": "Viktoriya Azarenka ile ilgili: yıl?",
+    "correctAnswer": "2012",
+    "distractors": [
+      "Hopa",
+      "Güdül",
+      "Akşehir"
+    ]
+  },
+  {
+    "id": "gen-601790",
+    "hash": "bc1d74c65fc1b3c710efd902f5e666c5dc4f3d30d97ca6d00a8f080da6b7d4f9",
+    "category": "türk tarihi",
+    "difficulty": "Normal",
+    "question": "Viktoriya Azarenka ile ilgili: yıl?",
+    "correctAnswer": "2009",
+    "distractors": [
+      "Tatvan",
+      "Kartepe",
+      "Bismil"
+    ]
+  },
+  {
+    "id": "gen-819405",
+    "hash": "81480135b9babdc1ec23da79b08fe6464e957ac042118dc94697ec07628c44cd",
+    "category": "türk tarihi",
+    "difficulty": "Zor",
+    "question": "Viktoriya Azarenka ile ilgili: yıl?",
+    "correctAnswer": "2021",
+    "distractors": [
+      "Pınarbaşı",
+      "Baklan",
+      "Orta"
+    ]
+  },
+  {
+    "id": "gen-521031",
+    "hash": "f57d1c0fb72e62ff7c07ba8809dbac448912a5653fb008c12e3f55046b7e6e13",
+    "category": "türkiye gıda",
+    "difficulty": "Çok Zor",
+    "question": "Eroğlu Holding ile ilgili: yıl?",
+    "correctAnswer": "2015",
+    "distractors": [
+      "Çankaya",
+      "Sarıyer",
+      "Refahiye"
+    ]
+  },
+  {
+    "id": "gen-501148",
+    "hash": "58af6b080022b59e758a6591c3f4c02dbcc05771bb67a5b2f7edb143c9573b68",
+    "category": "spor - futbol",
+    "difficulty": "Zor",
+    "question": "2017 Dünya Atletizm Şampiyonası - Erkekler 4 × 100 metre bayrak yarışı ile ilgili: yıl?",
+    "correctAnswer": "2017",
+    "distractors": [
+      "Gülağaç",
+      "Posof",
+      "Serdivan"
+    ]
+  },
+  {
+    "id": "gen-196342",
+    "hash": "260c2b228a2b0953bf52627199603f6542e5a4471d40c9f507e6cd52a5280b1a",
+    "category": "Karahanlılar",
+    "difficulty": "Orta",
+    "question": "Sokak Dili ve Edebiyatı ile ilgili: yıl?",
+    "correctAnswer": "2016",
+    "distractors": [
+      "Tepebaşı",
+      "Bayramören",
+      "Çanakkale"
+    ]
+  },
+  {
+    "id": "gen-117391",
+    "hash": "237fed23ab828d65f3d7abf2ceb99301efe279715ef821735de79145ab7b6619",
+    "category": "türk folklorü",
+    "difficulty": "Normal",
+    "question": "Flixecourt ile ilgili: yıl?",
+    "correctAnswer": "2016",
+    "distractors": [
+      "Karasu",
+      "Yahşihan",
+      "Ergani"
+    ]
+  },
+  {
+    "id": "gen-574461",
+    "hash": "81cac1be6b5150c58090d37bfed71942cea8ece5c15aed5bdc59848557274c31",
+    "category": "Göktürkler",
+    "difficulty": "Final",
+    "question": "Sol Parti ile ilgili: Sol Parti şu anlamlara gelebilir:Genel anlamda solculuk veya?",
+    "correctAnswer": "Genel anlamda solculuk veya Sol Parti adındaki oluşumlar: Sol Parti (Türkiye)",
+    "distractors": [
+      "Sarıveliler",
+      "Devrekani",
+      "Hani"
+    ]
+  },
+  {
+    "id": "gen-695082",
+    "hash": "ef6f21742dd2fc5cdf07e2cd5d2e920428f461f93aa35128583e4e845d74fc5a",
+    "category": "Göktürkler",
+    "difficulty": "Final",
+    "question": "Sol Parti ile ilgili: yıl?",
+    "correctAnswer": "1990",
+    "distractors": [
+      "Bigadiç",
+      "Hasanbeyli",
+      "Beyoğlu"
+    ]
+  },
+  {
+    "id": "gen-488515",
+    "hash": "55623670c56a061272756f3cb96b5ac309dfc45fe85690d4d533e37bba88dada",
+    "category": "Karahanlılar",
+    "difficulty": "Orta",
+    "question": "Pegasus Ödülü ile ilgili: yıl?",
+    "correctAnswer": "1977",
+    "distractors": [
+      "Selçuk",
+      "Konyaaltı",
+      "Eynesil"
+    ]
+  },
+  {
+    "id": "gen-270815",
+    "hash": "0a53618638da2e226cb11dad54437fab4e42ca9c106974917e90e872da3bb1d1",
+    "category": "türk folklorü",
+    "difficulty": "Normal",
+    "question": "Yakorit ile ilgili: yıl?",
+    "correctAnswer": "2015",
+    "distractors": [
+      "Bismil",
+      "Yahyalı",
+      "İslahiye"
+    ]
+  },
+  {
+    "id": "gen-529286",
+    "hash": "146733296e0c9a3ac53609c6b47d10be3b76458742c04bcabe02907bd84321eb",
+    "category": "türk tarihi",
+    "difficulty": "Orta",
+    "question": "Cumhuriyet Halk Partisi 37. Olağan Kurultayı ile ilgili: yıl?",
+    "correctAnswer": "2020",
+    "distractors": [
+      "Arsuz",
+      "Çaldıran",
+      "Bolu"
+    ]
+  },
+  {
+    "id": "gen-120083",
+    "hash": "39657135aedbd7d2220215f98bc6df7ec7db5deec16dd11bedfc95c77677cfd9",
+    "category": "türk tarihi",
+    "difficulty": "Orta",
+    "question": "Cumhuriyet Halk Partisi 37. Olağan Kurultayı ile ilgili: yıl?",
+    "correctAnswer": "2026",
+    "distractors": [
+      "Çorum",
+      "Merkez",
+      "Serinhisar"
+    ]
+  },
+  {
+    "id": "gen-182465",
+    "hash": "5d7ae5deb2ad13c4af6bb5f1a75fa0124133188d0a2b984b0793453d343f55ff",
+    "category": "türk yerel yönetim",
+    "difficulty": "Orta",
+    "question": "Trinculo (uydu) ile ilgili: yıl?",
+    "correctAnswer": "2001",
+    "distractors": [
+      "Urla",
+      "Bağcılar",
+      "Ağlasun"
+    ]
+  },
+  {
+    "id": "gen-533266",
+    "hash": "9097daf6fb6ffdb7d71321f7af87e6096dc31779a76e19d95d1b1930e43d83fa",
+    "category": "türk yerel yönetim",
+    "difficulty": "Kolay",
+    "question": "Trinculo (uydu) ile ilgili: yıl?",
+    "correctAnswer": "1986",
+    "distractors": [
+      "Akören",
+      "Karapürçek",
+      "İnegöl"
+    ]
+  },
+  {
+    "id": "gen-532224",
+    "hash": "ecfbe0410066b519c82477722f029765fd182d14d9f6477fd3961ca01c065f33",
+    "category": "türk folklorü",
+    "difficulty": "Normal",
+    "question": "Boudewijn Zenden ile ilgili: yıl?",
+    "correctAnswer": "1997",
+    "distractors": [
+      "Hatay",
+      "Bodrum",
+      "Yenişehir"
+    ]
+  },
+  {
+    "id": "gen-983845",
+    "hash": "fec18505e1b3d61887557224e936950129155033581cf5484e779415b03fce5a",
+    "category": "türk folklorü",
+    "difficulty": "Zor",
+    "question": "Boudewijn Zenden ile ilgili: yıl?",
+    "correctAnswer": "1998",
+    "distractors": [
+      "Aydın",
+      "Sorgun",
+      "Espiye"
+    ]
+  },
+  {
+    "id": "gen-361768",
+    "hash": "463a94bdeab5498a255db0f306bdb722b5b88984e54607944b6ef65fab8f1113",
+    "category": "türk yerel yönetim",
+    "difficulty": "Orta",
+    "question": "GRB 970228 ile ilgili: yıl?",
+    "correctAnswer": "1997",
+    "distractors": [
+      "İskenderun",
+      "Bahçe",
+      "Eskişehir"
+    ]
+  },
+  {
+    "id": "gen-882853",
+    "hash": "22854391beb26c4fe725d1193b91d0cc8b238623a92d02a79102f2e16b0bf5dc",
+    "category": "türk yerel yönetim",
+    "difficulty": "Normal",
+    "question": "Masumiyet (film) ile ilgili: yıl?",
+    "correctAnswer": "1997",
+    "distractors": [
+      "Konak",
+      "Polateli",
+      "Alanya"
+    ]
   }
 ]

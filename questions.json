@@ -2637,5 +2637,122 @@
       "Üsküdar",
       "Kozaklı"
     ]
+  },
+  {
+    "id": "gen-145723",
+    "hash": "b3501365b4922660fbc6903a6ac8ce478731c8d6cb1c2878f905f592d86f1998",
+    "category": "türk müziği",
+    "difficulty": "Normal",
+    "question": "Cambados ile ilgili: yıl?",
+    "correctAnswer": "2020",
+    "distractors": [
+      "Erenler",
+      "Hayrat",
+      "Acıgöl"
+    ]
+  },
+  {
+    "id": "gen-204956",
+    "hash": "eb223a33c02c381dfece95b16f799b770448510609233c5698b7e337f41c253d",
+    "category": "türk sanatı",
+    "difficulty": "Zor",
+    "question": "1994 Avustralya Grand Prix ile ilgili: yıl?",
+    "correctAnswer": "1994",
+    "distractors": [
+      "Şahinbey",
+      "Rize",
+      "Aydıncık"
+    ]
+  },
+  {
+    "id": "gen-922382",
+    "hash": "658082cfe39ae59edbac19c460ebfa5c27052e4c3875632f8ffe254c0eeca8a4",
+    "category": "türk sanatı",
+    "difficulty": "Zor",
+    "question": "1994 Avustralya Grand Prix ile ilgili: yıl?",
+    "correctAnswer": "2011",
+    "distractors": [
+      "Güdül",
+      " İliç",
+      "Çeltikçi"
+    ]
+  },
+  {
+    "id": "gen-592440",
+    "hash": "e5329f821d37c0dbae1e2ed09a1f061cff344b0cc746f1490551279253fea41b",
+    "category": "türk yerel yönetim",
+    "difficulty": "Çok Zor",
+    "question": "İstanbul Fuar Merkezi ile ilgili: yıl?",
+    "correctAnswer": "1985",
+    "distractors": [
+      "Yunak",
+      "Kepez",
+      "Kurşunlu"
+    ]
+  },
+  {
+    "id": "gen-267852",
+    "hash": "0981ed0d4461283d2d2876b2e378c3fa37275fa680f022f5b08d3b1698010d21",
+    "category": "türk siyaset",
+    "difficulty": "Zor",
+    "question": "Bernie Bro ile ilgili: yıl?",
+    "correctAnswer": "2016",
+    "distractors": [
+      "Çaybaşı",
+      "Keşap",
+      "Babaeski"
+    ]
+  },
+  {
+    "id": "gen-922077",
+    "hash": "f31899d6bc3cede3108f47f72d22218fbdfb14002343999ac3b971582e3f5394",
+    "category": "türk siyaset",
+    "difficulty": "Orta",
+    "question": "Bernie Bro ile ilgili: yıl?",
+    "correctAnswer": "2020",
+    "distractors": [
+      "Çelikhan",
+      "Arsin",
+      "Van"
+    ]
+  },
+  {
+    "id": "gen-138554",
+    "hash": "1f24621166e5b4ccd6ba3629689a38e021c3915c8fc2340636a7338686a4b211",
+    "category": "Türkiye bölgeleri",
+    "difficulty": "Zor",
+    "question": "Çanakçı ile ilgili: yıl?",
+    "correctAnswer": "1959",
+    "distractors": [
+      "Hüyük",
+      "Şahinbey",
+      "Sinop"
+    ]
+  },
+  {
+    "id": "gen-617885",
+    "hash": "eec52bbe2ce857595dad4f2ad196e29efeb711a3aaf5a2802da7c4c79d428af5",
+    "category": "Türkiye bölgeleri",
+    "difficulty": "Normal",
+    "question": "Çanakçı ile ilgili: yıl?",
+    "correctAnswer": "1990",
+    "distractors": [
+      "Atakum",
+      "Bozyazı",
+      "Muradiye"
+    ]
+  },
+  {
+    "id": "gen-780071",
+    "hash": "53f39a668ee6d15ee3477750f59ab11ede22ccf7143bab422efd10000ec57dbd",
+    "category": "türk müziği",
+    "difficulty": "Normal",
+    "question": "Greußenheim ile ilgili: yıl?",
+    "correctAnswer": "2015",
+    "distractors": [
+      "Esenyurt",
+      "Sarıyahşi",
+      "Şirvan"
+    ]
   }
 ]

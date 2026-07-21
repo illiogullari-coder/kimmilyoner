@@ -3469,5 +3469,174 @@
       "Bayrampaşa",
       "Akseki"
     ]
+  },
+  {
+    "id": "gen-924470",
+    "hash": "8b206a285552e7010b58109afcbbf6059dd9eab249f171a09603058427161e4a",
+    "category": "türk yerel yönetim",
+    "difficulty": "Normal",
+    "question": "2003 UEFA Kupası finali ile ilgili: yıl?",
+    "correctAnswer": "2003",
+    "distractors": [
+      "Yozgat",
+      "Refahiye",
+      "İspir"
+    ]
+  },
+  {
+    "id": "gen-948630",
+    "hash": "45a180274c2c0de8cd58313744d5fc92b0cc68f8406b7fed7814d462689e3e89",
+    "category": "türk tarihi",
+    "difficulty": "Orta",
+    "question": "American Broadcasting Company ile ilgili: yıl?",
+    "correctAnswer": "1943",
+    "distractors": [
+      "Nilüfer",
+      "Muş",
+      "Söğütlü"
+    ]
+  },
+  {
+    "id": "gen-356934",
+    "hash": "73bd820cc42512f14a878e4f3b8fbc7ffac34de76625b7d4498c2e7536a855cc",
+    "category": "türk tarihi",
+    "difficulty": "Normal",
+    "question": "American Broadcasting Company ile ilgili: yıl?",
+    "correctAnswer": "1948",
+    "distractors": [
+      "Yunusemre",
+      "Ağrı",
+      "Nilüfer"
+    ]
+  },
+  {
+    "id": "gen-566592",
+    "hash": "5de5486a533a266024f87e30210329d0dbf58f7c4bd6b0f7cce5948fdf8c0db2",
+    "category": "türk tarihi",
+    "difficulty": "Normal",
+    "question": "American Broadcasting Company ile ilgili: yıl?",
+    "correctAnswer": "2008",
+    "distractors": [
+      "Melikgazi",
+      "Seferihisar",
+      "Göle"
+    ]
+  },
+  {
+    "id": "gen-557438",
+    "hash": "a93894f64a9152401826145968e29576262f6cdffc306fc4f7caf6d109d38d90",
+    "category": "türk tarihi",
+    "difficulty": "Zor",
+    "question": "Per sempre sì ile ilgili: yıl?",
+    "correctAnswer": "2026",
+    "distractors": [
+      "Kızılören",
+      "Ortahisar",
+      "Osmangazi"
+    ]
+  },
+  {
+    "id": "gen-115711",
+    "hash": "e4e09ecda0d004f66dcb4c267b4f0dce21fc71582b4a04646dfa498bffcd34e4",
+    "category": "türk mitolojisi",
+    "difficulty": "Normal",
+    "question": "The Late Late Show with James Corden ile ilgili: yıl?",
+    "correctAnswer": "2014",
+    "distractors": [
+      "Çınar",
+      "Yenişarbademli",
+      "Derince"
+    ]
+  },
+  {
+    "id": "gen-870213",
+    "hash": "e6952a0cf480bddb4377c61a1e4b3ca6bb744346f321466682ebb2975d13c7fe",
+    "category": "türk siyaset",
+    "difficulty": "Normal",
+    "question": "Kars'ta 1957 Türkiye genel seçimleri ile ilgili: yıl?",
+    "correctAnswer": "1957",
+    "distractors": [
+      "Kangal",
+      "Amasya",
+      "İlkadım"
+    ]
+  },
+  {
+    "id": "gen-120374",
+    "hash": "d4b0b105aae38c0c5639dfbaf3d7a959bff1929e3b178354a0945fc19b3917c4",
+    "category": "türk yerel yönetim",
+    "difficulty": "Normal",
+    "question": "William Kim ile ilgili: yıl?",
+    "correctAnswer": "2006",
+    "distractors": [
+      "Kangal",
+      "Beşikdüzü",
+      "Yalvaç"
+    ]
+  },
+  {
+    "id": "gen-253137",
+    "hash": "4ecff0a5e97e10a50cbd6e139113ef2ee53ed6ca12f2005d2ce4c988903566db",
+    "category": "Göktürkler",
+    "difficulty": "Çok Zor",
+    "question": "2023 Türkiye Güreş Şampiyonası - Erkekler serbest 65 kg ile ilgili: yıl?",
+    "correctAnswer": "2023",
+    "distractors": [
+      "İpekyolu",
+      "Yeşirli",
+      "Bayburt"
+    ]
+  },
+  {
+    "id": "gen-582384",
+    "hash": "905fee271f852d2948abc880982d742c859f49e22f00588de7b04e11a2311e07",
+    "category": "türk yerel yönetim",
+    "difficulty": "Normal",
+    "question": "Reuben Fine ile ilgili: yıl?",
+    "correctAnswer": "1948",
+    "distractors": [
+      "Pervari",
+      "Çerkezköy",
+      "Bigadiç"
+    ]
+  },
+  {
+    "id": "gen-737161",
+    "hash": "09f9448b991b272ea4b5d67ed3e6c4da685ba1fd2d49f48e78045309ce0d0820",
+    "category": "türk yerel yönetim",
+    "difficulty": "Zor",
+    "question": "Ʋ ile ilgili: yıl?",
+    "correctAnswer": "1931",
+    "distractors": [
+      "Hassa",
+      "Yıldızeli",
+      "Eskişehir"
+    ]
+  },
+  {
+    "id": "gen-377001",
+    "hash": "346202795e0bff74ace89e3eb20335c5630274d73e4d2ae870e4fd508c695b06",
+    "category": "türk siyaset",
+    "difficulty": "Orta",
+    "question": "António Guterres ile ilgili: yıl?",
+    "correctAnswer": "2017",
+    "distractors": [
+      "Eyüpsultan",
+      "Merkez",
+      "Karahallı"
+    ]
+  },
+  {
+    "id": "gen-415416",
+    "hash": "ab3cdfcdc85db3a209224b450cb6e9d5917531e2760f62890af79a63bff4396f",
+    "category": "türk siyaset",
+    "difficulty": "Orta",
+    "question": "António Guterres ile ilgili: yıl?",
+    "correctAnswer": "1995",
+    "distractors": [
+      "Hayrat",
+      "Beyoğlu",
+      "Karpuzlu"
+    ]
   }
 ]

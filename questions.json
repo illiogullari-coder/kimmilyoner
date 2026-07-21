@@ -3755,5 +3755,70 @@
       "Nilüfer",
       "Elazığ"
     ]
+  },
+  {
+    "id": "gen-716754",
+    "hash": "c716c3706c47fcf4a55efccedb26ed49599e902f92064417b90fec24f7efb93f",
+    "category": "Türkiye bölgeleri",
+    "difficulty": "Normal",
+    "question": "1975 Akdeniz Oyunları'nda basketbol ile ilgili: yıl?",
+    "correctAnswer": "1975",
+    "distractors": [
+      "Çerkeş",
+      "Maçka",
+      "Kadirli"
+    ]
+  },
+  {
+    "id": "gen-989033",
+    "hash": "f54634d4c4727d1874ce588755feb0071530213c2229a708a7c594a74d4f7006",
+    "category": "türk basını",
+    "difficulty": "Uzman",
+    "question": "1989 Ballon d'Or ile ilgili: yıl?",
+    "correctAnswer": "1989",
+    "distractors": [
+      "Güneysınır",
+      "Merkez",
+      "Gülşehir"
+    ]
+  },
+  {
+    "id": "gen-742488",
+    "hash": "d475277e9337fa42fb4d62cbaa5bd89604f392bcf2ecad3c980b56f6c9ae0cf2",
+    "category": "türkiye müzik",
+    "difficulty": "Normal",
+    "question": "Mama Africa ile ilgili: yıl?",
+    "correctAnswer": "2007",
+    "distractors": [
+      "Çeşme",
+      "Gelendost",
+      "Yahyalı"
+    ]
+  },
+  {
+    "id": "gen-634444",
+    "hash": "cc591f7b0992afc89e9e3b2c183a578f6f81a0425b32661bebf0c13d9f646be5",
+    "category": "türk telekomünikasyon",
+    "difficulty": "Normal",
+    "question": "T9 ile ilgili: yıl?",
+    "correctAnswer": "1990",
+    "distractors": [
+      "Korgun",
+      "Demirözü",
+      "Cumayeri"
+    ]
+  },
+  {
+    "id": "gen-230774",
+    "hash": "9b0d09b28b82e2696a4ba2a5a224fa4a3f99b928b96e22efa171ef0f62fd2b1e",
+    "category": "türk sanatı",
+    "difficulty": "Normal",
+    "question": "Cusseta, Georgia ile ilgili: yıl?",
+    "correctAnswer": "2010",
+    "distractors": [
+      "Tepebaşı",
+      "Atakum",
+      "Taraklı"
+    ]
   }
 ]

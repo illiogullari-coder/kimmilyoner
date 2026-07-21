@@ -2923,5 +2923,109 @@
       "Silvan",
       "Merkez"
     ]
+  },
+  {
+    "id": "gen-251879",
+    "hash": "839dc40b315df20737e492b2c43459365c3f92346df5474eb4c6b48c2e10a2a9",
+    "category": "Anadolu Selçuklu",
+    "difficulty": "Zor",
+    "question": "Balcılar, Taşkent ile ilgili: yıl?",
+    "correctAnswer": "1964",
+    "distractors": [
+      "Akören",
+      "Hakkari",
+      "Balçova"
+    ]
+  },
+  {
+    "id": "gen-256869",
+    "hash": "35120697f8adc1df76cf23403f38eff2156805ab60b7bfe443c5f8e2755a2fa8",
+    "category": "türk tarihi",
+    "difficulty": "Orta",
+    "question": "Gheorgheni ile ilgili: yıl?",
+    "correctAnswer": "2021",
+    "distractors": [
+      "Otlukbeli",
+      "Mecitözü",
+      "Anamur"
+    ]
+  },
+  {
+    "id": "gen-382716",
+    "hash": "486d0d80d35d948fda54665efed58c6fc4b7c4fecda966ced2016b8780b3f280",
+    "category": "türk tarihi",
+    "difficulty": "Final",
+    "question": "Kapitalizmin tarihi ile ilgili: Temel tartışma parametreleri arasında şunlar yer almaktır: k?",
+    "correctAnswer": "kapitalizmin ne ölçüde doğal olduğu",
+    "distractors": [
+      "Yapraklı",
+      "Canik",
+      "Nazilli"
+    ]
+  },
+  {
+    "id": "gen-395287",
+    "hash": "116e1c075207365c287fc9af4c08a2de33f3d50bc4a47ee0edbb5b5f90e164dc",
+    "category": "türk tarihi",
+    "difficulty": "Orta",
+    "question": "Montdidier (arrondissement) ile ilgili: yıl?",
+    "correctAnswer": "2018",
+    "distractors": [
+      "Gaziemir",
+      "İkizdere",
+      "Kalkandere"
+    ]
+  },
+  {
+    "id": "gen-400549",
+    "hash": "2750fffcda7005399ae37b0c618bf631fd0ba18f17936fe290646a894125a826",
+    "category": "türk tarihi",
+    "difficulty": "Normal",
+    "question": "Club Italia ile ilgili: yıl?",
+    "correctAnswer": "2015",
+    "distractors": [
+      "Sincan",
+      "Mazıdağı",
+      "Devrek"
+    ]
+  },
+  {
+    "id": "gen-481488",
+    "hash": "508a13d6a0aaadbf7e219c7c01f0bcf6d07a8d3b0dd20e77040880a2f43870d2",
+    "category": "türk tarihi",
+    "difficulty": "Normal",
+    "question": "Nik ile ilgili: yıl?",
+    "correctAnswer": "2012",
+    "distractors": [
+      "Çatalpınar",
+      "Saraykent",
+      "Lice"
+    ]
+  },
+  {
+    "id": "gen-381757",
+    "hash": "77f18d0834742eae427e0ea7dba1cf1a4a8980e0718b240281ec7c29d658120d",
+    "category": "türk tarihi",
+    "difficulty": "Zor",
+    "question": "Owen Chomanika ile ilgili: yıl?",
+    "correctAnswer": "2023",
+    "distractors": [
+      "Bozkurt",
+      "Yeniçağa",
+      "Adıyaman"
+    ]
+  },
+  {
+    "id": "gen-624654",
+    "hash": "c907aa029c4b5226574037b48f99af07c56c42a2609334bfe6fef42a639c407c",
+    "category": "türk yerel yönetim",
+    "difficulty": "Orta",
+    "question": "Aşk, Yağmur ve Çikolata ile ilgili: yıl?",
+    "correctAnswer": "2009",
+    "distractors": [
+      "Ardanuç",
+      "Şanlıurfa",
+      "Afşin"
+    ]
   }
 ]

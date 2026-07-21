@@ -2364,5 +2364,83 @@
       "İncesu",
       "Bismil"
     ]
+  },
+  {
+    "id": "gen-635321",
+    "hash": "b759b4f3c408f6bee78a98b60b070fd7a50d0725b2372a4266e16cd0ed085ac6",
+    "category": "türk yerel yönetim",
+    "difficulty": "Zor",
+    "question": "Santos-o-Velho ile ilgili: yıl?",
+    "correctAnswer": "2001",
+    "distractors": [
+      "Reşadiye",
+      "Çemişgezek",
+      "Yenice"
+    ]
+  },
+  {
+    "id": "gen-821216",
+    "hash": "9bb930fceec7b97f485bc82839b0222afcf10f61acb11946f56cd72476f46367",
+    "category": "Göktürkler",
+    "difficulty": "Uzman",
+    "question": "2015 Rus Suhoy Su-24 uçağının düşürülmesi ile ilgili: yıl?",
+    "correctAnswer": "2015",
+    "distractors": [
+      "Sakarya",
+      "Tekkeköy",
+      "Atkaracalar"
+    ]
+  },
+  {
+    "id": "gen-900549",
+    "hash": "8eac24b816387a9aa3d25856e0606e6a0d9cc7494e0ce4125e83751379975424",
+    "category": "Göktürkler",
+    "difficulty": "Zor",
+    "question": "2015 Rus Suhoy Su-24 uçağının düşürülmesi ile ilgili: yıl?",
+    "correctAnswer": "1950",
+    "distractors": [
+      "İspir",
+      "Kızılören",
+      "Terme"
+    ]
+  },
+  {
+    "id": "gen-344997",
+    "hash": "d5ba9e1cb5d4ff701f3b6d61a1828046098f095a001b1c89d674e5f55a021ac4",
+    "category": "türk tarihi",
+    "difficulty": "Orta",
+    "question": "Posen (vilayet) ile ilgili: yıl?",
+    "correctAnswer": "1919",
+    "distractors": [
+      "Yedisu",
+      "Bayat",
+      "Yeşilova"
+    ]
+  },
+  {
+    "id": "gen-387258",
+    "hash": "6867e468d0216fd8a7b1ea4bb1ee6914b91bef905e718939f6ec0cb478f01999",
+    "category": "türk yerel yönetim",
+    "difficulty": "Zor",
+    "question": "The Secret Art of Human Flight ile ilgili: yıl?",
+    "correctAnswer": "2023",
+    "distractors": [
+      "Yenifakılı",
+      "Buharkent",
+      "Gümüşhane"
+    ]
+  },
+  {
+    "id": "gen-697877",
+    "hash": "9ec8fba0e7ba9b14e9684186e2a4306db169f39d7bed1ccaa8eea5819a58d754",
+    "category": "türk yerel yönetim",
+    "difficulty": "Normal",
+    "question": "Andalusia, Alabama ile ilgili: yıl?",
+    "correctAnswer": "2010",
+    "distractors": [
+      "Çiftlik",
+      "Oğuzlar",
+      "Üsküdar"
+    ]
   }
 ]

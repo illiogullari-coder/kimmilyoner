@@ -700,5 +700,187 @@
       "Yeşirli",
       "Akseki"
     ]
+  },
+  {
+    "id": "gen-991101",
+    "hash": "6c602ded4bf82cd6d7036837739da41331b645b352db2f74f6b159bc3f80e4bc",
+    "category": "türk folklorü",
+    "difficulty": "Normal",
+    "question": "Zuyevka ile ilgili: yıl?",
+    "correctAnswer": "2010",
+    "distractors": [
+      "Osmaniye",
+      "Yığılca",
+      "Seyitgazi"
+    ]
+  },
+  {
+    "id": "gen-507452",
+    "hash": "2ffb29a38e58948a6d64b87c1e5e08741ac250c98378c025153dccdb870a6ce3",
+    "category": "türk yerel yönetim",
+    "difficulty": "Orta",
+    "question": "Maro ile ilgili: yıl?",
+    "correctAnswer": "2022",
+    "distractors": [
+      "Saray",
+      "Erdemli",
+      "Samandağ"
+    ]
+  },
+  {
+    "id": "gen-187174",
+    "hash": "dae7e0b2a27e3d3a0dfbfcd1b7f4c231025132211f69d0c34ae64d3932fdcb63",
+    "category": "türk tarihi",
+    "difficulty": "Uzman",
+    "question": "S&M (albüm) ile ilgili: yıl?",
+    "correctAnswer": "1999",
+    "distractors": [
+      "Şarkışla",
+      "Karakeçili",
+      "İpsala"
+    ]
+  },
+  {
+    "id": "gen-692426",
+    "hash": "00f01fc2c008d32c260726f79a71c3bec7c3eaf7170395f0d47787b51588a873",
+    "category": "türk tarihi",
+    "difficulty": "Normal",
+    "question": "Seks Hakkında Bilmek İstediğiniz Her Şey (film) ile ilgili: yıl?",
+    "correctAnswer": "1972",
+    "distractors": [
+      "Araban",
+      "Alacakaya",
+      "Babadağ"
+    ]
+  },
+  {
+    "id": "gen-828730",
+    "hash": "3b0e924996b7243a4b48c26f1daf1768cfddd54a8665b05d7a2aca94d3ce1f18",
+    "category": "türk tarihi",
+    "difficulty": "Zor",
+    "question": "Seks Hakkında Bilmek İstediğiniz Her Şey (film) ile ilgili: yıl?",
+    "correctAnswer": "1969",
+    "distractors": [
+      "Doğanhisar",
+      "Yeniçağa",
+      "İlkadım"
+    ]
+  },
+  {
+    "id": "gen-279745",
+    "hash": "0446ee80b05f81eef5f5e18b92f4aa29896b3c0cfb5f633757da1ac63e59ab86",
+    "category": "türk tarihi",
+    "difficulty": "Uzman",
+    "question": "Rogožarski ile ilgili: yıl?",
+    "correctAnswer": "1924",
+    "distractors": [
+      "Kepsut",
+      "Yazıhan",
+      "Kemalpaşa"
+    ]
+  },
+  {
+    "id": "gen-733502",
+    "hash": "1637411a67a279c3078a0cfb3d272a0baa511b9472ecfa46435cc231c6ac2921",
+    "category": "türk tarihi",
+    "difficulty": "Normal",
+    "question": "Rogožarski ile ilgili: yıl?",
+    "correctAnswer": "1946",
+    "distractors": [
+      "Kiğı",
+      "Ekinözü",
+      "Karamürsel"
+    ]
+  },
+  {
+    "id": "gen-227200",
+    "hash": "ca73009db5443063d9d79a6ebcc44dffa8a11c9759a6a40da3ec77bb1ae7e4e9",
+    "category": "türk tarihi",
+    "difficulty": "Normal",
+    "question": "Rogožarski ile ilgili: yıl?",
+    "correctAnswer": "1962",
+    "distractors": [
+      "Milas",
+      "Yeşilyurt",
+      "Atabey"
+    ]
+  },
+  {
+    "id": "gen-951294",
+    "hash": "75dfd64f9f5fe97ef68f474d7de6bea3d71451bffdd374c4dcb4ace4e92b8f32",
+    "category": "Göktürkler",
+    "difficulty": "Orta",
+    "question": "Tanır Yazıtı ile ilgili: yıl?",
+    "correctAnswer": "2009",
+    "distractors": [
+      "Adilcevaz",
+      "Mihalgazi",
+      "Çiftlik"
+    ]
+  },
+  {
+    "id": "gen-458352",
+    "hash": "3d2c6789ed734642a0e5b480e434107b5e09f6cbaa4b1b81b0680c63d4d64988",
+    "category": "türk yerel yönetim",
+    "difficulty": "Orta",
+    "question": "Camacho (anlam ayrımı) ile ilgili: Camacho aşağıdaki anlamlara gelebilir:Camacho, Camacho (hayv?",
+    "correctAnswer": "Camacho",
+    "distractors": [
+      "Mudanya",
+      "Kadirli",
+      "Dalaman"
+    ]
+  },
+  {
+    "id": "gen-701605",
+    "hash": "37b4fa015cfc1a4b7be751cb7c3163a69fdbe667d8c1722d5a8452f2ffb0fe2c",
+    "category": "türk tarihi",
+    "difficulty": "Orta",
+    "question": "Xiaomi Mi MIX Alpha ile ilgili: yıl?",
+    "correctAnswer": "2019",
+    "distractors": [
+      "Menderes",
+      "Demirköy",
+      "Emet"
+    ]
+  },
+  {
+    "id": "gen-119023",
+    "hash": "2320b21ef0f3aa4ea8a27b616ec200a23e2f1dad1e6fc89f0aa1d3e4f6ca8703",
+    "category": "türk tarihi",
+    "difficulty": "Uzman",
+    "question": "The Sheep Detectives ile ilgili: yıl?",
+    "correctAnswer": "2005",
+    "distractors": [
+      "Yedisu",
+      "Aziziye",
+      "Karataş"
+    ]
+  },
+  {
+    "id": "gen-455544",
+    "hash": "aa186da92e5df4dd5088395918eaa3c31d9d4510d1eea2944c4257d6549b406e",
+    "category": "türk tarihi",
+    "difficulty": "Zor",
+    "question": "Capitol Stüdyoları ile ilgili: yıl?",
+    "correctAnswer": "1956",
+    "distractors": [
+      "Çanakkale",
+      "Sapanca",
+      "Yeşirli"
+    ]
+  },
+  {
+    "id": "gen-343164",
+    "hash": "6d71809808a1be2c8c944c87c333df7040853cfa1d8f87f1a96c311fc080d05a",
+    "category": "türk tarihi",
+    "difficulty": "Zor",
+    "question": "Capitol Stüdyoları ile ilgili: yıl?",
+    "correctAnswer": "2001",
+    "distractors": [
+      "Çukurca",
+      "Şereflikoçhisar",
+      "Nallıhan"
+    ]
   }
 ]

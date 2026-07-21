@@ -1,4 +1,4 @@
-const CACHE_NAME = 'kim-milyoner-v1';
+const CACHE_NAME = 'kim-milyoner-v2';
 const BASE = '/kimmilyoner/';
 const STATIC_ASSETS = [BASE, `${BASE}index.html`, `${BASE}manifest.json`, `${BASE}favicon.svg`];
 
@@ -24,6 +24,7 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
 
+  // Network-first for navigation: never serve stale broken HTML.
   if (request.mode === 'navigate') {
     event.respondWith(
       fetch(request)
@@ -37,6 +38,7 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
+  // Cache-first for static assets.
   event.respondWith(
     caches.match(request).then((cached) => {
       if (cached) return cached;

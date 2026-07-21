@@ -2026,5 +2026,148 @@
       "Odunpazarı",
       "Yedisu"
     ]
+  },
+  {
+    "id": "gen-119121",
+    "hash": "081601005cee0bdadf67c8438362b75a277b413bddd4dd065d086dec199dc88c",
+    "category": "türkiye hayvancılık türleri",
+    "difficulty": "Normal",
+    "question": "Kseniya Sitnik ile ilgili: yıl?",
+    "correctAnswer": "2005",
+    "distractors": [
+      "Of",
+      "Solhan",
+      "Karapürçek"
+    ]
+  },
+  {
+    "id": "gen-399239",
+    "hash": "5d3335263a258d1a0d534ea56f2e491490bb206d239a5508e388eb2e8ea9b3a3",
+    "category": "Kurtuluş Savaşı",
+    "difficulty": "Uzman",
+    "question": "Atina Tüzüğü (koruma) ile ilgili: yıl?",
+    "correctAnswer": "1931",
+    "distractors": [
+      "Korkut",
+      "Gemerek",
+      "Altunhisar"
+    ]
+  },
+  {
+    "id": "gen-966623",
+    "hash": "d1fc95f4a35ee62c8c17a8601ac616117d850a0cde1f2c664d365373fc23a23c",
+    "category": "türk tarihi",
+    "difficulty": "Orta",
+    "question": "Suudi Arabistan riyali ile ilgili: yıl?",
+    "correctAnswer": "2003",
+    "distractors": [
+      "Karapürçek",
+      "Altıeylül",
+      "Buldan"
+    ]
+  },
+  {
+    "id": "gen-801105",
+    "hash": "791840c57dc3ef404da6098b0949c50c4b0cd3b4d882ac82c8b41e70d4c0a7e0",
+    "category": "türk folklorik kıyafet",
+    "difficulty": "Normal",
+    "question": "Takafumi Akahoshi ile ilgili: yıl?",
+    "correctAnswer": "2005",
+    "distractors": [
+      "Çivril",
+      "Hizan",
+      "Çardak"
+    ]
+  },
+  {
+    "id": "gen-416527",
+    "hash": "d88e63a1cf7a19f6569010539c806f7125f7c18c99ceb9f0f8c2aeb3e8d62793",
+    "category": "türk yerel yönetim",
+    "difficulty": "Orta",
+    "question": "Hora (Avi Toledano şarkısı) ile ilgili: yıl?",
+    "correctAnswer": "1982",
+    "distractors": [
+      "Bodrum",
+      "Şahinbey",
+      "Merkez"
+    ]
+  },
+  {
+    "id": "gen-106907",
+    "hash": "0b8cf37a2702a1219fa2c24b2a40dfb0922c6719e7db8039db3307aa6c71392b",
+    "category": "Göktürkler",
+    "difficulty": "Uzman",
+    "question": "Kantarcı ile ilgili: Kantarcı bir soyadıdır ve şu anlamlara gelebilir:Didem Kanta?",
+    "correctAnswer": "Didem Kantarcı",
+    "distractors": [
+      "Uludere",
+      "Başyayla",
+      "Sarayönü"
+    ]
+  },
+  {
+    "id": "gen-962380",
+    "hash": "c4813541059d71e9ccdc9ad32c69bf9ad265ef6863ff581869d930bbe88a24d5",
+    "category": "Göktürkler",
+    "difficulty": "Çok Zor",
+    "question": "Kantarcı ile ilgili: yıl?",
+    "correctAnswer": "1955",
+    "distractors": [
+      "Seyhan",
+      "Merkez",
+      "Sarız"
+    ]
+  },
+  {
+    "id": "gen-793675",
+    "hash": "02254626033bcb6ac77949720ecfb4a6d1df52a6bbce8f2b85981c60552c6452",
+    "category": "Göktürkler",
+    "difficulty": "Normal",
+    "question": "Murat Boz şarkıları listesi ile ilgili: yıl?",
+    "correctAnswer": "2001",
+    "distractors": [
+      "Karpuzlu",
+      "Koçarlı",
+      "Merkez"
+    ]
+  },
+  {
+    "id": "gen-498485",
+    "hash": "df08d42d181b89f06d950d81e23c14c784265d7156e27bb7c3186b93c3c05d2a",
+    "category": "Göktürkler",
+    "difficulty": "Orta",
+    "question": "Murat Boz şarkıları listesi ile ilgili: yıl?",
+    "correctAnswer": "2006",
+    "distractors": [
+      "Olur",
+      "Karaman",
+      "Tosya"
+    ]
+  },
+  {
+    "id": "gen-614827",
+    "hash": "08595d016b83cb2a505d2b6c8b402e6d9034c82783d5a5d0880963af41767783",
+    "category": "Göktürkler",
+    "difficulty": "Normal",
+    "question": "Murat Boz şarkıları listesi ile ilgili: yıl?",
+    "correctAnswer": "2007",
+    "distractors": [
+      "Yalvaç",
+      "Perşembe",
+      "Toprakkale"
+    ]
+  },
+  {
+    "id": "gen-866189",
+    "hash": "bb1740a8f613a264241d84643b71189265a998208a89f3674ed49bc059c8aa9f",
+    "category": "Göktürkler",
+    "difficulty": "Normal",
+    "question": "Murat Boz şarkıları listesi ile ilgili: yıl?",
+    "correctAnswer": "2009",
+    "distractors": [
+      "Ahmetli",
+      "Sarıyahşi",
+      "Atakum"
+    ]
   }
 ]

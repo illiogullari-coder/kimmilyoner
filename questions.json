@@ -1,0 +1,80 @@
+[
+  {
+    "id": "gen-441982",
+    "hash": "b23aabd944ba987bcb29b3c9ba0c9f60c08a3ff57cfb54077b7683dcf0fc22f6",
+    "category": "Türk tarihi",
+    "difficulty": "Normal",
+    "question": "Lutomiersk ile ilgili: yıl?",
+    "correctAnswer": "2024",
+    "distractors": [
+      "Diyarbakır",
+      "Bursa",
+      "Samsun"
+    ]
+  },
+  {
+    "id": "gen-913068",
+    "hash": "ee1f459e2016b105a0b5ef91b1b38f37d3140fc1d162ea9da2a4bff991e94278",
+    "category": "Türk tarihi",
+    "difficulty": "Çok Zor",
+    "question": "Televizyon İzleme Araştırma Komitesi ile ilgili: yıl?",
+    "correctAnswer": "2010",
+    "distractors": [
+      "Gaziantep",
+      "Samsun",
+      "İstanbul"
+    ]
+  },
+  {
+    "id": "gen-706621",
+    "hash": "1f3c166d37989b48121faea3cd2c1f58303a1ff1a92d13c58f969ae05e5137a3",
+    "category": "Türk tarihi",
+    "difficulty": "Normal",
+    "question": "Televizyon İzleme Araştırma Komitesi ile ilgili: yıl?",
+    "correctAnswer": "2022",
+    "distractors": [
+      "Konya",
+      "Ankara",
+      "Diyarbakır"
+    ]
+  },
+  {
+    "id": "gen-242809",
+    "hash": "b383e7cd3930457006ce716a1c7ab7beeecf4e3e04c2624cf7fb20ea9afe81f6",
+    "category": "Spor - Futbol",
+    "difficulty": "Orta",
+    "question": "Ennio Tardini Stadyumu ile ilgili: yıl?",
+    "correctAnswer": "1923",
+    "distractors": [
+      "Konya",
+      "Ankara",
+      "Bursa"
+    ]
+  },
+  {
+    "id": "gen-585066",
+    "hash": "176b03b453d030f973bfa77df33900a42484ff01ca2d92cb4817773f5af946f0",
+    "category": "Türk tarihi",
+    "difficulty": "Orta",
+    "question": "Mercedes-Benz CLK Serisi ile ilgili: yıl?",
+    "correctAnswer": "1996",
+    "distractors": [
+      "Edirne",
+      "Diyarbakır",
+      "Trabzon"
+    ]
+  },
+  {
+    "id": "gen-861958",
+    "hash": "90bace727b5c64a7b2da8cbc42f1bcde9893fc3484e7662fe021b8bde2e22e13",
+    "category": "Türk tarihi",
+    "difficulty": "Normal",
+    "question": "Grays Harbor County ile ilgili: yıl?",
+    "correctAnswer": "2010",
+    "distractors": [
+      "Gaziantep",
+      "Trabzon",
+      "Konya"
+    ]
+  }
+]

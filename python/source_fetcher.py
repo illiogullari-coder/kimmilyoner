@@ -27,7 +27,7 @@ def fetch_article(title: str) -> str:
 def fetch_raw_titles(seed: int) -> list[str]:
     url = (
         "https://tr.wikipedia.org/w/api.php?action=query&list=random"
-        "&rnnamespace=0&rnlimit=50&format=json&rnlimit=50"
+        "&rnnamespace=0&rnlimit=500&format=json&rnlimit=500"
         f"&rnseed={seed}"
     )
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})

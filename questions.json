@@ -3027,5 +3027,83 @@
       "Şanlıurfa",
       "Afşin"
     ]
+  },
+  {
+    "id": "gen-535734",
+    "hash": "57b8b75741db582cf3e93bc42ed851f211609e9901639a0946ecc2d079ecf629",
+    "category": "türk tarihi",
+    "difficulty": "Orta",
+    "question": "Falkland Adaları bayrağı ile ilgili: yıl?",
+    "correctAnswer": "1948",
+    "distractors": [
+      "Ankara",
+      "Merkez",
+      "Harran"
+    ]
+  },
+  {
+    "id": "gen-296873",
+    "hash": "f8e8d4d7e671786f8d467029f0a19b3d3e39444e69f02bf46ddc225d2a9f5361",
+    "category": "türk hukuku",
+    "difficulty": "Zor",
+    "question": "1062 Ljuba ile ilgili: yıl?",
+    "correctAnswer": "1925",
+    "distractors": [
+      "Ladik",
+      "Çifteler",
+      "Mucur"
+    ]
+  },
+  {
+    "id": "gen-567498",
+    "hash": "4e1ddf884824bebf6ef9759dc2d7c2325917ca83af79d3babecfe1f18dd7cad5",
+    "category": "türkiye gıda tarihi",
+    "difficulty": "Orta",
+    "question": "Canada's Drag Race (4. sezon) ile ilgili: yıl?",
+    "correctAnswer": "2023",
+    "distractors": [
+      "Yıldızeli",
+      "Şuhut",
+      "Cumayeri"
+    ]
+  },
+  {
+    "id": "gen-863538",
+    "hash": "b5cabc923192fe362aaa74911addec08df8cc8d4f42f1e4dfab856c4957e9d1a",
+    "category": "türk yerel yönetim",
+    "difficulty": "Final",
+    "question": "Arabellek ile ilgili: Birçok donanım ve yazılımda arabellek kullanılır:İşlemci ara?",
+    "correctAnswer": "İşlemci arabelleği Hard diskler CD / DVD sürücü ve yazıcıları Analog arabellekler Üç boyutlu görüntü ve ses gibi gerçek zamanlı uygulamalarda kullanılan çoklu arabellekleme vs",
+    "distractors": [
+      "Çatalzeytin",
+      "Pazar",
+      "Menderes"
+    ]
+  },
+  {
+    "id": "gen-914902",
+    "hash": "769b6ce476d85ef3ddfec3cf1504b84421988656225cca6c3e638a4af5dfa3f6",
+    "category": "türk tarihi",
+    "difficulty": "Orta",
+    "question": "UD Salamanca ile ilgili: yıl?",
+    "correctAnswer": "1923",
+    "distractors": [
+      "Şirvan",
+      "Tarsus",
+      "Yeşilyurt"
+    ]
+  },
+  {
+    "id": "gen-536328",
+    "hash": "3850e65bf5dd1f9b150db811d5d2c0dd330ca7f28125e7084bf952e8628a3200",
+    "category": "türk tarihi",
+    "difficulty": "Normal",
+    "question": "UD Salamanca ile ilgili: yıl?",
+    "correctAnswer": "1998",
+    "distractors": [
+      "İlkadım",
+      "Güngören",
+      "Avanos"
+    ]
   }
 ]

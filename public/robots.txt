@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://illiogullari-coder.github.io/kimmilyoner/sitemap.xml
+Sitemap: https://kimmilyoner.eu.cc/sitemap.xml

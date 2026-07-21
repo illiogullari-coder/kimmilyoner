@@ -76,5 +76,239 @@
       "Trabzon",
       "Konya"
     ]
+  },
+  {
+    "id": "gen-202435",
+    "hash": "a748436aaac29c7e404c8919040be87eb19601e363fca15c57625c89dd3384f7",
+    "category": "Türkiye coğrafyası",
+    "difficulty": "Orta",
+    "question": "Gibraleón ile ilgili: yıl?",
+    "correctAnswer": "2005",
+    "distractors": [
+      "Erzurum",
+      "İzmir",
+      "Antalya"
+    ]
+  },
+  {
+    "id": "gen-659785",
+    "hash": "4c616ab77675253b6d5bfbaa273b2d9d6716f382dd6463eb2a9079d4b55d1221",
+    "category": "Türk tarihi",
+    "difficulty": "Çok Zor",
+    "question": "Aiyawatt Srivaddhanaprabha ile ilgili: yıl?",
+    "correctAnswer": "2020",
+    "distractors": [
+      "Edirne",
+      "İzmir",
+      "Samsun"
+    ]
+  },
+  {
+    "id": "gen-208498",
+    "hash": "fae65c3817f43f4b93934509e65d5f651b349218577419cff0b590c9c829f6ea",
+    "category": "Türk tarihi",
+    "difficulty": "Zor",
+    "question": "Sevda Kuşun Kanadında (dizi) ile ilgili: yıl?",
+    "correctAnswer": "2016",
+    "distractors": [
+      "İzmir",
+      "Erzurum",
+      "İstanbul"
+    ]
+  },
+  {
+    "id": "gen-958356",
+    "hash": "6c6a6daa79fde062fe08f09b2ddd40e9b30702918089610c1b9223736be8cb81",
+    "category": "Türk tarihi",
+    "difficulty": "Normal",
+    "question": "Sevda Kuşun Kanadında (dizi) ile ilgili: yıl?",
+    "correctAnswer": "2017",
+    "distractors": [
+      "Ankara",
+      "Konya",
+      "Samsun"
+    ]
+  },
+  {
+    "id": "gen-745469",
+    "hash": "222d254cdcbe879babf336891e71e8dfb7677fc8e022c8829c53e6dbb17cf9f7",
+    "category": "Türkiye coğrafyası",
+    "difficulty": "Normal",
+    "question": "Antalya Film Forum ile ilgili: yıl?",
+    "correctAnswer": "2014",
+    "distractors": [
+      "Edirne",
+      "Antalya",
+      "İzmir"
+    ]
+  },
+  {
+    "id": "gen-776587",
+    "hash": "1fdfa3b30787d8161224725fb3654815bfcd450469fbbac59e169e2b0ab5ae26",
+    "category": "Türkiye coğrafyası",
+    "difficulty": "Normal",
+    "question": "Antalya Film Forum ile ilgili: yıl?",
+    "correctAnswer": "2019",
+    "distractors": [
+      "Ankara",
+      "Konya",
+      "Bursa"
+    ]
+  },
+  {
+    "id": "gen-542894",
+    "hash": "ebcf3bfc9c29a40494d3b78c3a660ed3868442b39b73083e366192f04e8cecdb",
+    "category": "Türk tarihi",
+    "difficulty": "Zor",
+    "question": "César Pelli ile ilgili: yıl?",
+    "correctAnswer": "1991",
+    "distractors": [
+      "Trabzon",
+      "Antalya",
+      "Erzurum"
+    ]
+  },
+  {
+    "id": "gen-568387",
+    "hash": "3e280fed32beb23223979eb4e2d4a0de0f5daf5f1da6a942bfd5ea9f854a0150",
+    "category": "Türk tarihi",
+    "difficulty": "Akademisyen",
+    "question": "Temasek Holdings ile ilgili: yıl?",
+    "correctAnswer": "1974",
+    "distractors": [
+      "Trabzon",
+      "Konya",
+      "Samsun"
+    ]
+  },
+  {
+    "id": "gen-758989",
+    "hash": "4d6bd9b3a45bb6a04758f9ed59c966d94996d1086e8de6bf64474695bd66ac9f",
+    "category": "Türk tarihi",
+    "difficulty": "Normal",
+    "question": "Rice County, Minnesota ile ilgili: yıl?",
+    "correctAnswer": "2010",
+    "distractors": [
+      "Erzurum",
+      "Samsun",
+      "İzmir"
+    ]
+  },
+  {
+    "id": "gen-568684",
+    "hash": "0d103e0e5329b4fee8e0520521516589bcc36a0aba168dab07026749da36bf8d",
+    "category": "Türk tarihi",
+    "difficulty": "Çok Zor",
+    "question": "Bostancı İstasyon Camii ile ilgili: yıl?",
+    "correctAnswer": "1913",
+    "distractors": [
+      "Erzurum",
+      "Edirne",
+      "Trabzon"
+    ]
+  },
+  {
+    "id": "gen-361718",
+    "hash": "7f085bcdd13f4363e8bd185955c68716316fa50bcea944b24a7792b412ba802d",
+    "category": "Türk tarihi",
+    "difficulty": "Uzman",
+    "question": "Doğaya yeniden kazandırma ile ilgili: yıl?",
+    "correctAnswer": "2010",
+    "distractors": [
+      "İstanbul",
+      "Samsun",
+      "Edirne"
+    ]
+  },
+  {
+    "id": "gen-592524",
+    "hash": "b3db0b918b751d91ed04b626f52279f397eebfb36d851876348070c61f44f3cc",
+    "category": "Türk tarihi",
+    "difficulty": "Final",
+    "question": "Hayvansever ile ilgili: Hayvanseverlik kavramı ile aşağıdakilerden biri kastedilmiş ?",
+    "correctAnswer": "Hayvan refahı Hayvan hakları Hayvan özgürlüğü Vejetaryen veya vegan",
+    "distractors": [
+      "Diyarbakır",
+      "Konya",
+      "Gaziantep"
+    ]
+  },
+  {
+    "id": "gen-442869",
+    "hash": "f15f9d04f4f857691eb2b7105c75768f8e5f0ad3e6a12f1c7cad2a098f8af9bd",
+    "category": "Spor - Futbol",
+    "difficulty": "Normal",
+    "question": "NGC 1936 ile ilgili: yıl?",
+    "correctAnswer": "1936",
+    "distractors": [
+      "Edirne",
+      "Konya",
+      "Gaziantep"
+    ]
+  },
+  {
+    "id": "gen-348929",
+    "hash": "ee6734aeb802b6ed3d9dc771de9c9742dd8d0629059c8e6c7eb25f11b1913bb5",
+    "category": "Türk tarihi",
+    "difficulty": "Normal",
+    "question": "Natasha Howard (basketbolcu) ile ilgili: yıl?",
+    "correctAnswer": "2014",
+    "distractors": [
+      "Bursa",
+      "Diyarbakır",
+      "İstanbul"
+    ]
+  },
+  {
+    "id": "gen-641785",
+    "hash": "4f463dbc1d9517f21407cfcb853ee91e11e96b92504da7520a0ab4ffcd816c61",
+    "category": "Türk tarihi",
+    "difficulty": "Orta",
+    "question": "Natasha Howard (basketbolcu) ile ilgili: yıl?",
+    "correctAnswer": "2017",
+    "distractors": [
+      "Edirne",
+      "Bursa",
+      "Gaziantep"
+    ]
+  },
+  {
+    "id": "gen-504185",
+    "hash": "10078c165cdadf3c50418fac901e942424ba8add525981ec5af581bc2ea9a50a",
+    "category": "Türk tarihi",
+    "difficulty": "Normal",
+    "question": "Natasha Howard (basketbolcu) ile ilgili: yıl?",
+    "correctAnswer": "2023",
+    "distractors": [
+      "Trabzon",
+      "Erzurum",
+      "Bursa"
+    ]
+  },
+  {
+    "id": "gen-783124",
+    "hash": "2cabf3b60daa97717f1125d04cf5ce76a184daedc3b864d7a8c6a478aa01d08e",
+    "category": "Türk tarihi",
+    "difficulty": "Orta",
+    "question": "Recep İvedik 3 ile ilgili: yıl?",
+    "correctAnswer": "2010",
+    "distractors": [
+      "Antalya",
+      "Diyarbakır",
+      "Bursa"
+    ]
+  },
+  {
+    "id": "gen-585691",
+    "hash": "2427c57ca33a1e365d164eb8267ea5e75cd4042810f5d1666ef0dffa6fea2b2a",
+    "category": "Türk kültürü",
+    "difficulty": "Normal",
+    "question": "Rosarte Korosu ile ilgili: yıl?",
+    "correctAnswer": "2008",
+    "distractors": [
+      "Erzurum",
+      "Gaziantep",
+      "Trabzon"
+    ]
   }
 ]

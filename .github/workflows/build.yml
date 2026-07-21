@@ -1,4 +1,4 @@
-name: Build & Deploy
+Name: Build & Deploy
 
 on:
   push:
@@ -34,6 +34,8 @@ jobs:
         run: npm ci
       - name: Build
         run: npm run build
+      - name: Copy CNAME to dist
+        run: cp CNAME dist/
       - name: Commit new questions
         run: |
           git config user.name "github-actions[bot]"

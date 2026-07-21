@@ -1064,5 +1064,83 @@
       "Yusufeli",
       "Serinhisar"
     ]
+  },
+  {
+    "id": "gen-784990",
+    "hash": "27a8417b0a9d5b3929601e5f16e35f284ed19f3cef3272655b66e64346009a35",
+    "category": "Türkiye bölgeleri",
+    "difficulty": "Çok Zor",
+    "question": "Mavi Karadeniz TV ile ilgili: yıl?",
+    "correctAnswer": "2006",
+    "distractors": [
+      "Alaçam",
+      "Şenpazar",
+      "Şirvan"
+    ]
+  },
+  {
+    "id": "gen-688101",
+    "hash": "27abf77d0db547cafa4df804fd34cc9590ec360b34b727a6b75c0139dd0932e4",
+    "category": "türk tarihi",
+    "difficulty": "Normal",
+    "question": "Fivizzano ile ilgili: yıl?",
+    "correctAnswer": "2017",
+    "distractors": [
+      "Akçaabat",
+      "Ordu",
+      "Doğanhisar"
+    ]
+  },
+  {
+    "id": "gen-191223",
+    "hash": "b349ca2908108ed689b8a8d173590482d173c498b832b547c4e4223b4fc1718a",
+    "category": "Göktürkler",
+    "difficulty": "Orta",
+    "question": "Arda Ekşigil ile ilgili: yıl?",
+    "correctAnswer": "2024",
+    "distractors": [
+      "Kovancılar",
+      "Kaynaşlı",
+      "Silvan"
+    ]
+  },
+  {
+    "id": "gen-422498",
+    "hash": "987819318a201cbb33de3cf50627c52598700750cc9381bd3a7fe1ec7e1940b8",
+    "category": "türk tarihi",
+    "difficulty": "Orta",
+    "question": "Albemarle, Kuzey Karolina ile ilgili: yıl?",
+    "correctAnswer": "2009",
+    "distractors": [
+      "Kozaklı",
+      "Suluova",
+      "Kiraz"
+    ]
+  },
+  {
+    "id": "gen-131566",
+    "hash": "68641c5f43ad0acd4d453529bef25a98b2a879d3bdb33bb17ee5a8f8e395f702",
+    "category": "Göktürkler",
+    "difficulty": "Orta",
+    "question": "King-Crane Komisyonu ile ilgili: yıl?",
+    "correctAnswer": "1919",
+    "distractors": [
+      "Ulaş",
+      "Bozkır",
+      "Saray"
+    ]
+  },
+  {
+    "id": "gen-573709",
+    "hash": "49eb43bf5a1b1adf677d5ae2557d234ee224a3181bfbb9123f253a5de2b6ef84",
+    "category": "türk yerel yönetim",
+    "difficulty": "Normal",
+    "question": "Kingsport, Tennessee ile ilgili: yıl?",
+    "correctAnswer": "2010",
+    "distractors": [
+      "Palu",
+      "Bafra",
+      "Yığılca"
+    ]
   }
 ]

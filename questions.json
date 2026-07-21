@@ -2442,5 +2442,200 @@
       "Oğuzlar",
       "Üsküdar"
     ]
+  },
+  {
+    "id": "gen-513277",
+    "hash": "9e36552821589df91a550c1c35017f997a1277b5fd025c947b7c29bd95225b46",
+    "category": "türk tarihi",
+    "difficulty": "Zor",
+    "question": "Mevzular: Açık Mikrofon ile ilgili: yıl?",
+    "correctAnswer": "2022",
+    "distractors": [
+      "Kahta",
+      "Korkut",
+      "Araban"
+    ]
+  },
+  {
+    "id": "gen-868485",
+    "hash": "48bf1a89e6f6394fbcc06de20742e83d127f83378dc4d1c820960411e9920a18",
+    "category": "türk tarihi",
+    "difficulty": "Zor",
+    "question": "Mevzular: Açık Mikrofon ile ilgili: yıl?",
+    "correctAnswer": "2023",
+    "distractors": [
+      "Nallıhan",
+      "Nilüfer",
+      "İbradı"
+    ]
+  },
+  {
+    "id": "gen-516411",
+    "hash": "1f700132cef47b286af0eafc393855b61bbc47fe532997ebef6ea1de0675d396",
+    "category": "türk yerel yönetim",
+    "difficulty": "Final",
+    "question": "Guguk Kuşu ile ilgili: Guguk Kuşu aşağıdaki anlamlara gelebilir:Guguksular - kuşlar?",
+    "correctAnswer": "Guguksular - kuşlar sınıfına ait bir takım Gugukgiller- guguksular takımına dahil kuş familyası Guguk Kuşu (film) - 1975 yapımı ABD filmi Guguk Kuşu (roman) - J",
+    "distractors": [
+      "Esenler",
+      "Oltu",
+      "Hacıbektaş"
+    ]
+  },
+  {
+    "id": "gen-259332",
+    "hash": "8c706738316b7d4eb1ed94fac07ff963c494f215676d0d89d061926854377e46",
+    "category": "türk yerel yönetim",
+    "difficulty": "Uzman",
+    "question": "Guguk Kuşu ile ilgili: yıl?",
+    "correctAnswer": "1975",
+    "distractors": [
+      "Samandağ",
+      "Eğil",
+      "Emirgazi"
+    ]
+  },
+  {
+    "id": "gen-377990",
+    "hash": "bc4bdc1941aaed8c35ad03f0d6a3c51257eece4ee466367b467a3686a7cc98db",
+    "category": "türk yerel yönetim",
+    "difficulty": "Çok Zor",
+    "question": "Guguk Kuşu ile ilgili: yıl?",
+    "correctAnswer": "2013",
+    "distractors": [
+      "Akçakent",
+      "Gümüşhacıköy",
+      "Antalya"
+    ]
+  },
+  {
+    "id": "gen-506445",
+    "hash": "935a3ecc91b9fd879ee47480a042db22c48dd82a374c865bebf5807cb3865ab3",
+    "category": "türk sanatı",
+    "difficulty": "Zor",
+    "question": "T4 (İzmir Tramvayı) ile ilgili: yıl?",
+    "correctAnswer": "2030",
+    "distractors": [
+      "Altındağ",
+      "Gelibolu",
+      "Beyoğlu"
+    ]
+  },
+  {
+    "id": "gen-359735",
+    "hash": "30b577117069350b8ab27f25e04cbb6f4e1bc37d4885649e070b96abf197a180",
+    "category": "türk tarihi",
+    "difficulty": "Normal",
+    "question": "Fenerbahçe Masa Tenisi Şubesi 1961-62 sezonu ile ilgili: yıl?",
+    "correctAnswer": "1961",
+    "distractors": [
+      "Alucra",
+      "Kofçaz",
+      "Baklan"
+    ]
+  },
+  {
+    "id": "gen-445046",
+    "hash": "dc39cebf170916f151a819dd9d365638ddc4019b43ff9769c33c2ed112655d02",
+    "category": "türk tarihi",
+    "difficulty": "Orta",
+    "question": "İvan Vutsov ile ilgili: yıl?",
+    "correctAnswer": "1986",
+    "distractors": [
+      "Emet",
+      "Ekinözü",
+      "Çelebi"
+    ]
+  },
+  {
+    "id": "gen-279096",
+    "hash": "0f2a2cdd91c988e66f64e456db3547b0cde4917dd215a58b2505b49bb8da6e4d",
+    "category": "Göktürkler",
+    "difficulty": "Normal",
+    "question": "2023-24 Kadınlar Türkiye Kupası (basketbol) ile ilgili: yıl?",
+    "correctAnswer": "2023",
+    "distractors": [
+      "Bozkır",
+      "Göksun",
+      "Doğanşar"
+    ]
+  },
+  {
+    "id": "gen-651007",
+    "hash": "5274b7132f3c8fce104d192367d566f10ec21d6bb5ee434c515bc5d00cca0d29",
+    "category": "Göktürkler",
+    "difficulty": "Çok Zor",
+    "question": "2023-24 Kadınlar Türkiye Kupası (basketbol) ile ilgili: yıl?",
+    "correctAnswer": "2024",
+    "distractors": [
+      "Gölpazarı",
+      "Alucra",
+      "Konak"
+    ]
+  },
+  {
+    "id": "gen-984236",
+    "hash": "af1e7bbac894dfe99cc600cd4bd33773ee62a0626d207c24da6f7ea15eeca86b",
+    "category": "türkiye müzik",
+    "difficulty": "Orta",
+    "question": "Woman (Cat Power şarkısı) ile ilgili: yıl?",
+    "correctAnswer": "2018",
+    "distractors": [
+      "Han",
+      "Kilis",
+      "Başçiftlik"
+    ]
+  },
+  {
+    "id": "gen-176996",
+    "hash": "221a5cbc32aef06348350c9ed5dde4c857ddf5407be2f95d9ef6c19f5f5c43e0",
+    "category": "türk tarihi",
+    "difficulty": "Kolay",
+    "question": "Kesha ile ilgili: yıl?",
+    "correctAnswer": "2005",
+    "distractors": [
+      "Kağıthane",
+      "Alacakaya",
+      "İvrindi"
+    ]
+  },
+  {
+    "id": "gen-963013",
+    "hash": "0c6db9486e43bb250d75423ab49694d77e4bd37829043e71c463a2c94276a3b7",
+    "category": "türk tarihi",
+    "difficulty": "Final",
+    "question": "Kesha ile ilgili: yıl?",
+    "correctAnswer": "2008",
+    "distractors": [
+      "Gömeç",
+      "Çaldıran",
+      "Bulanık"
+    ]
+  },
+  {
+    "id": "gen-340681",
+    "hash": "198900c5ebd63df02337ab5600357faea20d4963958a3ba0a38ff5b4f0370b01",
+    "category": "türk tarihi",
+    "difficulty": "Orta",
+    "question": "Kesha ile ilgili: yıl?",
+    "correctAnswer": "2009",
+    "distractors": [
+      "Ulukışla",
+      "Bahşılı",
+      "Manavgat"
+    ]
+  },
+  {
+    "id": "gen-224116",
+    "hash": "8d7401faf10abd2cc975482859b81e8486fab0671e28a05e61b179546ddecf5f",
+    "category": "türk tarihi",
+    "difficulty": "Orta",
+    "question": "Kilo Aldıran 4000 ile ilgili: yıl?",
+    "correctAnswer": "1997",
+    "distractors": [
+      "Ceyhan",
+      "Üsküdar",
+      "Kozaklı"
+    ]
   }
 ]

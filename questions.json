@@ -3235,5 +3235,96 @@
       "Beşiri",
       "Safranbolu"
     ]
+  },
+  {
+    "id": "gen-303815",
+    "hash": "7bf3cafd5cfd80cea1fd0d18727e607ba1100d2d581064f240565b2b32fdd442",
+    "category": "türk yerel yönetim",
+    "difficulty": "Çok Zor",
+    "question": "Ansell ile ilgili: yıl?",
+    "correctAnswer": "2017",
+    "distractors": [
+      "Düzce",
+      "Gömeç",
+      "Altınova"
+    ]
+  },
+  {
+    "id": "gen-343172",
+    "hash": "5fa5c2a20a67a220e2b0acdb6d8603b921923507567fafbf63cfaddab517a206",
+    "category": "türk tarihi",
+    "difficulty": "Normal",
+    "question": "Bolingbrook, Illinois ile ilgili: yıl?",
+    "correctAnswer": "2009",
+    "distractors": [
+      "Çubuk",
+      "Han",
+      "Hizan"
+    ]
+  },
+  {
+    "id": "gen-880923",
+    "hash": "650d04d2bda9c6f5c775cc36161e307949a50b1ed8d10f5a94044872fcf68c18",
+    "category": "Göktürkler",
+    "difficulty": "Final",
+    "question": "1991 TBMM yemin krizi ile ilgili: yıl?",
+    "correctAnswer": "1991",
+    "distractors": [
+      "Çiftlikköy",
+      "Arhavi",
+      "Muş"
+    ]
+  },
+  {
+    "id": "gen-289457",
+    "hash": "1f5bb8fe47c15c5633a2f85fa7573f7f586c1ec659845776623dd2a6ab60512b",
+    "category": "Göktürkler",
+    "difficulty": "Orta",
+    "question": "Osmanlı Milli Marşı ile ilgili: yıl?",
+    "correctAnswer": "1952",
+    "distractors": [
+      "Çatak",
+      "Ürgüp",
+      "Sultangazi"
+    ]
+  },
+  {
+    "id": "gen-186616",
+    "hash": "b4dec4330f8581c496c4f8559e5c9fb409de1719c62c6918baba9a1e916d5675",
+    "category": "türk tarihi",
+    "difficulty": "Akademisyen",
+    "question": "HispanTV ile ilgili: yıl?",
+    "correctAnswer": "2011",
+    "distractors": [
+      "Korgan",
+      "Çeltik",
+      "Aladağ"
+    ]
+  },
+  {
+    "id": "gen-654629",
+    "hash": "888e0d65997578f94df64d18781fc1bbe791c84d3cdf57a85f65511de7e7324b",
+    "category": "Göktürkler",
+    "difficulty": "Orta",
+    "question": "2012-13 Kadınlar Türkiye Kupası (basketbol) ile ilgili: yıl?",
+    "correctAnswer": "2012",
+    "distractors": [
+      "Pütürge",
+      "Musabeyli",
+      "Silifke"
+    ]
+  },
+  {
+    "id": "gen-305141",
+    "hash": "22b9e1e1635cb77a6ed951f4d31a3e38cc0f9f64e9b9cc53e48191c6ed5df48d",
+    "category": "Göktürkler",
+    "difficulty": "Orta",
+    "question": "Namus Borcu ile ilgili: yıl?",
+    "correctAnswer": "1967",
+    "distractors": [
+      "Niğde",
+      "Fethiye",
+      "Bayramiç"
+    ]
   }
 ]

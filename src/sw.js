@@ -1,5 +1,5 @@
 const CACHE_NAME = 'kim-milyoner-v2';
-const BASE = '/kimmilyoner/';
+const BASE = '/';
 const STATIC_ASSETS = [BASE, `${BASE}index.html`, `${BASE}manifest.json`, `${BASE}favicon.svg`];
 
 self.addEventListener('install', (event) => {

@@ -310,5 +310,109 @@
       "Gaziantep",
       "Trabzon"
     ]
+  },
+  {
+    "id": "gen-504321",
+    "hash": "8ad646f086bdd418652f08de77a9ed2aa7b946eb10957307e9805d548df6fd5d",
+    "category": "Türkiye coğrafyası",
+    "difficulty": "Normal",
+    "question": "Bendorf ile ilgili: yıl?",
+    "correctAnswer": "2001",
+    "distractors": [
+      "Trabzon",
+      "Antalya",
+      "Ankara"
+    ]
+  },
+  {
+    "id": "gen-695310",
+    "hash": "f774600081b132a1caa87319ce4990bad8306c6f14819f6ede042dc6cbce0f33",
+    "category": "Türkiye coğrafyası",
+    "difficulty": "Orta",
+    "question": "Chunyun ile ilgili: yıl?",
+    "correctAnswer": "2016",
+    "distractors": [
+      "Erzurum",
+      "Antalya",
+      "Edirne"
+    ]
+  },
+  {
+    "id": "gen-563919",
+    "hash": "7c620b16e84497fb88f26b15a6292ae49b86c2058aa647d362bd16169356fbb8",
+    "category": "Türk tarihi",
+    "difficulty": "Orta",
+    "question": "Paul Bowles ile ilgili: yıl?",
+    "correctAnswer": "1990",
+    "distractors": [
+      "Ankara",
+      "Samsun",
+      "İzmir"
+    ]
+  },
+  {
+    "id": "gen-822270",
+    "hash": "e115d5381c9d59269546a96f7c622bd76f0a2c2a05a1f6f0edba6d7a2fc67253",
+    "category": "Türk tarihi",
+    "difficulty": "Çok Zor",
+    "question": "Paul Bowles ile ilgili: yıl?",
+    "correctAnswer": "1923",
+    "distractors": [
+      "Erzurum",
+      "Gaziantep",
+      "Ankara"
+    ]
+  },
+  {
+    "id": "gen-869964",
+    "hash": "5a00af16e8499a6b64627b0947d733944aa42955e08b1a0e597500b48928ae6c",
+    "category": "Türk tarihi",
+    "difficulty": "Normal",
+    "question": "Troutdale, Oregon ile ilgili: yıl?",
+    "correctAnswer": "2009",
+    "distractors": [
+      "Bursa",
+      "Ankara",
+      "İstanbul"
+    ]
+  },
+  {
+    "id": "gen-218896",
+    "hash": "4954451bb91596b905e5c742f11e1fda60724136a80ed3b5e7851f4782d6b9e0",
+    "category": "Türk tarihi",
+    "difficulty": "Normal",
+    "question": "Babsk ile ilgili: yıl?",
+    "correctAnswer": "2012",
+    "distractors": [
+      "Bursa",
+      "İzmir",
+      "Erzurum"
+    ]
+  },
+  {
+    "id": "gen-372343",
+    "hash": "e77d59b631e1a393c54c9067e0f94be4763e49d5624de61443c437c585ea4f6e",
+    "category": "Türk tarihi",
+    "difficulty": "Zor",
+    "question": "Erementar Gerad ile ilgili: yıl?",
+    "correctAnswer": "2002",
+    "distractors": [
+      "Diyarbakır",
+      "Samsun",
+      "Konya"
+    ]
+  },
+  {
+    "id": "gen-369618",
+    "hash": "834c8959b07aec7a283c6b52394894eee9128488d09e838cba6aae1a9c3c5452",
+    "category": "Türk tarihi",
+    "difficulty": "Orta",
+    "question": "Türkmen Devlet Üniversitesi ile ilgili: yıl?",
+    "correctAnswer": "1950",
+    "distractors": [
+      "Trabzon",
+      "Gaziantep",
+      "İstanbul"
+    ]
   }
 ]

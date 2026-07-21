@@ -1532,5 +1532,96 @@
       "Bayat",
       "İkizdere"
     ]
+  },
+  {
+    "id": "gen-347749",
+    "hash": "4e2133a08135b9a2986a40f0ec42d80519ac5b8be858269542a0a3e3018e86a9",
+    "category": "türk yerel yönetim",
+    "difficulty": "Çok Zor",
+    "question": "Suriye'de COVID-19 pandemisi ile ilgili: yıl?",
+    "correctAnswer": "2020",
+    "distractors": [
+      "Merkez",
+      "Canik",
+      "Çankaya"
+    ]
+  },
+  {
+    "id": "gen-234636",
+    "hash": "0a24c1db80f68093d4d4efce2d5206fb20577ce108e97a4011006d7efe41dabb",
+    "category": "türk tarihi",
+    "difficulty": "Orta",
+    "question": "EX'ACT ile ilgili: yıl?",
+    "correctAnswer": "2016",
+    "distractors": [
+      "Pamukova",
+      "Atakum",
+      "Çiğli"
+    ]
+  },
+  {
+    "id": "gen-563083",
+    "hash": "407da1bd3fa7a0e2a017b79d0c5046517919456e46129f652cb9eb7fe22f821a",
+    "category": "türk folklorü",
+    "difficulty": "Normal",
+    "question": "Kuzey Norveç ile ilgili: yıl?",
+    "correctAnswer": "2002",
+    "distractors": [
+      "Şehzadeler",
+      "Eğil",
+      "Tirebolu"
+    ]
+  },
+  {
+    "id": "gen-225853",
+    "hash": "945a8960921531716e897360f66abd898e5f2aa77bcf9bdbb8f92d4d80b8d57c",
+    "category": "Göktürkler",
+    "difficulty": "Normal",
+    "question": "İlk ve Son (film, 1955) ile ilgili: yıl?",
+    "correctAnswer": "1955",
+    "distractors": [
+      "Çatak",
+      "Asarcık",
+      "Dikmen"
+    ]
+  },
+  {
+    "id": "gen-350337",
+    "hash": "2a949057b3d13dac06d3233e35fc7ff2228e7f1bb3ceb40e662dd1c41f34045c",
+    "category": "türk yerel yönetim",
+    "difficulty": "Kolay",
+    "question": "Noel Baba Köyü ile ilgili: yıl?",
+    "correctAnswer": "1985",
+    "distractors": [
+      "Çaycuma",
+      "Süloğlu",
+      "Uğurludağ"
+    ]
+  },
+  {
+    "id": "gen-953459",
+    "hash": "0e944b9244bcdb7caee833a37424b690c6eb6f6c13091a4b6b10894b06edda61",
+    "category": "türk yerel yönetim",
+    "difficulty": "Orta",
+    "question": "Citroën BX ile ilgili: yıl?",
+    "correctAnswer": "1982",
+    "distractors": [
+      "Aşkale",
+      "Kumluca",
+      "Çelebi"
+    ]
+  },
+  {
+    "id": "gen-615635",
+    "hash": "c7595424d65c0afa2cc93fedf3617e06b389e6e492477bcd558b63b7c1840b31",
+    "category": "türk tarihi",
+    "difficulty": "Zor",
+    "question": "Ariane 1 ile ilgili: yıl?",
+    "correctAnswer": "1973",
+    "distractors": [
+      "Urla",
+      "Beşiktaş",
+      "Uzundere"
+    ]
   }
 ]

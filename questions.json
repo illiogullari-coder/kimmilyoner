@@ -1857,5 +1857,174 @@
       "Sivas",
       "Oğuzeli"
     ]
+  },
+  {
+    "id": "gen-536872",
+    "hash": "773dc977c7e81ee1cb8e2e69fc422901ab1f08d70aeef801b572fb9dbc7adfef",
+    "category": "Göktürkler",
+    "difficulty": "Orta",
+    "question": "Anadolu Efes ile ilgili: yıl?",
+    "correctAnswer": "1950",
+    "distractors": [
+      "Boğazlıyan",
+      "Develi",
+      "Kelkit"
+    ]
+  },
+  {
+    "id": "gen-932706",
+    "hash": "db03a7fdc5bbe77b6e4aeb6441f3ce1c28587e3c37f9090ebac55a6c582477ab",
+    "category": "Göktürkler",
+    "difficulty": "Zor",
+    "question": "Anadolu Efes ile ilgili: yıl?",
+    "correctAnswer": "1969",
+    "distractors": [
+      "Yayladere",
+      "Alanya",
+      "Sancaktepe"
+    ]
+  },
+  {
+    "id": "gen-249962",
+    "hash": "bb9759604965276f32630694212deb93c80bb3a7aa70674913fb647fcdd07e3b",
+    "category": "Göktürkler",
+    "difficulty": "Zor",
+    "question": "Confidente ile ilgili: yıl?",
+    "correctAnswer": "2025",
+    "distractors": [
+      "Merkez",
+      "Tortum",
+      "Sarıyahşi"
+    ]
+  },
+  {
+    "id": "gen-932938",
+    "hash": "d66c5019ba7d9b73dbe46a5b54e89618b439054fb95c66672cf2715cef747821",
+    "category": "türk tarihi",
+    "difficulty": "Orta",
+    "question": "I Stay in Love ile ilgili: yıl?",
+    "correctAnswer": "2008",
+    "distractors": [
+      "Merkez",
+      "Üzümlü",
+      "Sarıkamış"
+    ]
+  },
+  {
+    "id": "gen-654342",
+    "hash": "cf94bd736264710df333f70f19cf4d4fb02f85dc47a7bf2a9c3ebd2e4e4a63dd",
+    "category": "türk tarihi",
+    "difficulty": "Orta",
+    "question": "Die (arrondissement) ile ilgili: yıl?",
+    "correctAnswer": "2018",
+    "distractors": [
+      "Erciş",
+      "Çameli",
+      "Kocaali"
+    ]
+  },
+  {
+    "id": "gen-128035",
+    "hash": "186e81a399c823cf319d0dcb26a593912394469436fd0d027d8da64208e43b3e",
+    "category": "türk yerel yönetim",
+    "difficulty": "Normal",
+    "question": "NGC 2086 ile ilgili: yıl?",
+    "correctAnswer": "2086",
+    "distractors": [
+      "Koyulhisar",
+      "Söke",
+      "Aladağ"
+    ]
+  },
+  {
+    "id": "gen-625952",
+    "hash": "08599fd5e49430e765b3d97281b38d7d913c6988dacf358a93d29ab4bd5202f7",
+    "category": "türk yerel yönetim",
+    "difficulty": "Kolay",
+    "question": "San Juan County, Colorado ile ilgili: yıl?",
+    "correctAnswer": "2020",
+    "distractors": [
+      "Şişli",
+      "Gülnar",
+      "Buharkent"
+    ]
+  },
+  {
+    "id": "gen-585229",
+    "hash": "832f2876b179020f185f83afa00edd71c6e2771eda2a2edc70f69411cf4797a3",
+    "category": "türk tarihi",
+    "difficulty": "Çok Zor",
+    "question": "The Boogeyman (film, 2023) ile ilgili: yıl?",
+    "correctAnswer": "1973",
+    "distractors": [
+      "Bozdoğan",
+      "Armutlu",
+      "Hekimhan"
+    ]
+  },
+  {
+    "id": "gen-523838",
+    "hash": "4bcffa4e60bd90626398802cbe97da860d48b63ece1eb7d7b2b1de649f1d8d4e",
+    "category": "türk yerel yönetim",
+    "difficulty": "Uzman",
+    "question": "Metgethen Katliamı ile ilgili: yıl?",
+    "correctAnswer": "1945",
+    "distractors": [
+      "Hazro",
+      "Toroslar",
+      "Nazımiye"
+    ]
+  },
+  {
+    "id": "gen-556093",
+    "hash": "034426124739d9e8738b84390f4349679767335b2c866c7e250328a982f2783b",
+    "category": "türk tarihi",
+    "difficulty": "Orta",
+    "question": "RedTube ile ilgili: yıl?",
+    "correctAnswer": "2007",
+    "distractors": [
+      "Haliliye",
+      "Merkez",
+      "Otlukbeli"
+    ]
+  },
+  {
+    "id": "gen-633840",
+    "hash": "963018bf8fa119ea3a1558ca9e3fde0051989ef4d5a031db91ce45f3903b00f5",
+    "category": "Göktürkler",
+    "difficulty": "Orta",
+    "question": "Paul Bonatz ile ilgili: yıl?",
+    "correctAnswer": "1940",
+    "distractors": [
+      "Kaynaşlı",
+      "Bartın",
+      "Merkez"
+    ]
+  },
+  {
+    "id": "gen-919911",
+    "hash": "13d24fe2b3382f7cbeba744e7e3de3c0e6a9733188b34c5a9da4ab654f968c2d",
+    "category": "türk yerel yönetim",
+    "difficulty": "Normal",
+    "question": "Wyandot County ile ilgili: yıl?",
+    "correctAnswer": "2020",
+    "distractors": [
+      "Hınıs",
+      "Merkez",
+      "Tekman"
+    ]
+  },
+  {
+    "id": "gen-416942",
+    "hash": "aed9d0550ecd9d94e8f1f336167875791a34ca29f0a2aa28c002744daac4a9d1",
+    "category": "Göktürkler",
+    "difficulty": "Orta",
+    "question": "Unutulan Kadın ile ilgili: yıl?",
+    "correctAnswer": "1971",
+    "distractors": [
+      "İmranlı",
+      "Odunpazarı",
+      "Yedisu"
+    ]
   }
 ]

@@ -1740,5 +1740,122 @@
       "Dikmen",
       "Erdemli"
     ]
+  },
+  {
+    "id": "gen-441688",
+    "hash": "de97748ac6d49a35c17c64f5280ca3828f4e1e0b5897327e027cd90ce49c7a4a",
+    "category": "türk tarihi",
+    "difficulty": "Kolay",
+    "question": "2. Hat (Seul Metrosu) ile ilgili: yıl?",
+    "correctAnswer": "1980",
+    "distractors": [
+      "Güneysınır",
+      "Kangal",
+      "Havran"
+    ]
+  },
+  {
+    "id": "gen-735457",
+    "hash": "9a0fe1ee555d428446b5c118f2962790cd3b68118d498e1209c22446eae18c09",
+    "category": "türk sineması",
+    "difficulty": "Çok Zor",
+    "question": "Kıssadan Hisseler ile ilgili: yıl?",
+    "correctAnswer": "1991",
+    "distractors": [
+      "Laçin",
+      "Merzifon",
+      "Merkez"
+    ]
+  },
+  {
+    "id": "gen-441219",
+    "hash": "63764923f30d14644ac3149411f92a6aec6143c556c313294b7934348b3c34e0",
+    "category": "türk yerel yönetim",
+    "difficulty": "Normal",
+    "question": "Alman Kalkınma Politikaları Enstitüsü ile ilgili: yıl?",
+    "correctAnswer": "1964",
+    "distractors": [
+      "Söke",
+      "İznik",
+      "Haymana"
+    ]
+  },
+  {
+    "id": "gen-534060",
+    "hash": "ef49b3b6af4af5cd2524665a88cf6a37c8bbaba40a884238eea879a5e435e6e3",
+    "category": "türk müziği",
+    "difficulty": "Orta",
+    "question": "Kanada İnsan Hakları Mahkemesi ile ilgili: yıl?",
+    "correctAnswer": "1977",
+    "distractors": [
+      "Elmalı",
+      "Ulubey",
+      "Kapaklı"
+    ]
+  },
+  {
+    "id": "gen-550190",
+    "hash": "345e97b9cfd08863d7ed8148e5792623b437c20e6313407b5ced5893ac3ba88d",
+    "category": "türk folklorü",
+    "difficulty": "Normal",
+    "question": "Breiholz ile ilgili: yıl?",
+    "correctAnswer": "2003",
+    "distractors": [
+      "Çüngüş",
+      "Uğurludağ",
+      "Demirköy"
+    ]
+  },
+  {
+    "id": "gen-186015",
+    "hash": "b0d7954bd0454fdcc75de5472fbcf6b8b9b3efda4b01eb4181ae9a46bf7dc0cc",
+    "category": "Göktürkler",
+    "difficulty": "Kolay",
+    "question": "Türkiye Wushu Kung Fu Federasyonu ile ilgili: yıl?",
+    "correctAnswer": "2006",
+    "distractors": [
+      "Nallıhan",
+      "Han",
+      "Ardahan"
+    ]
+  },
+  {
+    "id": "gen-295026",
+    "hash": "0ac5408dced71845a13099f711a77bbcd56e9d8391a152b9affb1830d8edeefc",
+    "category": "türk tiyatrosu",
+    "difficulty": "Orta",
+    "question": "Natti Natasha ile ilgili: yıl?",
+    "correctAnswer": "2012",
+    "distractors": [
+      "Koçarlı",
+      "Maden",
+      "Çamardı"
+    ]
+  },
+  {
+    "id": "gen-339461",
+    "hash": "4a47b1dea2ec98c2ec8c89955ad6463dceaf988d82fe35ab2075c62378f63e71",
+    "category": "türk tiyatrosu",
+    "difficulty": "Orta",
+    "question": "Natti Natasha ile ilgili: yıl?",
+    "correctAnswer": "2019",
+    "distractors": [
+      "Tillo",
+      "Selendi",
+      "Güdül"
+    ]
+  },
+  {
+    "id": "gen-354944",
+    "hash": "3936de4652b4e13bc5d5de8f602dc67ad694e928504facce8dff6751c91b0834",
+    "category": "türk folklorü",
+    "difficulty": "Normal",
+    "question": "Jászberény (ilçe) ile ilgili: yıl?",
+    "correctAnswer": "2011",
+    "distractors": [
+      "Kağıthane",
+      "Sivas",
+      "Oğuzeli"
+    ]
   }
 ]

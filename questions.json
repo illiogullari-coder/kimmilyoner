@@ -3638,5 +3638,122 @@
       "Beyoğlu",
       "Karpuzlu"
     ]
+  },
+  {
+    "id": "gen-868500",
+    "hash": "a8723476d6d7e79d7a4fa9e40891e859cdbff4f1faf81b7fe85b87c4ba62c932",
+    "category": "Göktürkler",
+    "difficulty": "Zor",
+    "question": "Ankara Metrosu ile ilgili: yıl?",
+    "correctAnswer": "1997",
+    "distractors": [
+      "Arnavutköy",
+      "Balçova",
+      "Yıldırım"
+    ]
+  },
+  {
+    "id": "gen-457297",
+    "hash": "3c81c20ca6cfca4d34e0791688321f6954b0f701dfbb316dd285abc4b0d8cbc6",
+    "category": "türk sineması",
+    "difficulty": "Zor",
+    "question": "The Monster (film, 1994) ile ilgili: yıl?",
+    "correctAnswer": "1994",
+    "distractors": [
+      "Yerköy",
+      "Sivas",
+      "Gebze"
+    ]
+  },
+  {
+    "id": "gen-799445",
+    "hash": "b1addf72d5e9d36aa72af790f6f6350348b155f25b98370fa7f33a7c8c051edb",
+    "category": "spor - futbol",
+    "difficulty": "Normal",
+    "question": "2012-13 FA Cup ile ilgili: yıl?",
+    "correctAnswer": "2012",
+    "distractors": [
+      "Hekimhan",
+      "Kiğı",
+      "Kozan"
+    ]
+  },
+  {
+    "id": "gen-887220",
+    "hash": "5cd8acf190db7cc2d061548e4843ebac51df6393b38d872931e02b1617ec3558",
+    "category": "türk tarihi",
+    "difficulty": "Akademisyen",
+    "question": "Steins;Gate ile ilgili: yıl?",
+    "correctAnswer": "2009",
+    "distractors": [
+      "Foça",
+      "Köprübaşı",
+      "Keban"
+    ]
+  },
+  {
+    "id": "gen-799219",
+    "hash": "5848a272bfcd9f3e667d59cc6168c06fd216c2ab43bba3d89f1a68c6d2a522cf",
+    "category": "türk yerel yönetim",
+    "difficulty": "Normal",
+    "question": "Hackensack, New Jersey ile ilgili: yıl?",
+    "correctAnswer": "2010",
+    "distractors": [
+      "Yenifakılı",
+      "Kahramanmaraş",
+      "Tekman"
+    ]
+  },
+  {
+    "id": "gen-651929",
+    "hash": "afedb1cb713e8b7bc3a960d69d7228a01550769222e66c3fff49a22763b53518",
+    "category": "türk kültürü",
+    "difficulty": "Uzman",
+    "question": "Epir polifonik şarkısı ile ilgili: yıl?",
+    "correctAnswer": "1998",
+    "distractors": [
+      "Gevaş",
+      "Aslanapa",
+      "Akçakoca"
+    ]
+  },
+  {
+    "id": "gen-633742",
+    "hash": "a6ebdb1dbe1c427a4cc020798d875b5e6ed66840ed9b62560b297a35410787ea",
+    "category": "türk yerel yönetim",
+    "difficulty": "Orta",
+    "question": "Gitega ile ilgili: yıl?",
+    "correctAnswer": "2019",
+    "distractors": [
+      "Eyyübiye",
+      "Kızılcahamam",
+      "Seben"
+    ]
+  },
+  {
+    "id": "gen-567819",
+    "hash": "b241bcda7528c463b8336ffd67f20f431e771508fa3a41e7b6e3ad349f0f98eb",
+    "category": "türk yerel yönetim",
+    "difficulty": "Zor",
+    "question": "My Little Pony ile ilgili: yıl?",
+    "correctAnswer": "1981",
+    "distractors": [
+      "Samsat",
+      "Korkut",
+      "Yağlıdere"
+    ]
+  },
+  {
+    "id": "gen-751004",
+    "hash": "c52a7f4c61d2f660fcf64dae16f809c0274d095fc6bcb86e30909e506310ed93",
+    "category": "türk folklorü",
+    "difficulty": "Normal",
+    "question": "Erode ile ilgili: yıl?",
+    "correctAnswer": "2011",
+    "distractors": [
+      "Bozyazı",
+      "Nilüfer",
+      "Elazığ"
+    ]
   }
 ]

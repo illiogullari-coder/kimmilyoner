@@ -544,5 +544,161 @@
       "Akyaka",
       "Merkez"
     ]
+  },
+  {
+    "id": "gen-487553",
+    "hash": "c5a6a419ec3f9e3416da6fce03e453b332917abc2ba6c69af7cd185cf2fc3a2e",
+    "category": "türk yerel yönetim",
+    "difficulty": "Uzman",
+    "question": "İkili bağ ile ilgili: Birçok ikili bağ iki farklı element arasında bulunur: örneği?",
+    "correctAnswer": "örneğin",
+    "distractors": [
+      "Bozyazı",
+      "Sarız",
+      "Kaman"
+    ]
+  },
+  {
+    "id": "gen-882574",
+    "hash": "ad1d4c033cbd02ae12590e5419152ca29770ca20cce342069ffbd27d9d219755",
+    "category": "türk ekonomisi",
+    "difficulty": "Orta",
+    "question": "Oskar Schindler ile ilgili: yıl?",
+    "correctAnswer": "1993",
+    "distractors": [
+      "Pazar",
+      "Turhal",
+      "Şarköy"
+    ]
+  },
+  {
+    "id": "gen-733834",
+    "hash": "a7f008539a26d0f49eac4554c70292556ba94bf965356219d86f42aa15cb2116",
+    "category": "türk telekomünikasyon",
+    "difficulty": "Normal",
+    "question": "Nokia Lumia 720 ile ilgili: yıl?",
+    "correctAnswer": "2013",
+    "distractors": [
+      "Horasan",
+      "Ahlat",
+      "Antakya"
+    ]
+  },
+  {
+    "id": "gen-834529",
+    "hash": "0489f0bd18f9252ba18711066d55c9469ea3a297af23f6737776934ab577e2c3",
+    "category": "türk telekomünikasyon",
+    "difficulty": "Normal",
+    "question": "Nokia Lumia 720 ile ilgili: yıl?",
+    "correctAnswer": "2011",
+    "distractors": [
+      "Fethiye",
+      "Şebinkarahisar",
+      "Halfeti"
+    ]
+  },
+  {
+    "id": "gen-621135",
+    "hash": "99a97a75bb55884fc335d67ec6baac2806b3ad170cfa53111ec9490320dae2bb",
+    "category": "türk telekomünikasyon",
+    "difficulty": "Orta",
+    "question": "Nokia Lumia 720 ile ilgili: yıl?",
+    "correctAnswer": "2014",
+    "distractors": [
+      " İliç",
+      "Çamaş",
+      "Altındağ"
+    ]
+  },
+  {
+    "id": "gen-637317",
+    "hash": "7b565383327ff3cece4b907cb27f36e35dec83375ff70090106512287da24ffb",
+    "category": "türkiye sanayi",
+    "difficulty": "Orta",
+    "question": "AgustaWestland ile ilgili: yıl?",
+    "correctAnswer": "2000",
+    "distractors": [
+      "Şebinkarahisar",
+      "Afyonkarahisar",
+      "İznik"
+    ]
+  },
+  {
+    "id": "gen-994658",
+    "hash": "08ecdf31f512b8c74bd1b465b712ea0738a39b2091e12738104784f90dddae91",
+    "category": "türkiye sanayi",
+    "difficulty": "Normal",
+    "question": "AgustaWestland ile ilgili: yıl?",
+    "correctAnswer": "2004",
+    "distractors": [
+      "Hatay",
+      "Mudurnu",
+      "İncirliova"
+    ]
+  },
+  {
+    "id": "gen-767202",
+    "hash": "dc91059e497beca2307a162474b595fd69bef57bbb752f12a05755c90aff2f2d",
+    "category": "türk tarihi",
+    "difficulty": "Normal",
+    "question": "Hava Kuvvetleri Bir ile ilgili: yıl?",
+    "correctAnswer": "1997",
+    "distractors": [
+      "Akşehir",
+      "Piraziz",
+      "Ovacık"
+    ]
+  },
+  {
+    "id": "gen-600071",
+    "hash": "effbf8ed685287b49e954805c8ba348b16f64c22365971a53a7ee1eda84742c9",
+    "category": "türkiye hayvancılık türleri",
+    "difficulty": "Normal",
+    "question": "Mr. Big ile ilgili: yıl?",
+    "correctAnswer": "1988",
+    "distractors": [
+      "Çınar",
+      "Bayındır",
+      "Bozova"
+    ]
+  },
+  {
+    "id": "gen-132345",
+    "hash": "8d24c94f6a54ac341f44bbfcfeb4c5c2a97846f61e2ebcead065dd18980abcec",
+    "category": "türkiye hayvancılık türleri",
+    "difficulty": "Zor",
+    "question": "Mr. Big ile ilgili: yıl?",
+    "correctAnswer": "1991",
+    "distractors": [
+      "Güney",
+      "Ahırlı",
+      "Han"
+    ]
+  },
+  {
+    "id": "gen-681588",
+    "hash": "fb7b143470d310e6a6a1f5ab11e6f160f55781d7e48bcd9b363849f43ab57cad",
+    "category": "Göktürkler",
+    "difficulty": "Normal",
+    "question": "Koltuk Belası ile ilgili: yıl?",
+    "correctAnswer": "1990",
+    "distractors": [
+      "Bahşılı",
+      "Sakarya",
+      "Kütahya"
+    ]
+  },
+  {
+    "id": "gen-226006",
+    "hash": "97d050f8078360e7813c1ebe7162632754ae59e51395d015d69a85a1c8010386",
+    "category": "türk sineması",
+    "difficulty": "Zor",
+    "question": "Hilda Clark ile ilgili: yıl?",
+    "correctAnswer": "1903",
+    "distractors": [
+      "Devrekani",
+      "Yeşirli",
+      "Akseki"
+    ]
   }
 ]

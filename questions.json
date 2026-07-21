@@ -414,5 +414,135 @@
       "Gaziantep",
       "İstanbul"
     ]
+  },
+  {
+    "id": "gen-263164",
+    "hash": "ee162850643ff9c11e31d312f7209e00dddea1b6625cb14b015403ceef83bba5",
+    "category": "Türk tarihi",
+    "difficulty": "Uzman",
+    "question": "İnternetin tarihi ile ilgili: yıl?",
+    "correctAnswer": "1950",
+    "distractors": [
+      "Bünyan",
+      "Sapanca",
+      "Tavas"
+    ]
+  },
+  {
+    "id": "gen-680287",
+    "hash": "be9e0ac44d704b56fbb99d218b113e2f905e1aa82a8aaef7931cc2a9b4ac8b97",
+    "category": "Türk tarihi",
+    "difficulty": "Normal",
+    "question": "Adrian Lukis ile ilgili: yıl?",
+    "correctAnswer": "2001",
+    "distractors": [
+      "İnegöl",
+      "Küçükçekmece",
+      "Kale"
+    ]
+  },
+  {
+    "id": "gen-766900",
+    "hash": "cbd4572d394e405f84dcbdcc8352ef012ac9bbc29531a251f91ffbb716cf5a63",
+    "category": "Türkiye coğrafyası",
+    "difficulty": "Normal",
+    "question": "Kuujjuaq ile ilgili: yıl?",
+    "correctAnswer": "2016",
+    "distractors": [
+      "Türkoğlu",
+      "Kovancılar",
+      "Oğuzeli"
+    ]
+  },
+  {
+    "id": "gen-795238",
+    "hash": "c6da1803daa428560a8682189c28b96c8b32282f3f3720a6f5e759246433a76e",
+    "category": "Türk tarihi",
+    "difficulty": "Orta",
+    "question": "Elde Var Hüzün ile ilgili: yıl?",
+    "correctAnswer": "1982",
+    "distractors": [
+      "Çaycuma",
+      "Yağlıdere",
+      "Dicle"
+    ]
+  },
+  {
+    "id": "gen-921930",
+    "hash": "90eb65edd97ccf3997054216e7040c0b3a029ad2368c567432bb6e50420170ab",
+    "category": "Türk tarihi",
+    "difficulty": "Normal",
+    "question": "Elde Var Hüzün ile ilgili: yıl?",
+    "correctAnswer": "1979",
+    "distractors": [
+      "Hüyük",
+      "Merkez",
+      " İliç"
+    ]
+  },
+  {
+    "id": "gen-418422",
+    "hash": "6b697f0278e1cc05c6a64b53b5f9a44706e563e2a02e3555f951183d8107008c",
+    "category": "Türk tarihi",
+    "difficulty": "Kolay",
+    "question": "Infinite Dreams ile ilgili: yıl?",
+    "correctAnswer": "1989",
+    "distractors": [
+      "Bayramören",
+      "Yenifakılı",
+      "Gebze"
+    ]
+  },
+  {
+    "id": "gen-410026",
+    "hash": "3b62fffe0a7c38d5809dea46542d6e1469e1472b97b6a8da8641b4581f1d312e",
+    "category": "Türkiye coğrafyası",
+    "difficulty": "Normal",
+    "question": "Holingol ile ilgili: yıl?",
+    "correctAnswer": "2010",
+    "distractors": [
+      "Arsuz",
+      "Tokat",
+      "İhsangazi"
+    ]
+  },
+  {
+    "id": "gen-223723",
+    "hash": "c5be85f81db4fcfa974a3783e856391e888ba4483ae24c738b1151dea744e950",
+    "category": "Türk tarihi",
+    "difficulty": "Kolay",
+    "question": "Kent County, Teksas ile ilgili: yıl?",
+    "correctAnswer": "2020",
+    "distractors": [
+      "Kalecik",
+      "Çay",
+      "Merkez"
+    ]
+  },
+  {
+    "id": "gen-629259",
+    "hash": "98e143e7a431a1a76dddfaeb1fcddb3a3ef9a6fce9b92daf32c3c04890b7c6c6",
+    "category": "Türkiye coğrafyası",
+    "difficulty": "Orta",
+    "question": "Ōyu Taş Çemberleri ile ilgili: yıl?",
+    "correctAnswer": "1956",
+    "distractors": [
+      "Aydıncık",
+      "Yakakent",
+      "Samandağ"
+    ]
+  },
+  {
+    "id": "gen-159034",
+    "hash": "cc0434998c925a6699386ac9d6de84cbf946a028911ae3c42dc94ccd0ecf9063",
+    "category": "Türk tarihi",
+    "difficulty": "Uzman",
+    "question": "HızRay ile ilgili: yıl?",
+    "correctAnswer": "2020",
+    "distractors": [
+      "Keçiborlu",
+      "Akyaka",
+      "Merkez"
+    ]
   }
 ]

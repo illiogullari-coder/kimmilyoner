@@ -882,5 +882,187 @@
       "Şereflikoçhisar",
       "Nallıhan"
     ]
+  },
+  {
+    "id": "gen-996381",
+    "hash": "ba0d6edea3038ffb21e179981ed8fc8155a0aa2ba5697375996a53c5f28f7a8c",
+    "category": "türk sanatı",
+    "difficulty": "Uzman",
+    "question": "Park Seo-joon ile ilgili: yıl?",
+    "correctAnswer": "2015",
+    "distractors": [
+      "Pütürge",
+      "Bulanık",
+      "Ulus"
+    ]
+  },
+  {
+    "id": "gen-662298",
+    "hash": "60f62c7d0e249fe09fef94411d5d10dc0f358296417465f7016ccba7135b185a",
+    "category": "türk sineması",
+    "difficulty": "Normal",
+    "question": "Evren Erler ile ilgili: yıl?",
+    "correctAnswer": "1986",
+    "distractors": [
+      "Saraydüzü",
+      "Güneysınır",
+      "Kavaklıdere"
+    ]
+  },
+  {
+    "id": "gen-219754",
+    "hash": "208e5446b898141036ce10f0f1e52b910245ae1c660d0e20cee854d7c984e39f",
+    "category": "türk folklorü",
+    "difficulty": "Normal",
+    "question": "Arauzo de Miel ile ilgili: yıl?",
+    "correctAnswer": "2025",
+    "distractors": [
+      "Ürgüp",
+      "Daday",
+      "Olur"
+    ]
+  },
+  {
+    "id": "gen-272798",
+    "hash": "1fe78eae13faed18e7ded4c4134bf74efe980b18861cd7af0248b52bc8b2dd7e",
+    "category": "Göktürkler",
+    "difficulty": "Zor",
+    "question": "Telegol ile ilgili: yıl?",
+    "correctAnswer": "2001",
+    "distractors": [
+      "Saray",
+      "Yenipazar",
+      "Urla"
+    ]
+  },
+  {
+    "id": "gen-208874",
+    "hash": "4252eddc3076f2f03123110ad450a69ddca9c213a50228240dde486dce2d47e0",
+    "category": "Göktürkler",
+    "difficulty": "Orta",
+    "question": "Telegol ile ilgili: yıl?",
+    "correctAnswer": "2021",
+    "distractors": [
+      "Merkez",
+      "Zile",
+      "Bayındır"
+    ]
+  },
+  {
+    "id": "gen-529769",
+    "hash": "292be6b3e39d89ee3c57710008205213b92977a1c36d2c63cd1e7342f0b46b22",
+    "category": "türk sanatı",
+    "difficulty": "Zor",
+    "question": "Sorry Seems to Be the Hardest Word ile ilgili: yıl?",
+    "correctAnswer": "1976",
+    "distractors": [
+      "Harmancık",
+      "Tutak",
+      "Çemişgezek"
+    ]
+  },
+  {
+    "id": "gen-890284",
+    "hash": "a0e83a4c8e47f0983edbf2692da721dea587b868ede14f93e07b38999728bbcd",
+    "category": "türk sanatı",
+    "difficulty": "Normal",
+    "question": "Sorry Seems to Be the Hardest Word ile ilgili: yıl?",
+    "correctAnswer": "1977",
+    "distractors": [
+      "Pertek",
+      "Havran",
+      "Marmara"
+    ]
+  },
+  {
+    "id": "gen-514111",
+    "hash": "fe21f640d29ad01b9358b86fe7ee6c9f3f288369eafc9a9b1f1605692483bff5",
+    "category": "türk sineması",
+    "difficulty": "Orta",
+    "question": "Pavel Kuka ile ilgili: yıl?",
+    "correctAnswer": "1989",
+    "distractors": [
+      "İnegöl",
+      "Ulubey",
+      "Düziçi"
+    ]
+  },
+  {
+    "id": "gen-411168",
+    "hash": "7922c90722073b1b52e39ab7364fe34e0ef6a1f64d1f9c84daf0b66d2f029096",
+    "category": "türk sineması",
+    "difficulty": "Kolay",
+    "question": "Pavel Kuka ile ilgili: yıl?",
+    "correctAnswer": "1994",
+    "distractors": [
+      "İstanbul",
+      "Bala",
+      "Hacıbektaş"
+    ]
+  },
+  {
+    "id": "gen-955857",
+    "hash": "921d6fb8d3ae028b2674b9cff49ead952c726a8363951c00ccee06689242ea22",
+    "category": "türk sineması",
+    "difficulty": "Kolay",
+    "question": "Pavel Kuka ile ilgili: yıl?",
+    "correctAnswer": "1998",
+    "distractors": [
+      "Kızıltepe",
+      "Kocaali",
+      "Bornova"
+    ]
+  },
+  {
+    "id": "gen-204560",
+    "hash": "2872f652d8a00f6aeee8f03a70aadc47135244a428fbe36b51d547e8219bd1df",
+    "category": "türk sineması",
+    "difficulty": "Normal",
+    "question": "Pavel Kuka ile ilgili: yıl?",
+    "correctAnswer": "1999",
+    "distractors": [
+      "Bismil",
+      "Kulu",
+      "Vezirköprü"
+    ]
+  },
+  {
+    "id": "gen-324725",
+    "hash": "2170af1d9f3429d04917f3c3d0ef26a393edce3ae8f8e40da87e234c84c9a148",
+    "category": "türk sineması",
+    "difficulty": "Zor",
+    "question": "Pavel Kuka ile ilgili: yıl?",
+    "correctAnswer": "1996",
+    "distractors": [
+      "Kuşadası",
+      "Aslanapa",
+      "Kartepe"
+    ]
+  },
+  {
+    "id": "gen-381038",
+    "hash": "47ae679dfe02e4105b99eff0e24e6fbc197695736b264c0995f550945e302fab",
+    "category": "türk sineması",
+    "difficulty": "Normal",
+    "question": "Pavel Kuka ile ilgili: yıl?",
+    "correctAnswer": "2000",
+    "distractors": [
+      "Hacıbektaş",
+      "Gelendost",
+      "Çorum"
+    ]
+  },
+  {
+    "id": "gen-872837",
+    "hash": "8e0e526d774298a22cacbdcc4a5a4c9843b32dc72bc9e06ef2b8a6333195af71",
+    "category": "türk sineması",
+    "difficulty": "Orta",
+    "question": "Pavel Kuka ile ilgili: yıl?",
+    "correctAnswer": "2005",
+    "distractors": [
+      "Araç",
+      "Yusufeli",
+      "Serinhisar"
+    ]
   }
 ]

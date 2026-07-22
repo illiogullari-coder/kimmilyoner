@@ -1,21 +1,36 @@
-import type { MoneyLevel } from '@/types';
+import { useEffect, useRef } from 'react';
+import { getMoneyLevels } from '@/lib/moneyTree';
 
 interface MoneyTreeProps {
-  levels: MoneyLevel[];
   currentIndex: number;
   lost?: boolean;
 }
 
-export function MoneyTree({ levels, currentIndex, lost }: MoneyTreeProps) {
-  const visible = levels.slice(Math.max(0, currentIndex - 3), currentIndex + 8);
-  const startIndex = visible.length > 0 ? visible[0].index : 0;
+const WINDOW_BEFORE = 3;
+const WINDOW_AFTER = 8;
+
+/**
+ * Sonsuz para ağacı: sadece aktif seviyenin etrafındaki pencere hesaplanır
+ * (BigInt ile sınırsız üretim, sabit boyutlu DOM). Kendi alanında sticky
+ * kalır ve aktif satır otomatik olarak ortalanacak şekilde smooth scroll yapar.
+ */
+export function MoneyTree({ currentIndex, lost }: MoneyTreeProps) {
+  const levels = getMoneyLevels(Math.max(0, currentIndex - WINDOW_BEFORE), currentIndex + WINDOW_AFTER);
+  const activeRef = useRef<HTMLDivElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    activeRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }, [currentIndex]);
 
   return (
-    <div className="w-full max-w-[260px] flex flex-col gap-1.5 max-h-[70vh] overflow-y-auto pr-1 scrollbar-thin">
-      {visible.map((level, i) => {
-        const realIndex = startIndex + i;
-        const isActive = realIndex === currentIndex;
-        const isPassed = realIndex < currentIndex;
+    <div
+      ref={containerRef}
+      className="sticky top-2 w-full max-w-[260px] flex flex-col gap-1.5 max-h-[70vh] overflow-y-auto pr-1 scrollbar-thin overscroll-contain"
+    >
+      {levels.map((level) => {
+        const isActive = level.index === currentIndex;
+        const isPassed = level.index < currentIndex;
         const stateClass = lost && isActive
           ? 'border-red-500/70 bg-red-500/20 text-red-200 shadow-red-glow'
           : isActive
@@ -26,6 +41,7 @@ export function MoneyTree({ levels, currentIndex, lost }: MoneyTreeProps) {
         return (
           <div
             key={level.index}
+            ref={isActive ? activeRef : undefined}
             className={`flex items-center justify-between rounded-lg border px-3 py-1.5 text-sm backdrop-blur-md transition-all duration-300 ${stateClass}`}
           >
             <span className="font-mono text-xs w-6 text-right opacity-70">{level.index + 1}</span>

@@ -5,16 +5,15 @@ import type {
   GameSettings,
   JokerState,
   JokerType,
-  MoneyLevel,
   Question,
   UserProfile,
 } from '@/types';
-import { buildMoneyTree, getSafeHavenAmount } from '@/lib/moneyTree';
+import { getMoneyLevel, getSafeHavenAmount } from '@/lib/moneyTree';
 import { buildOptions, pickNextQuestion, shuffle } from '@/lib/questionPool';
 import { generateAudienceVotes } from '@/lib/audience';
 import { audio } from '@/lib/audio';
 import { addSeenHashes, saveGame, clearSave, saveProfile } from '@/lib/storage';
-import { addXp, checkAchievements, updateStats } from '@/lib/achievements';
+import { addXp, checkAchievements, recordFinalPrize, recordJokerUsage, updateStats } from '@/lib/achievements';
 import { TimerRing } from '@/components/TimerRing';
 import { MoneyTree } from '@/components/MoneyTree';
 import { JokerPanel } from '@/components/JokerPanel';
@@ -29,23 +28,26 @@ interface GameScreenProps {
 }
 
 const QUESTION_TIME = 30;
-const TOTAL_LEVELS = 15;
+/** Her 20 doğru cevapta jokerler otomatik olarak yenilenir (sonsuz oyun döngüsü için). */
+const JOKER_REFRESH_THRESHOLD = 20;
+const FRESH_JOKERS: JokerState = { double: true, audience: true, skip: true, extraTime: true };
 
 type Phase = 'asking' | 'revealing' | 'correct' | 'wrong' | 'won' | 'lost';
 
 export function GameScreen({ profile, settings, initialSave, onExit }: GameScreenProps) {
-  const tree = useMemo<MoneyLevel[]>(() => buildMoneyTree(TOTAL_LEVELS), []);
-
   const [question, setQuestion] = useState<Question | null>(null);
   const [options, setOptions] = useState<AnswerOption[]>([]);
   const [correctIndex, setCorrectIndex] = useState<number>(-1);
   const [levelIndex, setLevelIndex] = useState<number>(0);
   const [usedHashes, setUsedHashes] = useState<Set<string>>(new Set());
+  const [lastCategory, setLastCategory] = useState<string | null>(null);
   const [timeLeft, setTimeLeft] = useState<number>(QUESTION_TIME);
+  const [timeTotal, setTimeTotal] = useState<number>(QUESTION_TIME);
   const [phase, setPhase] = useState<Phase>('asking');
   const [selected, setSelected] = useState<number[]>([]);
   const [locked, setLocked] = useState<boolean>(false);
-  const [jokers, setJokers] = useState<JokerState>({ double: true, audience: true, skip: true });
+  const [jokers, setJokers] = useState<JokerState>({ ...FRESH_JOKERS });
+  const [correctSinceRefresh, setCorrectSinceRefresh] = useState<number>(0);
   const [eliminated, setEliminated] = useState<number[]>([]);
   const [audienceVotes, setAudienceVotes] = useState<ReturnType<typeof generateAudienceVotes> | null>(null);
   const [doubleActive, setDoubleActive] = useState<boolean>(false);
@@ -54,8 +56,11 @@ export function GameScreen({ profile, settings, initialSave, onExit }: GameScree
   const [showLose, setShowLose] = useState<boolean>(false);
   const [achievementToast, setAchievementToast] = useState<string | null>(null);
   const [levelUpToast, setLevelUpToast] = useState<string | null>(null);
+  const [jokerToast, setJokerToast] = useState<string | null>(null);
   const answerStartRef = useRef<number>(0);
   const intervalRef = useRef<number>(0);
+
+  const currentLevel = useMemo(() => getMoneyLevel(levelIndex), [levelIndex]);
 
   useEffect(() => {
     audio.setEnabled(settings.soundEnabled);
@@ -79,28 +84,33 @@ export function GameScreen({ profile, settings, initialSave, onExit }: GameScree
       setOptions(restoredOpts);
       setCorrectIndex(restoredOpts.findIndex((o) => o.isCorrect));
       setTimeLeft(s.timeRemaining);
+      setTimeTotal(Math.max(QUESTION_TIME, s.timeRemaining));
       setDoubleActive(s.doubleAnswerActive);
       setEliminated(s.eliminatedOptions);
+      setStreak(s.streak ?? 0);
+      setCorrectSinceRefresh(s.correctSinceJokerRefresh ?? 0);
+      setLastCategory(s.lastCategory ?? null);
       if (s.audienceVotes) setAudienceVotes(s.audienceVotes);
       answerStartRef.current = performance.now();
       startTimer();
     } else {
-      loadNextQuestion(0, new Set());
+      loadNextQuestion(0, new Set(), null);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  function loadNextQuestion(level: number, exclude: Set<string>) {
-    const q = pickNextQuestion(exclude);
+  function loadNextQuestion(level: number, exclude: Set<string>, category: string | null) {
+    const q = pickNextQuestion(exclude, category);
     if (!q) {
-      // Question pool exhausted (extremely rare after many replays): end the
-      // run gracefully with the prize already secured instead of freezing.
+      // Mevcut soru havuzu (bu sürümde sonlu bir veri kümesi) tükendi: donmak yerine
+      // kazanılan ödülle oyunu zarifçe bitir. Python üretim motoru havuzu her gün
+      // büyütecek şekilde tasarlanmıştır (bkz. python/generate_questions.py).
       if (intervalRef.current) window.clearInterval(intervalRef.current);
-      const prize = tree[Math.max(0, level - 1)]?.amount ?? 0;
+      const prize = getMoneyLevel(Math.max(0, level - 1)).amount;
       setPhase('won');
       setShowWin(true);
       audio.play('win');
-      finalizeGame(true, prize, false);
+      finalizeGame(prize);
       return;
     }
     const opts = buildOptions(q);
@@ -111,7 +121,9 @@ export function GameScreen({ profile, settings, initialSave, onExit }: GameScree
     setCorrectIndex(ci);
     setLevelIndex(level);
     setUsedHashes(newUsedHashes);
+    setLastCategory(q.category);
     setTimeLeft(QUESTION_TIME);
+    setTimeTotal(QUESTION_TIME);
     setPhase('asking');
     setSelected([]);
     setLocked(false);
@@ -120,7 +132,7 @@ export function GameScreen({ profile, settings, initialSave, onExit }: GameScree
     setDoubleActive(false);
     answerStartRef.current = performance.now();
     startTimer();
-    persistSave(level, q, QUESTION_TIME, newUsedHashes);
+    persistSave(level, q, QUESTION_TIME, newUsedHashes, q.category);
   }
 
   function startTimer() {
@@ -139,15 +151,11 @@ export function GameScreen({ profile, settings, initialSave, onExit }: GameScree
     }, 1000);
   }
 
-  function persistSave(level: number, q: Question | null, time: number, usedHashesOverride: Set<string>) {
-    // A fresh question always starts with empty selections/eliminations, no
-    // double-joker in progress and no audience votes yet — using the literal
-    // reset values here (instead of the not-yet-updated component state)
-    // keeps the saved snapshot in sync with what's on screen.
+  function persistSave(level: number, q: Question | null, time: number, usedHashesOverride: Set<string>, category: string | null) {
     const state: GameSaveState = {
       currentQuestionIndex: level,
-      currentPrize: tree[level]?.amount ?? 0,
-      jokers: jokers,
+      currentPrize: getMoneyLevel(level).amount,
+      jokers,
       usedQuestionHashes: Array.from(usedHashesOverride),
       activeQuestion: q,
       timeRemaining: time,
@@ -156,6 +164,9 @@ export function GameScreen({ profile, settings, initialSave, onExit }: GameScree
       eliminatedOptions: [],
       audienceVotes: null,
       status: 'playing',
+      streak,
+      correctSinceJokerRefresh: correctSinceRefresh,
+      lastCategory: category,
     };
     saveGame(state);
   }
@@ -165,7 +176,7 @@ export function GameScreen({ profile, settings, initialSave, onExit }: GameScree
     setPhase('lost');
     setShowLose(true);
     audio.play('lose');
-    finalizeGame(false, getSafeHavenAmount(tree, levelIndex), true);
+    finalizeGame(getSafeHavenAmount(levelIndex));
   }
 
   function selectOption(index: number) {
@@ -177,12 +188,8 @@ export function GameScreen({ profile, settings, initialSave, onExit }: GameScree
         ? selected.filter((i) => i !== index)
         : [...selected, index];
       setSelected(newSel);
-      if (newSel.length === 2) {
-        audio.play('button');
-        revealDoubleAnswer(newSel);
-      } else {
-        audio.play('button');
-      }
+      audio.play('button');
+      if (newSel.length === 2) revealDoubleAnswer(newSel);
       return;
     }
 
@@ -190,6 +197,18 @@ export function GameScreen({ profile, settings, initialSave, onExit }: GameScree
     setLocked(true);
     audio.play('button');
     revealAnswer(index);
+  }
+
+  function maybeRefreshJokers(newCorrectCount: number): boolean {
+    if (newCorrectCount >= JOKER_REFRESH_THRESHOLD) {
+      setJokers({ ...FRESH_JOKERS });
+      setCorrectSinceRefresh(0);
+      setJokerToast('Jokerler Yenilendi! 🎉');
+      setTimeout(() => setJokerToast(null), 3000);
+      return true;
+    }
+    setCorrectSinceRefresh(newCorrectCount);
+    return false;
   }
 
   function revealAnswer(index: number) {
@@ -202,7 +221,7 @@ export function GameScreen({ profile, settings, initialSave, onExit }: GameScree
       if (isCorrect) {
         setPhase('correct');
         audio.play('correct');
-        const prize = tree[levelIndex]?.amount ?? 0;
+        const prize = currentLevel.amount;
         const newStreak = streak + 1;
         setStreak(newStreak);
         updateStats(profile, true, question?.category ?? '', elapsed, prize, newStreak);
@@ -211,11 +230,13 @@ export function GameScreen({ profile, settings, initialSave, onExit }: GameScree
           setLevelUpToast(`Seviye atladın: ${xpResult.newLevel}!`);
           setTimeout(() => setLevelUpToast(null), 3000);
         }
+        const jokersRefreshed = maybeRefreshJokers(correctSinceRefresh + 1);
         const achievements = checkAchievements(profile, {
           streak: newStreak,
           prize,
           answerTimeMs: elapsed,
-          allJokersUsed: !jokers.double && !jokers.audience && !jokers.skip,
+          allJokersUsed: !jokers.double && !jokers.audience && !jokers.skip && !jokers.extraTime,
+          jokersRefreshed,
         });
         if (achievements.length > 0) {
           setAchievementToast(`${achievements[0].title}: ${achievements[0].description}`);
@@ -225,20 +246,13 @@ export function GameScreen({ profile, settings, initialSave, onExit }: GameScree
         addSeenHashes([question?.hash ?? '']);
 
         setTimeout(() => {
-          if (levelIndex + 1 >= TOTAL_LEVELS) {
-            setPhase('won');
-            setShowWin(true);
-            audio.play('win');
-            finalizeGame(true, prize, false);
-          } else {
-            if (tree[levelIndex]?.isSafe) audio.play('barrier');
-            loadNextQuestion(levelIndex + 1, new Set([...usedHashes, question?.hash ?? '']));
-          }
+          if (currentLevel.isSafe) audio.play('barrier');
+          loadNextQuestion(levelIndex + 1, new Set([...usedHashes, question?.hash ?? '']), question?.category ?? null);
         }, 1800);
       } else {
         setPhase('wrong');
         audio.play('wrong');
-        finalizeGame(false, getSafeHavenAmount(tree, levelIndex), false);
+        finalizeGame(getSafeHavenAmount(levelIndex));
       }
     }, 800);
   }
@@ -254,45 +268,38 @@ export function GameScreen({ profile, settings, initialSave, onExit }: GameScree
       if (correctInSelection) {
         setPhase('correct');
         audio.play('correct');
-        const prize = tree[levelIndex]?.amount ?? 0;
+        const prize = currentLevel.amount;
         const newStreak = streak + 1;
         setStreak(newStreak);
         updateStats(profile, true, question?.category ?? '', elapsed, prize, newStreak);
         addXp(profile, 100 + levelIndex * 20);
+        maybeRefreshJokers(correctSinceRefresh + 1);
         saveProfile(profile);
         addSeenHashes([question?.hash ?? '']);
         setTimeout(() => {
-          if (levelIndex + 1 >= TOTAL_LEVELS) {
-            setPhase('won');
-            setShowWin(true);
-            audio.play('win');
-            finalizeGame(true, prize, false);
-          } else {
-            loadNextQuestion(levelIndex + 1, new Set([...usedHashes, question?.hash ?? '']));
-          }
+          loadNextQuestion(levelIndex + 1, new Set([...usedHashes, question?.hash ?? '']), question?.category ?? null);
         }, 1800);
       } else {
         setPhase('wrong');
         audio.play('wrong');
-        finalizeGame(false, getSafeHavenAmount(tree, levelIndex), false);
+        finalizeGame(getSafeHavenAmount(levelIndex));
       }
     }, 800);
   }
 
-  function finalizeGame(won: boolean, prize: number, timeout: boolean) {
+  function finalizeGame(prize: bigint) {
     profile.stats.totalGames += 1;
-    if (prize > profile.stats.highestPrize) profile.stats.highestPrize = prize;
-    profile.stats.totalPrize += prize;
+    recordFinalPrize(profile, prize);
     checkAchievements(profile, {
       streak,
       prize,
       answerTimeMs: 0,
-      allJokersUsed: !jokers.double && !jokers.audience && !jokers.skip,
+      allJokersUsed: !jokers.double && !jokers.audience && !jokers.skip && !jokers.extraTime,
+      jokersRefreshed: false,
     });
     saveProfile(profile);
     addSeenHashes(Array.from(usedHashes));
     clearSave();
-    void won; void timeout;
   }
 
   function useJoker(type: JokerType) {
@@ -300,6 +307,7 @@ export function GameScreen({ profile, settings, initialSave, onExit }: GameScree
     if (!jokers[type]) return;
     audio.play('joker');
     setJokers((j) => ({ ...j, [type]: false }));
+    recordJokerUsage(profile, type);
 
     if (type === 'double') {
       setDoubleActive(true);
@@ -308,28 +316,30 @@ export function GameScreen({ profile, settings, initialSave, onExit }: GameScree
         const votes = generateAudienceVotes(question, eliminated, correctIndex);
         setAudienceVotes(votes);
       }
+    } else if (type === 'extraTime') {
+      setTimeLeft((t) => t + 30);
+      setTimeTotal((t) => t + 30);
     } else if (type === 'skip') {
       addSeenHashes([question?.hash ?? '']);
       const newExclude = new Set([...usedHashes, question?.hash ?? '']);
-      loadNextQuestion(levelIndex, newExclude);
+      loadNextQuestion(levelIndex, newExclude, question?.category ?? null);
     }
   }
 
   function quitGame() {
     if (intervalRef.current) window.clearInterval(intervalRef.current);
-    const prize = getSafeHavenAmount(tree, levelIndex);
-    finalizeGame(false, prize, false);
+    finalizeGame(getSafeHavenAmount(levelIndex));
     onExit(profile);
   }
 
   const letters = ['A', 'B', 'C', 'D'];
-  const currentPrize = tree[levelIndex]?.amount ?? 0;
+  const currentPrize = currentLevel.amount;
 
   return (
     <div className="relative min-h-screen w-full overflow-hidden game-bg">
       <div className="absolute inset-0 bg-gradient-to-b from-night-900/80 via-night-800/70 to-night-900/90" />
       <div className="relative z-10 min-h-screen flex flex-col lg:flex-row gap-4 p-4 lg:p-6 max-w-[1400px] mx-auto">
-        {/* Money tree sidebar */}
+        {/* Para ağacı: kendi alanında sticky + smooth auto-scroll, sayfa scrollundan bağımsız */}
         <aside className="lg:w-64 flex-shrink-0">
           <div className="glass-panel rounded-2xl p-3 h-full">
             <div className="text-center mb-2">
@@ -338,17 +348,15 @@ export function GameScreen({ profile, settings, initialSave, onExit }: GameScree
                 {currentPrize.toLocaleString('tr-TR')} ₺
               </div>
             </div>
-            <MoneyTree levels={tree} currentIndex={levelIndex} lost={phase === 'lost'} />
+            <MoneyTree currentIndex={levelIndex} lost={phase === 'lost'} />
           </div>
         </aside>
 
-        {/* Main play area */}
         <main className="flex-1 flex flex-col">
-          {/* Top bar */}
           <header className="flex items-center justify-between mb-4">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-full bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center text-night-900 font-bold">
-                {profile.avatar}
+              <div className="w-10 h-10 rounded-full bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center text-night-900">
+                <i className={`fa-solid ${profile.gender === 'kadın' ? 'fa-venus' : 'fa-mars'} text-lg`} />
               </div>
               <div>
                 <div className="text-sm font-semibold text-white">{profile.username}</div>
@@ -364,12 +372,10 @@ export function GameScreen({ profile, settings, initialSave, onExit }: GameScree
             </button>
           </header>
 
-          {/* Timer */}
           <div className="flex justify-center mb-4">
-            <TimerRing total={QUESTION_TIME} remaining={timeLeft} danger={timeLeft <= 5} />
+            <TimerRing total={timeTotal} remaining={timeLeft} danger={timeLeft <= 5} />
           </div>
 
-          {/* Question card */}
           {question && (
             <div className="glass-panel rounded-2xl p-5 mb-4 mx-auto max-w-2xl w-full">
               <div className="flex items-center justify-between mb-3 text-xs">
@@ -386,7 +392,6 @@ export function GameScreen({ profile, settings, initialSave, onExit }: GameScree
             </div>
           )}
 
-          {/* Audience chart */}
           {audienceVotes && (
             <div className="max-w-2xl mx-auto w-full mb-4">
               <AudienceChart
@@ -398,8 +403,9 @@ export function GameScreen({ profile, settings, initialSave, onExit }: GameScree
             </div>
           )}
 
-          {/* Answer options */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 max-w-2xl mx-auto w-full mb-4">
+          {/* Her yeni soruda seçenek anahtarı question.hash olduğundan önceki hover/focus/selected
+              durumları React tarafından tamamen sıfırlanır; renk izi kalmaz. */}
+          <div key={question?.hash ?? 'none'} className="grid grid-cols-1 md:grid-cols-2 gap-3 max-w-2xl mx-auto w-full mb-4">
             {options.map((opt, i) => {
               const isSel = selected.includes(i);
               const isElim = eliminated.includes(i);
@@ -431,7 +437,6 @@ export function GameScreen({ profile, settings, initialSave, onExit }: GameScree
             })}
           </div>
 
-          {/* Jokers */}
           <div className="mt-auto">
             <JokerPanel jokers={jokers} onUse={useJoker} disabled={locked} />
             {doubleActive && selected.length < 2 && (
@@ -439,11 +444,13 @@ export function GameScreen({ profile, settings, initialSave, onExit }: GameScree
                 İki seçenek seçin ({selected.length}/2)
               </p>
             )}
+            <p className="text-center text-[10px] text-white/30 mt-2">
+              Jokerlere {Math.max(0, JOKER_REFRESH_THRESHOLD - correctSinceRefresh)} doğru cevap kaldı
+            </p>
           </div>
         </main>
       </div>
 
-      {/* Win overlay */}
       <Confetti active={showWin} />
       {showWin && (
         <div className="fixed inset-0 z-40 flex items-center justify-center bg-night-900/80 backdrop-blur-md">
@@ -453,7 +460,7 @@ export function GameScreen({ profile, settings, initialSave, onExit }: GameScree
             <p className="font-display text-5xl font-bold text-emerald-300 mb-4 tabular-nums">
               {currentPrize.toLocaleString('tr-TR')} ₺
             </p>
-            <p className="text-white/70 mb-6">Tüm soruları doğru yanıtladınız!</p>
+            <p className="text-white/70 mb-6">Mevcut soru havuzundaki tüm soruları doğru yanıtladınız!</p>
             <button
               type="button"
               onClick={() => onExit(profile)}
@@ -465,7 +472,6 @@ export function GameScreen({ profile, settings, initialSave, onExit }: GameScree
         </div>
       )}
 
-      {/* Lose overlay */}
       {showLose && (
         <div className="fixed inset-0 z-40 flex items-center justify-center bg-night-900/80 backdrop-blur-md">
           <div className="glass-panel rounded-3xl p-8 max-w-md text-center animate-pop">
@@ -473,7 +479,7 @@ export function GameScreen({ profile, settings, initialSave, onExit }: GameScree
             <h2 className="font-display text-3xl font-bold text-red-300 mb-2">KAYBETTİN</h2>
             <p className="text-2xl text-white/80 mb-1">Kazanılan:</p>
             <p className="font-display text-3xl font-bold text-emerald-300 mb-6 tabular-nums">
-              {getSafeHavenAmount(tree, levelIndex).toLocaleString('tr-TR')} ₺
+              {getSafeHavenAmount(levelIndex).toLocaleString('tr-TR')} ₺
             </p>
             <button
               type="button"
@@ -486,7 +492,6 @@ export function GameScreen({ profile, settings, initialSave, onExit }: GameScree
         </div>
       )}
 
-      {/* Toasts */}
       {achievementToast && (
         <div className="fixed top-6 right-6 z-50 glass-panel rounded-xl px-4 py-3 max-w-xs animate-slide-in">
           <div className="flex items-center gap-2">
@@ -503,6 +508,14 @@ export function GameScreen({ profile, settings, initialSave, onExit }: GameScree
           <div className="flex items-center gap-2">
             <i className="fa-solid fa-star text-cyan-300" />
             <span className="text-sm text-white">{levelUpToast}</span>
+          </div>
+        </div>
+      )}
+      {jokerToast && (
+        <div className="fixed top-20 left-6 z-50 glass-panel rounded-xl px-4 py-3 animate-slide-in">
+          <div className="flex items-center gap-2">
+            <i className="fa-solid fa-rotate text-emerald-300" />
+            <span className="text-sm text-white">{jokerToast}</span>
           </div>
         </div>
       )}

@@ -10,10 +10,11 @@ const JOKER_META: Record<JokerType, { label: string; icon: string; color: string
   double: { label: 'Çift Cevap', icon: 'fa-clone', color: 'from-cyan-400 to-blue-500' },
   audience: { label: 'Seyirci', icon: 'fa-users', color: 'from-fuchsia-400 to-pink-500' },
   skip: { label: 'Soruyu Geç', icon: 'fa-forward', color: 'from-amber-400 to-orange-500' },
+  extraTime: { label: '+30 Saniye', icon: 'fa-clock-rotate-left', color: 'from-emerald-400 to-teal-500' },
 };
 
 export function JokerPanel({ jokers, onUse, disabled }: JokerPanelProps) {
-  const types: JokerType[] = ['double', 'audience', 'skip'];
+  const types: JokerType[] = ['double', 'audience', 'skip', 'extraTime'];
   return (
     <div className="flex gap-3 justify-center">
       {types.map((t) => {

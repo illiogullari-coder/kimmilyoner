@@ -33,8 +33,8 @@ export function StatsPanel({ profile, onClose, onReset }: StatsPanelProps) {
       <div className="glass-panel rounded-3xl p-6 max-w-2xl w-full my-8 animate-pop">
         <div className="flex items-center justify-between mb-6">
           <div className="flex items-center gap-3">
-            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center text-xl">
-              {profile.avatar}
+            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center text-night-900">
+              <i className={`fa-solid ${profile.gender === 'kadın' ? 'fa-venus' : 'fa-mars'} text-xl`} />
             </div>
             <div>
               <h2 className="font-display text-xl font-bold text-white">{profile.username}</h2>
@@ -79,6 +79,26 @@ export function StatsPanel({ profile, onClose, onReset }: StatsPanelProps) {
             </div>
           </div>
         )}
+
+        <div className="mb-6">
+          <h3 className="text-sm font-semibold text-white/80 mb-3">Kullanılan Jokerler</h3>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
+            {(
+              [
+                ['double', 'Çift Cevap', 'fa-clone'],
+                ['audience', 'Seyirci', 'fa-users'],
+                ['skip', 'Soruyu Geç', 'fa-forward'],
+                ['extraTime', '+30 Saniye', 'fa-clock-rotate-left'],
+              ] as const
+            ).map(([key, label, icon]) => (
+              <div key={key} className="rounded-xl border border-white/10 bg-white/5 p-2.5 text-center">
+                <i className={`fa-solid ${icon} text-cyan-300 mb-1`} />
+                <div className="text-sm font-bold text-white tabular-nums">{s.jokersUsed[key] ?? 0}</div>
+                <div className="text-[9px] uppercase tracking-wider text-white/50">{label}</div>
+              </div>
+            ))}
+          </div>
+        </div>
 
         <div className="mb-6">
           <h3 className="text-sm font-semibold text-white/80 mb-3">Başarımlar</h3>

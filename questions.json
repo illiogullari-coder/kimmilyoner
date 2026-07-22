@@ -4080,5 +4080,200 @@
       "Malatya",
       "Kumlu"
     ]
+  },
+  {
+    "id": "gen-682558",
+    "hash": "4c037ffb2d9108962bf03e9384a7235c8f45ffdc3d985113510685b810e83221",
+    "category": "türk yerel yönetim",
+    "difficulty": "Kolay",
+    "question": "Corvera de Asturias ile ilgili: yıl?",
+    "correctAnswer": "2002",
+    "distractors": [
+      "Nilüfer",
+      "Arapgir",
+      "Pertek"
+    ]
+  },
+  {
+    "id": "gen-973525",
+    "hash": "09d4f4b345d0f472268bcda14b5d5a18d5a4d332611a21276cba083b7be5cc1e",
+    "category": "türk tarihi",
+    "difficulty": "Akademisyen",
+    "question": "Greatest Hits (anlam ayrımı) ile ilgili: yıl?",
+    "correctAnswer": "1981",
+    "distractors": [
+      "Bornova",
+      "Karabağlar",
+      "Aydın"
+    ]
+  },
+  {
+    "id": "gen-430311",
+    "hash": "7075f0d6671f929097648c32c31ee8e7edf3553b03c47b48b9b5ad4e4314c1bb",
+    "category": "türk müziği",
+    "difficulty": "Normal",
+    "question": "Ladies Tour of Norway ile ilgili: yıl?",
+    "correctAnswer": "2014",
+    "distractors": [
+      "Pınarbaşı",
+      "Nilüfer",
+      "Uğurludağ"
+    ]
+  },
+  {
+    "id": "gen-522781",
+    "hash": "9fdd384fc7ba3b2f49d40364d3399a4e246c0f02342b26e8784f73b6ace4df3b",
+    "category": "türk müziği",
+    "difficulty": "Normal",
+    "question": "Ladies Tour of Norway ile ilgili: yıl?",
+    "correctAnswer": "2017",
+    "distractors": [
+      "Adıyaman",
+      "Osmancık",
+      "Aydıncık"
+    ]
+  },
+  {
+    "id": "gen-769677",
+    "hash": "a1fd90bc6664979cd40e4b7ee5423acf29f14380aaef9fec24194698715e8b9b",
+    "category": "türk tarihi",
+    "difficulty": "Orta",
+    "question": "BMW M337 ile ilgili: yıl?",
+    "correctAnswer": "1952",
+    "distractors": [
+      "Senirkent",
+      "Buca",
+      "Mecitözü"
+    ]
+  },
+  {
+    "id": "gen-930170",
+    "hash": "3a49fd928e8f475561616c87d51c49a4c4ab32be00dd0d58f3083ce324ef0ed7",
+    "category": "türk yerel yönetim",
+    "difficulty": "Normal",
+    "question": "Edwards County, Kansas ile ilgili: yıl?",
+    "correctAnswer": "2020",
+    "distractors": [
+      "UŞAK",
+      "Menderes",
+      "Turhal"
+    ]
+  },
+  {
+    "id": "gen-403329",
+    "hash": "c3dba9f6f5155161e1624934293c0da98975edb6bd397d10e9b99d7ec10b4a5d",
+    "category": "türk folklorü",
+    "difficulty": "Normal",
+    "question": "Belley ile ilgili: yıl?",
+    "correctAnswer": "2014",
+    "distractors": [
+      "Merkez",
+      "Şarkikaraağaç",
+      "Marmaraereğlisi"
+    ]
+  },
+  {
+    "id": "gen-690152",
+    "hash": "85ede0aacbec5caaece18b1bf84e41158e4b3214a9f917c41a4729237508248e",
+    "category": "Türkiye bölgeleri",
+    "difficulty": "Orta",
+    "question": "Abell 31 ile ilgili: yıl?",
+    "correctAnswer": "2000",
+    "distractors": [
+      "İnhisar",
+      "Tercan",
+      "Mamak"
+    ]
+  },
+  {
+    "id": "gen-617623",
+    "hash": "51a08bd738ab823df6ca6b7c7d63d243ccb21a921f77c814afe38a9bfe80ce34",
+    "category": "Göktürkler",
+    "difficulty": "Normal",
+    "question": "Anadilim Aşk ile ilgili: yıl?",
+    "correctAnswer": "2001",
+    "distractors": [
+      "Suluova",
+      "Köprüköy",
+      "İzmir"
+    ]
+  },
+  {
+    "id": "gen-107503",
+    "hash": "e25b075944f4ddeb6ab9a0a445752423aecaeeef2e53ef1331576759f6fdf889",
+    "category": "Göktürkler",
+    "difficulty": "Orta",
+    "question": "Anadilim Aşk ile ilgili: yıl?",
+    "correctAnswer": "2002",
+    "distractors": [
+      "Yunusemre",
+      "Gölcük",
+      "Yenişehir"
+    ]
+  },
+  {
+    "id": "gen-452778",
+    "hash": "06453fee91c7c44391e13f58338ae37739b3e6e5013ee95778b941053ec16dc8",
+    "category": "türk tıp tarihi",
+    "difficulty": "Normal",
+    "question": "BioWare ile ilgili: yıl?",
+    "correctAnswer": "1995",
+    "distractors": [
+      "Ayancık",
+      "Merkez",
+      "Ulus"
+    ]
+  },
+  {
+    "id": "gen-730273",
+    "hash": "d964852f81aad422d08397ea1915bb6ea1f4529f605f41ab941078527d748b9e",
+    "category": "türk yerel yönetim",
+    "difficulty": "Orta",
+    "question": "Manor Racing ile ilgili: yıl?",
+    "correctAnswer": "2010",
+    "distractors": [
+      "Dörtdivan",
+      "Çardak",
+      "Çankırı"
+    ]
+  },
+  {
+    "id": "gen-865742",
+    "hash": "05313e3d207b7e556d0a0dc3a438f0390d7ec3eccbb0a4ed34a45441242ef8f9",
+    "category": "türk yerel yönetim",
+    "difficulty": "Çok Zor",
+    "question": "Manor Racing ile ilgili: yıl?",
+    "correctAnswer": "2011",
+    "distractors": [
+      "Bozdoğan",
+      "Çiftlikköy",
+      "Cumayeri"
+    ]
+  },
+  {
+    "id": "gen-621601",
+    "hash": "54380e9458bb360812562fade37c4e7fd897496b5937eb4d90bf552caf596433",
+    "category": "türk eğitimi",
+    "difficulty": "Orta",
+    "question": "Yıldız Teknik Üniversitesi İktisadi ve İdari Bilimler Fakültesi ile ilgili: yıl?",
+    "correctAnswer": "1992",
+    "distractors": [
+      "Kaş",
+      "Tefenni",
+      "Bozova"
+    ]
+  },
+  {
+    "id": "gen-934237",
+    "hash": "941c575d787b8f69c3d13660808247650f5782ba1806f35f937885d04243c4f2",
+    "category": "türk müziği",
+    "difficulty": "Orta",
+    "question": "Leabua Jonathan ile ilgili: yıl?",
+    "correctAnswer": "1986",
+    "distractors": [
+      "Kağızman",
+      "Musabeyli",
+      "Çatalpınar"
+    ]
   }
 ]

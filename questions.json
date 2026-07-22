@@ -1623,5 +1623,109 @@
       "Merzifon",
       "Divriği"
     ]
+  },
+  {
+    "id": "gen-78237002-0",
+    "hash": "7bf2d488f148b1cb87093a4510e0ef01765ef871c699f61bcbe08c40701b3d19",
+    "category": "Türkiye Cumhuriyeti",
+    "difficulty": "Normal",
+    "question": "ASELSAN hangi yıl oluşturuldu?",
+    "correctAnswer": "1975",
+    "distractors": [
+      "2020",
+      "1789",
+      "2013"
+    ]
+  },
+  {
+    "id": "gen-78237005-0",
+    "hash": "9b212ae4d3e7b245289f6f8d9a4bb6177151dee17b0d3ebeaca8ba12bf724d48",
+    "category": "Türkiye Cumhuriyeti",
+    "difficulty": "Normal",
+    "question": "Anıtkabir hangi yıl inşa edildi?",
+    "correctAnswer": "1944",
+    "distractors": [
+      "2001",
+      "1683",
+      "1990"
+    ]
+  },
+  {
+    "id": "gen-78237014-0",
+    "hash": "ceffb0c4d4ce6cc001f6ab33b686fb0741fef95b4947297921343c5a800b19ab",
+    "category": "Osmanlı Tarihi",
+    "difficulty": "Normal",
+    "question": "Dolmabahçe Sarayı hangi yıl inşa edildi?",
+    "correctAnswer": "1843",
+    "distractors": [
+      "1876",
+      "1971",
+      "1999"
+    ]
+  },
+  {
+    "id": "gen-78237026-0",
+    "hash": "625f34cd088f9fc961ecc98557a695a66926385b5fa4988239911f15ee65b411",
+    "category": "Türkiye Cumhuriyeti",
+    "difficulty": "Normal",
+    "question": "Türk Tarih Kurumu hangi yıl kuruldu?",
+    "correctAnswer": "1931",
+    "distractors": [
+      "1934",
+      "1938",
+      "1999"
+    ]
+  },
+  {
+    "id": "gen-78237026-1",
+    "hash": "acbf4cf75ca86b5a3a52fb07c0e954784ec7ea1f2f65a57e1999c133a5839585",
+    "category": "Türkiye Cumhuriyeti",
+    "difficulty": "Normal",
+    "question": "Türk Tarih Kurumu hangi yıl oluşturuldu?",
+    "correctAnswer": "1983",
+    "distractors": [
+      "1938",
+      "1980",
+      "1919"
+    ]
+  },
+  {
+    "id": "gen-78237029-0",
+    "hash": "2332ac60acb50e13dc23cd13989c4ec79186d0b30f685ac5c27ac429e1a66646",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Normal",
+    "question": "Baykar Teknoloji hangi yıl kuruldu?",
+    "correctAnswer": "1986",
+    "distractors": [
+      "2016",
+      "2001",
+      "1924"
+    ]
+  },
+  {
+    "id": "gen-78237033-0",
+    "hash": "5d9edb06f6710c12aa73d5101c19b56adcf8aea989e037e134e6e6daa8342f38",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Normal",
+    "question": "Galata Kulesi hangi yıl inşa edildi?",
+    "correctAnswer": "2020",
+    "distractors": [
+      "1982",
+      "1925",
+      "1299"
+    ]
+  },
+  {
+    "id": "gen-234711002-0",
+    "hash": "5bb6f94ff62a0de42ee5c172b82729adecdf860a0a4e89477d0eccd37a0dfb44",
+    "category": "Bilim ve Teknoloji",
+    "difficulty": "Normal",
+    "question": "İstanbul Üniversitesi İşletme Fakültesi hangi yıl kuruldu?",
+    "correctAnswer": "1954",
+    "distractors": [
+      "1453",
+      "1922",
+      "1920"
+    ]
   }
 ]

@@ -4002,5 +4002,83 @@
       "Aziziye",
       "Karamanlı"
     ]
+  },
+  {
+    "id": "gen-214993",
+    "hash": "42a9da5daa6b6cd74e56f3e99c896077a143888f99d6385e861a539e5ae1b058",
+    "category": "türk folklorü",
+    "difficulty": "Normal",
+    "question": "Lautaro (belediye) ile ilgili: yıl?",
+    "correctAnswer": "2012",
+    "distractors": [
+      "Pursaklar",
+      "Defne",
+      "Mesudiye"
+    ]
+  },
+  {
+    "id": "gen-166164",
+    "hash": "50e43a020376ab12582139cc9ec4cec75a434bea4db2e2a9d87334e9830dec05",
+    "category": "türk tarihi",
+    "difficulty": "Orta",
+    "question": "35. Altın Portakal Film Festivali ile ilgili: yıl?",
+    "correctAnswer": "1998",
+    "distractors": [
+      "Doğanşehir",
+      "Ereğli",
+      "Marmara"
+    ]
+  },
+  {
+    "id": "gen-595472",
+    "hash": "19ef3162095327137e0f34205dc87746e72ae00bf19cc9fdb25d407354c08df6",
+    "category": "türk tarihi",
+    "difficulty": "Kolay",
+    "question": "Palm Royale ile ilgili: yıl?",
+    "correctAnswer": "2018",
+    "distractors": [
+      "Vakfıkebir",
+      "Tekirdağ",
+      "Ardeşen"
+    ]
+  },
+  {
+    "id": "gen-791816",
+    "hash": "29e827d64399112821a22bc06f14e17ac0a9ec4722a6446558496d492a2e313e",
+    "category": "türk tarihi",
+    "difficulty": "Normal",
+    "question": "Palm Royale ile ilgili: yıl?",
+    "correctAnswer": "2024",
+    "distractors": [
+      "Dörtdivan",
+      "Bozcaada",
+      "Bekilli"
+    ]
+  },
+  {
+    "id": "gen-554146",
+    "hash": "788d06916858636c2d1fa325e5826124c1a0bd93f1eb6e2bec66744d4f3913e9",
+    "category": "türk yerel yönetim",
+    "difficulty": "Orta",
+    "question": "Elena Gheorghe ile ilgili: yıl?",
+    "correctAnswer": "2009",
+    "distractors": [
+      "Babaeski",
+      "Çiğli",
+      "Ulubey"
+    ]
+  },
+  {
+    "id": "gen-840034",
+    "hash": "6298b1a2bb8dbe310d1803a8a539e8a12c3f282dfa6dfc410016edc2a5360faf",
+    "category": "türk folklorü",
+    "difficulty": "Normal",
+    "question": "Monometalizm ile ilgili: yıl?",
+    "correctAnswer": "1900",
+    "distractors": [
+      "Banaz",
+      "Malatya",
+      "Kumlu"
+    ]
   }
 ]

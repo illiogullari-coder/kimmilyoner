@@ -1,0 +1,263 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --night-900: #050816;
+    --night-800: #0a0f24;
+    --night-700: #111936;
+    --cloud-500: #4f8cff;
+    --cloud-400: #6ba3ff;
+    --gold-400: #fbbf24;
+    --gold-500: #f59e0b;
+    --snow: #f8fafc;
+    --dmoz-green: #27e0c8;
+  }
+
+  html {
+    font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: var(--night-900);
+    color: var(--snow);
+    margin: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  ::selection {
+    background: rgba(251, 191, 36, 0.35);
+    color: #fffbeb;
+  }
+
+  :focus-visible {
+    outline: 2px solid rgba(39, 224, 200, 0.8);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+}
+
+@layer components {
+  .font-display {
+    font-family: 'Sora', 'Inter', system-ui, sans-serif;
+  }
+
+  .glass-panel {
+    position: relative;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.02));
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(22px) saturate(170%);
+    -webkit-backdrop-filter: blur(22px) saturate(170%);
+    box-shadow:
+      0 20px 60px -12px rgba(0, 0, 0, 0.55),
+      0 8px 32px rgba(0, 0, 0, 0.35),
+      inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+
+  /* Subtle luminous top edge for a "polished glass" premium feel */
+  .glass-panel::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(
+      135deg,
+      rgba(251, 191, 36, 0.35),
+      rgba(255, 255, 255, 0.06) 30%,
+      rgba(39, 224, 200, 0.18) 70%,
+      rgba(255, 255, 255, 0.04)
+    );
+    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    opacity: 0.6;
+  }
+
+  .game-bg {
+    background:
+      radial-gradient(ellipse at top, #0a1840 0%, transparent 50%),
+      radial-gradient(ellipse at bottom, #1a0a30 0%, transparent 50%),
+      linear-gradient(180deg, #050816 0%, #0a0f24 50%, #050816 100%);
+    position: relative;
+  }
+
+  /* Ambient twinkling starfield + soft vignette, purely decorative CSS layers */
+  .game-bg::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background-image:
+      radial-gradient(1.5px 1.5px at 10% 20%, rgba(255, 255, 255, 0.55), transparent),
+      radial-gradient(1.5px 1.5px at 80% 10%, rgba(255, 255, 255, 0.4), transparent),
+      radial-gradient(1px 1px at 60% 70%, rgba(255, 255, 255, 0.5), transparent),
+      radial-gradient(1px 1px at 30% 80%, rgba(255, 255, 255, 0.35), transparent),
+      radial-gradient(1.5px 1.5px at 90% 60%, rgba(255, 255, 255, 0.45), transparent),
+      radial-gradient(1px 1px at 45% 35%, rgba(255, 255, 255, 0.3), transparent),
+      radial-gradient(1.5px 1.5px at 15% 55%, rgba(255, 255, 255, 0.4), transparent),
+      radial-gradient(1px 1px at 70% 90%, rgba(255, 255, 255, 0.3), transparent);
+    background-size: 100% 100%;
+    animation: twinkle 4s ease-in-out infinite;
+    opacity: 0.8;
+  }
+
+  .game-bg::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: radial-gradient(ellipse at center, transparent 40%, rgba(0, 0, 0, 0.55) 100%);
+  }
+
+  /* Animated gold gradient text, used for the hero title */
+  .shimmer-text {
+    background: linear-gradient(
+      100deg,
+      #fde68a 0%,
+      #fbbf24 20%,
+      #fffbe8 40%,
+      #f59e0b 60%,
+      #fde68a 100%
+    );
+    background-size: 220% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: shimmer 3.5s linear infinite;
+  }
+
+  /* Premium sheen sweep for primary call-to-action buttons */
+  .btn-sheen {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+  }
+  .btn-sheen::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -60%;
+    width: 40%;
+    height: 100%;
+    background: linear-gradient(
+      110deg,
+      transparent 0%,
+      rgba(255, 255, 255, 0.55) 50%,
+      transparent 100%
+    );
+    transform: skewX(-20deg);
+    transition: left 0.7s ease;
+    pointer-events: none;
+  }
+  .btn-sheen:hover::after {
+    left: 130%;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 5px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, rgba(251, 191, 36, 0.35), rgba(255, 255, 255, 0.15));
+    border-radius: 3px;
+  }
+}
+
+@layer utilities {
+  .shadow-gold-glow {
+    box-shadow: 0 0 20px rgba(251, 191, 36, 0.4), 0 0 40px rgba(251, 191, 36, 0.2);
+  }
+  .shadow-emerald-glow {
+    box-shadow: 0 0 16px rgba(52, 211, 153, 0.5);
+  }
+  .shadow-red-glow {
+    box-shadow: 0 0 16px rgba(239, 68, 68, 0.5);
+  }
+
+  .animate-shake {
+    animation: shake 0.4s ease-in-out;
+  }
+  .animate-pop {
+    animation: pop 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+  .animate-slide-in {
+    animation: slideIn 0.4s ease-out;
+  }
+  .animate-pulse-slow {
+    animation: pulseSlow 3s ease-in-out infinite;
+  }
+  .animate-bounce-slow {
+    animation: bounceSlow 2s ease-in-out infinite;
+  }
+  .animate-float-slow {
+    animation: floatSlow 8s ease-in-out infinite;
+  }
+  .animate-float-slower {
+    animation: floatSlow 12s ease-in-out infinite;
+  }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-6px); }
+  40% { transform: translateX(6px); }
+  60% { transform: translateX(-4px); }
+  80% { transform: translateX(4px); }
+}
+
+@keyframes pop {
+  0% { transform: scale(0.85); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes slideIn {
+  0% { transform: translateX(40px); opacity: 0; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes pulseSlow {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+@keyframes bounceSlow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes floatSlow {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(20px, -30px); }
+}
+
+@keyframes shimmer {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 220% 50%; }
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.55; }
+  50% { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

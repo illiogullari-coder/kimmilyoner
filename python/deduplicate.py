@@ -22,6 +22,8 @@ def filter_unique(items: list[dict]) -> list[dict]:
     unique: list[dict] = []
     for item in items:
         h = item.get("hash", "")
+        if not h:
+            continue
         if h in seen:
             continue
         seen.add(h)

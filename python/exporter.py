@@ -15,6 +15,7 @@ def load_existing(path: Path) -> list[dict]:
 
 
 def merge(existing: list[dict], new_items: list[dict]) -> list[dict]:
+    """Add new items that don't already exist. Never removes existing questions."""
     seen: set[str] = {item.get("hash", "") for item in existing}
     merged = list(existing)
     for item in new_items:

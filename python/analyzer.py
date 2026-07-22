@@ -186,27 +186,95 @@ def extract_facts(text: str, subject: str = "", description: str = "") -> list[F
 # Topic classifier
 # ---------------------------------------------------------------------------
 
+def is_turkey_related(title: str, extract: str, description: str = "") -> bool:
+    """Rastgele Wikipedia maddeleri ve 'ilişkili maddeler' taraması gibi
+    GÜVENSİZ (küratörlü olmayan) kaynaklardan gelen başlıkların gerçekten
+    Türkiye odaklı olup olmadığını denetler. Küratörlü seed/kategori
+    listelerinden gelen başlıklar zaten güvenilir kabul edilir ve bu
+    kontrolden geçirilmez (bkz. generate_questions.py)."""
+    combined = f"{title} {extract} {description}".lower()
+    signals = (
+        "türkiye", "türk ", "türkçe", "osmanlı", "anadolu", "atatürk",
+        "cumhuriyet", "istanbul", "ankara", "izmir", "selçuklu", "göktürk",
+        "tbmm", "kurtuluş savaşı", "il ", "ilçe", "vilayet", "boğaz",
+    )
+    return any(s in combined for s in signals)
+
+
 def classify_topic(text: str, title: str = "") -> str:
     combined = (title + " " + text).lower()
     mapping: dict[str, list[str]] = {
+        "İlk Türk Devletleri": ["hun imparatorluğu", "göktürk", "uygur kağanlığı", "karahanlı", "büyük selçuklu", "malazgirt", "harzemşah"],
         "Osmanlı Tarihi": ["osmanlı", "padişah", "sultan", "fatih", "kanuni", "yavuz", "devlet-i aliyye", "sadrazam"],
-        "Kurtuluş Savaşı": ["kurtuluş savaşı", "kuva-yi milliye", "milli mücadele", "istiklal", "sakarya meydan"],
-        "Türkiye Cumhuriyeti": ["cumhuriyet", "atatürk", "tbmm", "laiklik", "inkılap", "ankara", "29 ekim"],
-        "Türkiye Coğrafyası": ["anadolu", "boğaz", "dağ", "nehir", "göl", "ova", "bölge", "il ", "ilçe"],
-        "Türk Kültürü": ["gelenek", "halk", "ebru", "hat sanatı", "tezhip", "minyatür", "çini", "âşık", "ozan"],
+        "Kurtuluş Savaşı ve Cumhuriyet": ["kurtuluş savaşı", "kuva-yi milliye", "milli mücadele", "istiklal", "sakarya meydan", "cumhuriyet", "atatürk", "tbmm", "lozan"],
+        "Türkiye Coğrafyası": ["anadolu", "boğaz", "dağ", "nehir", "göl", "ova", "yayla", "il ", "ilçe", "plaka"],
+        "Ulaşım ve Altyapı": ["havalimanı", "liman", "demiryolu", "köprü", "tünel", "otoyol", "marmaray"],
+        "Doğal ve Kültürel Miras": ["unesco", "milli park", "ören yeri", "antik kent", "harabe"],
+        "Türk Mutfağı": ["yemek", "tarif", "kebap", "börek", "baklava", "lahmacun", "mutfak", "lezzet", "tatlı", "içecek"],
+        "Türk Kültürü": ["gelenek", "görenek", "halk oyunu", "ebru", "hat sanatı", "tezhip", "minyatür", "çini", "âşık", "ozan", "nevruz", "hıdrellez"],
         "Türk Edebiyatı": ["destan", "divan", "roman", "şiir", "yazar", "şair", "edebiyat"],
-        "Türk Mutfağı": ["yemek", "tarif", "kebap", "börek", "baklava", "lahmacun", "mutfak", "lezzet"],
-        "Spor": ["futbol", "basketbol", "güreş", "olimpiyat", "şampiyona", "lig", "takım", "milli takım"],
-        "Türkiye Ekonomisi": ["ekonomi", "enflasyon", "ihracat", "sanayi", "tarım", "banka", "borsa"],
-        "Türk Tarihi": ["savaş", "antlaşma", "fetih", "göktürk", "selçuklu", "tarih", "han", "hanlık"],
-        "Bilim ve Teknoloji": ["bilim", "teknoloji", "mühendis", "icat", "üniversite", "araştırma", "keşif"],
-        "Coğrafya": ["dağ", "nehir", "şelale", "mağara", "koy", "körfez", "burun", "yarımada"],
+        "Sanat, Sinema ve Müzik": ["sinema", "dizi", "tiyatro", "besteci", "müzisyen", "şarkıcı", "film", "oyuncu"],
+        "Bilim ve Teknoloji": ["bilim", "teknoloji", "mühendis", "icat", "üniversite", "araştırma", "keşif", "mucit"],
+        "Spor": ["futbol", "basketbol", "güreş", "olimpiyat", "şampiyona", "lig", "takım", "milli takım", "kulüp"],
+        "İslam ve Dini Konular": ["islam", "kur'an", "kuran", "peygamber", "sahabe", "cami", "türbe", "bayram", "kandil"],
+        "Ekonomi, Tarım ve Enerji": ["ekonomi", "enflasyon", "ihracat", "sanayi", "tarım", "banka", "borsa", "maden", "enerji", "turizm"],
+        "Afet ve Sağlık": ["deprem", "afet", "afad", "kızılay", "sağlık", "hastalık", "salgın"],
+        "Türk Tarihi": ["savaş", "antlaşma", "fetih", "tarih", "han", "hanlık"],
         "Sanat ve Mimari": ["mimari", "cami", "kale", "köprü", "saray", "müze", "galeri", "heykel"],
     }
     for category, words in mapping.items():
         if any(w in combined for w in words):
             return category
     return "Türk Tarihi"
+
+
+# ---------------------------------------------------------------------------
+# Kalite puanı — otomatik doğrulama sisteminin bir parçası
+# ---------------------------------------------------------------------------
+
+def quality_score(question: str, correct: str, distractors: list[str], kind: str) -> int:
+    """0-100 arası bir kalite puanı. Şüpheli/düşük kaliteli sorular
+    (belirsiz kısa cevaplar, tekrarlı/placeholder şıklar, aşırı uzun metin)
+    daha düşük puan alır; generate_questions.py bunları bir eşik altında
+    eleyebilir (otomatik doğrulama sistemi)."""
+    score = 100
+
+    if not question.endswith("?"):
+        score -= 15
+    qlen = len(question)
+    if qlen < 12 or qlen > 220:
+        score -= 20
+
+    correct_l = correct.strip().lower()
+    if len(correct.strip()) < 2:
+        score -= 40
+    if "bilinm" in correct_l or "belirsiz" in correct_l or "kayıt" in correct_l:
+        score -= 50
+
+    placeholder_hits = sum(
+        1 for d in distractors
+        if "bilinm" in d.lower() or "belirsiz" in d.lower() or "kayıt" in d.lower()
+    )
+    score -= placeholder_hits * 15
+
+    if len(set(d.strip().lower() for d in distractors)) < len(distractors):
+        score -= 25
+
+    if any(d.strip().lower() == correct_l for d in distractors):
+        score -= 100  # doğru cevap şıklarda tekrarlanmış — kabul edilemez
+
+    # Sayısal tip sorularda cevap gerçekten sayı içeriyor mu?
+    if kind in ("year", "population", "area", "elevation", "length", "phone", "plaka"):
+        if not any(c.isdigit() for c in correct):
+            score -= 30
+        # Savunma amaçlı ikinci katman: sayısal bir soruda çeldiricilerden
+        # biri hiç rakam içermiyorsa (ör. bir kişi/şehir ismi sızmışsa),
+        # bu tip-uyuşmazlığı tek başına soruyu geçersiz kılar.
+        non_numeric_distractors = sum(1 for d in distractors if not any(c.isdigit() for c in d))
+        if non_numeric_distractors:
+            score -= 60
+
+    return max(0, min(100, score))
 
 
 def estimate_difficulty(fact: Fact) -> str:

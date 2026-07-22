@@ -26,10 +26,13 @@ def fetch_article(title: str) -> str:
 
 def fetch_raw_titles(seed: int) -> list[str]:
     url = (
-        "https://tr.wikipedia.org/w/api.php?action=query&list=random"
-        "&rnnamespace=0&rnlimit=500&format=json&rnlimit=500"
-        f"&rnseed={seed}"
-    )
+    "https://tr.wikipedia.org/w/api.php"
+    "?action=query"
+    "&list=random"
+    "&rnnamespace=0"
+    "&rnlimit=500"
+    "&format=json"
+)
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     try:
         with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:

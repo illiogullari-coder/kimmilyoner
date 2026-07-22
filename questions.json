@@ -4275,5 +4275,239 @@
       "Musabeyli",
       "Çatalpınar"
     ]
+  },
+  {
+    "id": "gen-168213",
+    "hash": "0dd0edbdf87d3bdaec47a082870904280072acc1e8fd51dbe1d0f36218c74d93",
+    "category": "türk müziği",
+    "difficulty": "Final",
+    "question": "Elemental: Doğanın Güçleri ile ilgili: Elemental: Doğanın Güçleri, Walt Disney Pictures ve Pixar An?",
+    "correctAnswer": "Doğanın Güçleri",
+    "distractors": [
+      "Didim",
+      "Edirne",
+      "Şehzadeler"
+    ]
+  },
+  {
+    "id": "gen-995148",
+    "hash": "a9cd605bc1512e29c9f1be1d4fc84250ec919a8fd26c72136a2bd80dd875c102",
+    "category": "türk müziği",
+    "difficulty": "Profesör",
+    "question": "Elemental: Doğanın Güçleri ile ilgili: yıl?",
+    "correctAnswer": "2023",
+    "distractors": [
+      "Haliliye",
+      "Eldivan",
+      "Karakeçili"
+    ]
+  },
+  {
+    "id": "gen-262892",
+    "hash": "85b9a7159054d5d929b337e10f5e6ef6986b5d621d6a9acc4c9ba9a47078b00c",
+    "category": "türk tarihi",
+    "difficulty": "Çok Zor",
+    "question": "Tutku Esirleri ile ilgili: yıl?",
+    "correctAnswer": "2003",
+    "distractors": [
+      "Çemişgezek",
+      "Altınordu",
+      "Boyabat"
+    ]
+  },
+  {
+    "id": "gen-459407",
+    "hash": "44098fd77a9516d476464c60189cfa0863432a17b040d68a20f1c093340fa444",
+    "category": "türk tarihi",
+    "difficulty": "Orta",
+    "question": "Tutku Esirleri ile ilgili: yıl?",
+    "correctAnswer": "1995",
+    "distractors": [
+      "Merkez",
+      "Sarıyahşi",
+      "Arhavi"
+    ]
+  },
+  {
+    "id": "gen-927717",
+    "hash": "d477f6d4ddfd1792e7457b28e119c2663f019692664631af11512b7b3f534d0d",
+    "category": "türk folklorü",
+    "difficulty": "Orta",
+    "question": "İsabeyli Barajı ile ilgili: yıl?",
+    "correctAnswer": "2014",
+    "distractors": [
+      "Balçova",
+      "Ağrı",
+      "Kurucaşile"
+    ]
+  },
+  {
+    "id": "gen-756759",
+    "hash": "f4c3e00145bdcb505388fb7cc248d7c85bb61a1a3e877af301326464a0b3c683",
+    "category": "türk müziği",
+    "difficulty": "Normal",
+    "question": "Hinapia ile ilgili: yıl?",
+    "correctAnswer": "2019",
+    "distractors": [
+      "Kilis",
+      "Lüleburgaz",
+      "Karatay"
+    ]
+  },
+  {
+    "id": "gen-446597",
+    "hash": "5e3ab639e1390f8b692b5273596cdc0fee0771dab4fb5081d2646207571905f2",
+    "category": "türk müziği",
+    "difficulty": "Kolay",
+    "question": "Hinapia ile ilgili: yıl?",
+    "correctAnswer": "2020",
+    "distractors": [
+      "Ferizli",
+      "Kaynaşlı",
+      "Küçükçekmece"
+    ]
+  },
+  {
+    "id": "gen-703463",
+    "hash": "3f9f55fadd1848788ad05d5b08d0b3c9788f6fd5564ff24f412aeda586553c64",
+    "category": "türk tarihi",
+    "difficulty": "Orta",
+    "question": "Obolon (rayon) ile ilgili: yıl?",
+    "correctAnswer": "2021",
+    "distractors": [
+      "Elmalı",
+      "İhsangazi",
+      "Beyşehir"
+    ]
+  },
+  {
+    "id": "gen-689208",
+    "hash": "08960d4ee7dda34179f65946a60de60e4055006d08e60c1ff77d526fa26f7c40",
+    "category": "türk mimarisi",
+    "difficulty": "Zor",
+    "question": "2011 Marakeş bombalaması ile ilgili: yıl?",
+    "correctAnswer": "2011",
+    "distractors": [
+      "Sinanpaşa",
+      "Demirci",
+      "Malatya"
+    ]
+  },
+  {
+    "id": "gen-675442",
+    "hash": "dd2ad29f075ef4d0d7089fb039e5bda1b708d5e493ab4844ab82fc27b5a4349d",
+    "category": "türk mimarisi",
+    "difficulty": "Final",
+    "question": "2011 Marakeş bombalaması ile ilgili: Yalnız bir terörist Adil El-Atmani, kafeye bir sırt çantasın?",
+    "correctAnswer": "50'de patlatarak 17 kişiyi öldürdü ve 25 kişiyi yaraladı Ölenlerin çoğu turistti",
+    "distractors": [
+      "İnhisar",
+      "Gümüşova",
+      "Şavşat"
+    ]
+  },
+  {
+    "id": "gen-307024",
+    "hash": "35e30525753e9474e008366119e21b2fc855d7461df785e82f11537ee518be0a",
+    "category": "türk folklorü",
+    "difficulty": "Normal",
+    "question": "Brodersby (Angeln) ile ilgili: yıl?",
+    "correctAnswer": "2005",
+    "distractors": [
+      "Çandır",
+      "Gölbaşı",
+      "Sason"
+    ]
+  },
+  {
+    "id": "gen-303073",
+    "hash": "e5f5aadf69d1931fb091a441af5cf300490ee8a39d74a4c9b361039a6bb3d9c8",
+    "category": "türk müziği",
+    "difficulty": "Normal",
+    "question": "Still on My Mind ile ilgili: yıl?",
+    "correctAnswer": "2019",
+    "distractors": [
+      "Boğazlıyan",
+      "Eskil",
+      "Ayancık"
+    ]
+  },
+  {
+    "id": "gen-350858",
+    "hash": "c176002755ce953d81543848922f3f5aabd7905f6e60e72f5597736f05b98918",
+    "category": "türk müziği",
+    "difficulty": "Normal",
+    "question": "Still on My Mind ile ilgili: yıl?",
+    "correctAnswer": "2013",
+    "distractors": [
+      "Mudurnu",
+      "Çiftlikköy",
+      "Sivaslı"
+    ]
+  },
+  {
+    "id": "gen-525857",
+    "hash": "c4d522d426f5955e908dea3dd8d44bf85760c87e76ce38192f9605c630b00ca6",
+    "category": "Türkiye ovaları",
+    "difficulty": "Normal",
+    "question": "Umutsuz Ev Kadınları karakterleri listesi ile ilgili: yıl?",
+    "correctAnswer": "2011",
+    "distractors": [
+      "Yeşirli",
+      "Alacakaya",
+      "Selçuk"
+    ]
+  },
+  {
+    "id": "gen-187667",
+    "hash": "a19f8cc74b1d30dc799e730094e16a179debaa1251b9db872140aac6d59b948f",
+    "category": "Türkiye ovaları",
+    "difficulty": "Normal",
+    "question": "Umutsuz Ev Kadınları karakterleri listesi ile ilgili: yıl?",
+    "correctAnswer": "2012",
+    "distractors": [
+      "Varto",
+      "Hilvan",
+      "Yahyalı"
+    ]
+  },
+  {
+    "id": "gen-232881",
+    "hash": "46d8c37709132a81402021051e59f9b61c8617f3e60925d0cdf55dcd3c1e4861",
+    "category": "türk kültürü",
+    "difficulty": "Profesör",
+    "question": "Hello Neighbor ile ilgili: yıl?",
+    "correctAnswer": "2016",
+    "distractors": [
+      "Pamukova",
+      "Merkez",
+      "Eynesil"
+    ]
+  },
+  {
+    "id": "gen-644792",
+    "hash": "c798e862796f5788022a6b722a55d7ed1771fb54858a1ca070ad62eb4a18dae5",
+    "category": "türk telekomünikasyon",
+    "difficulty": "Orta",
+    "question": "Nokia Lumia 925 ile ilgili: yıl?",
+    "correctAnswer": "2013",
+    "distractors": [
+      "Maçka",
+      "Tekman",
+      "Gölbaşı"
+    ]
+  },
+  {
+    "id": "gen-107112",
+    "hash": "4a711f6f777be46ba94398c36896cdf0458ec46fa8fbb473489cebb974636d93",
+    "category": "türk tarihi",
+    "difficulty": "Orta",
+    "question": "Tron: Uprising ile ilgili: yıl?",
+    "correctAnswer": "2012",
+    "distractors": [
+      "Özalp",
+      "Kahramanmaraş",
+      "Haliliye"
+    ]
   }
 ]

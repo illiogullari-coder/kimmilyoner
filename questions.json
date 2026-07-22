@@ -1727,5 +1727,83 @@
       "1922",
       "1920"
     ]
+  },
+  {
+    "id": "gen-54069017-0",
+    "hash": "433ad0e527f9bd3e5faa35e14b6dedc9c3a7efca19654f9b0dd63145761e0f04",
+    "category": "Türkiye Cumhuriyeti",
+    "difficulty": "Normal",
+    "question": "Boğaziçi Üniversitesi hangi yıl kuruldu?",
+    "correctAnswer": "1863",
+    "distractors": [
+      "2007",
+      "1980",
+      "1876"
+    ]
+  },
+  {
+    "id": "gen-54069017-1",
+    "hash": "211085ac236a2c4b782cd0630488551df3f49a6b9821df1fc15617dd465d54ed",
+    "category": "Türkiye Cumhuriyeti",
+    "difficulty": "Normal",
+    "question": "Boğaziçi Üniversitesi hangi yıl kuruldu?",
+    "correctAnswer": "1971",
+    "distractors": [
+      "1928",
+      "1919",
+      "1925"
+    ]
+  },
+  {
+    "id": "gen-54069029-0",
+    "hash": "ab659d87d346128824cefec255e68f1288f5bd8fff2f58a24272d76ca97aa4c8",
+    "category": "Türkiye Cumhuriyeti",
+    "difficulty": "Normal",
+    "question": "Orta Doğu Teknik Üniversitesi hangi yıl kuruldu?",
+    "correctAnswer": "1956",
+    "distractors": [
+      "2013",
+      "1683",
+      "1924"
+    ]
+  },
+  {
+    "id": "gen-54069038-0",
+    "hash": "e0abfd3f06aecd6a416cd119b591d4782d6ea9f782aa4c02a4f936cfe5743479",
+    "category": "Kurtuluş Savaşı",
+    "difficulty": "Normal",
+    "question": "Büyük Taarruz hangi yıl oluşturuldu?",
+    "correctAnswer": "1922",
+    "distractors": [
+      "1960",
+      "1876",
+      "1921"
+    ]
+  },
+  {
+    "id": "gen-108138003-0",
+    "hash": "aee7319cb0cb214250bc865ec5d0ee5a18893779ffc9c949c5dad19baaa8b65e",
+    "category": "Türkiye Cumhuriyeti",
+    "difficulty": "Normal",
+    "question": "Türkiye'de mimarlık hangi yıl oluşturuldu?",
+    "correctAnswer": "1923",
+    "distractors": [
+      "1938",
+      "1839",
+      "1922"
+    ]
+  },
+  {
+    "id": "gen-162207004-0",
+    "hash": "7bcdfc8f0134108d1c1cecbb2609c2c70cf7d185bd7cadb419f6a75a11f1ec00",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Çok Zor",
+    "question": "Barbonville'in nüfusu yaklaşık kaçtır?",
+    "correctAnswer": "2016",
+    "distractors": [
+      "1999",
+      "1923",
+      "1922"
+    ]
   }
 ]

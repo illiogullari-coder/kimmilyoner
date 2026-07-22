@@ -1,11 +1,20 @@
 {
   "seed_cursor": {
-    "İlk Türk Devletleri": 6,
-    "Osmanlı Tarihi": 6,
-    "Kurtuluş Savaşı ve Cumhuriyet": 6,
-    "Ulaşım ve Altyapı": 6,
-    "Doğal ve Kültürel Miras": 6,
-    "Türk Mutfağı": 6
+    "İlk Türk Devletleri": 12,
+    "Osmanlı Tarihi": 12,
+    "Kurtuluş Savaşı ve Cumhuriyet": 12,
+    "Ulaşım ve Altyapı": 3,
+    "Doğal ve Kültürel Miras": 0,
+    "Türk Mutfağı": 12
   },
-  "category_cursor": {}
+  "category_cursor": {
+    "Göktürkler": 8,
+    "Türk_devletleri": 0,
+    "Selçuklular": 8,
+    "Osmanlı_padişahları": 0,
+    "Osmanlı_sadrazamları": 8,
+    "Türkiye_başbakanları": 8,
+    "Türkiye_Büyük_Millet_Meclisi_başkanları": 8,
+    "Türkiye'deki_havalimanları": 8
+  }
 }

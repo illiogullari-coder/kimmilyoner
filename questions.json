@@ -2808,5 +2808,35 @@
     ],
     "source": "static:il-plaka-kodlari",
     "qualityScore": 100
+  },
+  {
+    "id": "gen-3536300-0",
+    "hash": "e0abfd3f06aecd6a416cd119b591d4782d6ea9f782aa4c02a4f936cfe5743479",
+    "category": "Kurtuluş Savaşı ve Cumhuriyet",
+    "difficulty": "Normal",
+    "question": "Büyük Taarruz hangi yıl oluşturuldu?",
+    "correctAnswer": "1922",
+    "distractors": [
+      "1789",
+      "1921",
+      "1919"
+    ],
+    "source": "tr.wikipedia.org/wiki/Büyük_Taarruz",
+    "qualityScore": 100
+  },
+  {
+    "id": "gen-7072300-0",
+    "hash": "d0ef08e57d7d6054f8b32ae3a2be964a66c7cc0de7d48f82bb326544f5e63a52",
+    "category": "Kurtuluş Savaşı ve Cumhuriyet",
+    "difficulty": "Normal",
+    "question": "Türkiye başbakanı hangi yıl oluşturuldu?",
+    "correctAnswer": "1920",
+    "distractors": [
+      "1960",
+      "2020",
+      "1982"
+    ],
+    "source": "tr.wikipedia.org/wiki/Türkiye_başbakanı",
+    "qualityScore": 100
   }
 ]

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'kim-milyoner-v2';
+const CACHE_NAME = 'kim-milyoner-v3';
 const BASE = '/';
 const STATIC_ASSETS = [BASE, `${BASE}index.html`, `${BASE}manifest.json`, `${BASE}favicon.svg`];
 

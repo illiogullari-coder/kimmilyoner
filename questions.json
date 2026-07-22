@@ -3937,5 +3937,70 @@
       "Göksun",
       "Şaphane"
     ]
+  },
+  {
+    "id": "gen-517929",
+    "hash": "f311ab4649796fbf3fcc7cc3b6210c439547c92c31a2092b356df088071a264d",
+    "category": "Göktürkler",
+    "difficulty": "Normal",
+    "question": "Ergenekon, Kıbrıs ile ilgili: yıl?",
+    "correctAnswer": "2011",
+    "distractors": [
+      "Evciler",
+      "Şirvan",
+      "Akçakale"
+    ]
+  },
+  {
+    "id": "gen-935807",
+    "hash": "007d55b5f58404e8411fd7b3d4f140bc0e54c9ebdbd6c4d41919267308be4ac7",
+    "category": "türk tarihi",
+    "difficulty": "Zor",
+    "question": "2024 Yaz Olimpiyatları'nda Yeni Zelanda ile ilgili: yıl?",
+    "correctAnswer": "2024",
+    "distractors": [
+      "Pursaklar",
+      "Doğanyurt",
+      "Hendek"
+    ]
+  },
+  {
+    "id": "gen-823589",
+    "hash": "16988b99eb93cfc0fef736a27bea7ce04d7d5eabaaeae442c4425f5318027e23",
+    "category": "türk tarihi",
+    "difficulty": "Profesör",
+    "question": "2024 Yaz Olimpiyatları'nda Yeni Zelanda ile ilgili: yıl?",
+    "correctAnswer": "1920",
+    "distractors": [
+      "Ladik",
+      "Arapgir",
+      "Turhal"
+    ]
+  },
+  {
+    "id": "gen-988758",
+    "hash": "d49e0a8e49375bed3ad769429ffb78317e5af013e1df980335858456fdf66c0a",
+    "category": "türk sineması",
+    "difficulty": "Uzman",
+    "question": "Daredevil: Born Again (2. sezon) ile ilgili: yıl?",
+    "correctAnswer": "2015",
+    "distractors": [
+      "Kurucaşile",
+      "Zonguldak",
+      "Kula"
+    ]
+  },
+  {
+    "id": "gen-898763",
+    "hash": "1534fd00f1941898835d3ca8462e2d20f81a5f6f858135fc5b8f19f7c83282fd",
+    "category": "türk yerel yönetim",
+    "difficulty": "Orta",
+    "question": "Moussa Guel ile ilgili: yıl?",
+    "correctAnswer": "1930",
+    "distractors": [
+      "Babadağ",
+      "Aziziye",
+      "Karamanlı"
+    ]
   }
 ]

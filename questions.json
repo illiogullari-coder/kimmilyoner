@@ -1625,185 +1625,1188 @@
     ]
   },
   {
-    "id": "gen-78237002-0",
-    "hash": "7bf2d488f148b1cb87093a4510e0ef01765ef871c699f61bcbe08c40701b3d19",
-    "category": "Türkiye Cumhuriyeti",
-    "difficulty": "Normal",
-    "question": "ASELSAN hangi yıl oluşturuldu?",
-    "correctAnswer": "1975",
-    "distractors": [
-      "2020",
-      "1789",
-      "2013"
-    ]
-  },
-  {
-    "id": "gen-78237005-0",
-    "hash": "9b212ae4d3e7b245289f6f8d9a4bb6177151dee17b0d3ebeaca8ba12bf724d48",
-    "category": "Türkiye Cumhuriyeti",
-    "difficulty": "Normal",
-    "question": "Anıtkabir hangi yıl inşa edildi?",
-    "correctAnswer": "1944",
-    "distractors": [
-      "2001",
-      "1683",
-      "1990"
-    ]
-  },
-  {
-    "id": "gen-78237014-0",
-    "hash": "ceffb0c4d4ce6cc001f6ab33b686fb0741fef95b4947297921343c5a800b19ab",
-    "category": "Osmanlı Tarihi",
-    "difficulty": "Normal",
-    "question": "Dolmabahçe Sarayı hangi yıl inşa edildi?",
-    "correctAnswer": "1843",
-    "distractors": [
-      "1876",
-      "1971",
-      "1999"
-    ]
-  },
-  {
-    "id": "gen-78237026-0",
-    "hash": "625f34cd088f9fc961ecc98557a695a66926385b5fa4988239911f15ee65b411",
-    "category": "Türkiye Cumhuriyeti",
-    "difficulty": "Normal",
-    "question": "Türk Tarih Kurumu hangi yıl kuruldu?",
-    "correctAnswer": "1931",
-    "distractors": [
-      "1934",
-      "1938",
-      "1999"
-    ]
-  },
-  {
-    "id": "gen-78237026-1",
-    "hash": "acbf4cf75ca86b5a3a52fb07c0e954784ec7ea1f2f65a57e1999c133a5839585",
-    "category": "Türkiye Cumhuriyeti",
-    "difficulty": "Normal",
-    "question": "Türk Tarih Kurumu hangi yıl oluşturuldu?",
-    "correctAnswer": "1983",
-    "distractors": [
-      "1938",
-      "1980",
-      "1919"
-    ]
-  },
-  {
-    "id": "gen-78237029-0",
-    "hash": "2332ac60acb50e13dc23cd13989c4ec79186d0b30f685ac5c27ac429e1a66646",
+    "id": "plaka-01053-0",
+    "hash": "6de76ba1db96a592b60a84734077f2296fe9a3cd10b70f6dd27b0cf9b74762c8",
     "category": "Türkiye Coğrafyası",
-    "difficulty": "Normal",
-    "question": "Baykar Teknoloji hangi yıl kuruldu?",
-    "correctAnswer": "1986",
+    "difficulty": "Kolay",
+    "question": "Adana ilinin plaka kodu kaçtır?",
+    "correctAnswer": "01",
     "distractors": [
-      "2016",
-      "2001",
-      "1924"
-    ]
+      "16",
+      "77",
+      "71"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
   },
   {
-    "id": "gen-78237033-0",
-    "hash": "5d9edb06f6710c12aa73d5101c19b56adcf8aea989e037e134e6e6daa8342f38",
+    "id": "plaka-01053-1",
+    "hash": "9f0f4b725f5196409585c6e250259cd4682d1660bdbd34c2ce28a7d854a2196b",
     "category": "Türkiye Coğrafyası",
-    "difficulty": "Normal",
-    "question": "Galata Kulesi hangi yıl inşa edildi?",
-    "correctAnswer": "2020",
+    "difficulty": "Kolay",
+    "question": "Adıyaman ilinin plaka kodu kaçtır?",
+    "correctAnswer": "02",
     "distractors": [
-      "1982",
-      "1925",
-      "1299"
-    ]
+      "20",
+      "36",
+      "24"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
   },
   {
-    "id": "gen-234711002-0",
-    "hash": "5bb6f94ff62a0de42ee5c172b82729adecdf860a0a4e89477d0eccd37a0dfb44",
-    "category": "Bilim ve Teknoloji",
-    "difficulty": "Normal",
-    "question": "İstanbul Üniversitesi İşletme Fakültesi hangi yıl kuruldu?",
-    "correctAnswer": "1954",
-    "distractors": [
-      "1453",
-      "1922",
-      "1920"
-    ]
-  },
-  {
-    "id": "gen-54069017-0",
-    "hash": "433ad0e527f9bd3e5faa35e14b6dedc9c3a7efca19654f9b0dd63145761e0f04",
-    "category": "Türkiye Cumhuriyeti",
-    "difficulty": "Normal",
-    "question": "Boğaziçi Üniversitesi hangi yıl kuruldu?",
-    "correctAnswer": "1863",
-    "distractors": [
-      "2007",
-      "1980",
-      "1876"
-    ]
-  },
-  {
-    "id": "gen-54069017-1",
-    "hash": "211085ac236a2c4b782cd0630488551df3f49a6b9821df1fc15617dd465d54ed",
-    "category": "Türkiye Cumhuriyeti",
-    "difficulty": "Normal",
-    "question": "Boğaziçi Üniversitesi hangi yıl kuruldu?",
-    "correctAnswer": "1971",
-    "distractors": [
-      "1928",
-      "1919",
-      "1925"
-    ]
-  },
-  {
-    "id": "gen-54069029-0",
-    "hash": "ab659d87d346128824cefec255e68f1288f5bd8fff2f58a24272d76ca97aa4c8",
-    "category": "Türkiye Cumhuriyeti",
-    "difficulty": "Normal",
-    "question": "Orta Doğu Teknik Üniversitesi hangi yıl kuruldu?",
-    "correctAnswer": "1956",
-    "distractors": [
-      "2013",
-      "1683",
-      "1924"
-    ]
-  },
-  {
-    "id": "gen-54069038-0",
-    "hash": "e0abfd3f06aecd6a416cd119b591d4782d6ea9f782aa4c02a4f936cfe5743479",
-    "category": "Kurtuluş Savaşı",
-    "difficulty": "Normal",
-    "question": "Büyük Taarruz hangi yıl oluşturuldu?",
-    "correctAnswer": "1922",
-    "distractors": [
-      "1960",
-      "1876",
-      "1921"
-    ]
-  },
-  {
-    "id": "gen-108138003-0",
-    "hash": "aee7319cb0cb214250bc865ec5d0ee5a18893779ffc9c949c5dad19baaa8b65e",
-    "category": "Türkiye Cumhuriyeti",
-    "difficulty": "Normal",
-    "question": "Türkiye'de mimarlık hangi yıl oluşturuldu?",
-    "correctAnswer": "1923",
-    "distractors": [
-      "1938",
-      "1839",
-      "1922"
-    ]
-  },
-  {
-    "id": "gen-162207004-0",
-    "hash": "7bcdfc8f0134108d1c1cecbb2609c2c70cf7d185bd7cadb419f6a75a11f1ec00",
+    "id": "plaka-01053-2",
+    "hash": "34f43af23ab3f28591ae974caddf08a32b1e5f8c345397ca96124ef6005153b4",
     "category": "Türkiye Coğrafyası",
-    "difficulty": "Çok Zor",
-    "question": "Barbonville'in nüfusu yaklaşık kaçtır?",
-    "correctAnswer": "2016",
+    "difficulty": "Kolay",
+    "question": "Afyonkarahisar ilinin plaka kodu kaçtır?",
+    "correctAnswer": "03",
     "distractors": [
-      "1999",
-      "1923",
-      "1922"
-    ]
+      "67",
+      "27",
+      "77"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-3",
+    "hash": "265b7555dc084fd026f50aa37823df80319795a742cbe33eaede9e29d5b6dc1c",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Ağrı ilinin plaka kodu kaçtır?",
+    "correctAnswer": "04",
+    "distractors": [
+      "26",
+      "61",
+      "20"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-4",
+    "hash": "e9a1ca1e528845088ee7e882eacac4058f45003117a553f15137ff1771ea4a7b",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Amasya ilinin plaka kodu kaçtır?",
+    "correctAnswer": "05",
+    "distractors": [
+      "47",
+      "25",
+      "76"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-5",
+    "hash": "32fbd1e542c4e310a93611b281c2afdcc0b6b0ac21f042e10bac366a762b3de2",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Ankara ilinin plaka kodu kaçtır?",
+    "correctAnswer": "06",
+    "distractors": [
+      "14",
+      "67",
+      "59"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-6",
+    "hash": "8b463d53bf7f13eacd64d55758553b057c80361a966a7b6b2fd70ed64ead3403",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Antalya ilinin plaka kodu kaçtır?",
+    "correctAnswer": "07",
+    "distractors": [
+      "69",
+      "37",
+      "17"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-7",
+    "hash": "754f94c69d443f39a5bf8fed3fb27b8d7f1b765e409b490cafc622db6fbbb816",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Artvin ilinin plaka kodu kaçtır?",
+    "correctAnswer": "08",
+    "distractors": [
+      "66",
+      "21",
+      "39"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-8",
+    "hash": "3b93abcd1b1da94e908e56eb978ba8d881e0d081c3a9a343026581545061749c",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Aydın ilinin plaka kodu kaçtır?",
+    "correctAnswer": "09",
+    "distractors": [
+      "63",
+      "61",
+      "17"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-9",
+    "hash": "20dc878f523ceaa84b46c7ec939bca194d13ef41f212f8ec4b68f461797e652d",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Balıkesir ilinin plaka kodu kaçtır?",
+    "correctAnswer": "10",
+    "distractors": [
+      "14",
+      "18",
+      "02"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-10",
+    "hash": "d4041893ce861ef36b13c3f0a5b79e5467e6e0c0ba6853d1d13faf14e186cc48",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Bilecik ilinin plaka kodu kaçtır?",
+    "correctAnswer": "11",
+    "distractors": [
+      "05",
+      "26",
+      "20"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-11",
+    "hash": "89f468d7b840af84d6141f69490a43b5d6207d1698d57a4fe3e67da984c8df70",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Bingöl ilinin plaka kodu kaçtır?",
+    "correctAnswer": "12",
+    "distractors": [
+      "67",
+      "58",
+      "70"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-12",
+    "hash": "e6d665b99b4200a577b420c07d69a4c8163c19c182f2644e18ce8647954ce9fd",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Bitlis ilinin plaka kodu kaçtır?",
+    "correctAnswer": "13",
+    "distractors": [
+      "63",
+      "33",
+      "43"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-13",
+    "hash": "2801cead9f59f8b88423e5990e8334c2f3acd2cd6e1f737ecac6f435ac892825",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Bolu ilinin plaka kodu kaçtır?",
+    "correctAnswer": "14",
+    "distractors": [
+      "36",
+      "63",
+      "52"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-14",
+    "hash": "fb1b1164f52953b4c74d0ce6685220ce01142b7c7e324f2f46944e129ba55962",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Burdur ilinin plaka kodu kaçtır?",
+    "correctAnswer": "15",
+    "distractors": [
+      "66",
+      "27",
+      "19"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-15",
+    "hash": "85aadeedff79086a309ca2554880cc2794831eba3635d76dffbfc6daae84c445",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Bursa ilinin plaka kodu kaçtır?",
+    "correctAnswer": "16",
+    "distractors": [
+      "26",
+      "81",
+      "56"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-16",
+    "hash": "2163512f103af86622522b13b0c2f51fa478cea8738fb54b84063fa97998bbfa",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Çanakkale ilinin plaka kodu kaçtır?",
+    "correctAnswer": "17",
+    "distractors": [
+      "49",
+      "35",
+      "62"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-17",
+    "hash": "c11bd088c089490481ea2dd1cc748d5a9ff2b5090179f3611ad54792bd6cf978",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Çankırı ilinin plaka kodu kaçtır?",
+    "correctAnswer": "18",
+    "distractors": [
+      "63",
+      "20",
+      "08"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-18",
+    "hash": "52fc57da50c2814043f65d69e6e4c764a7a412f0eae1f4cb220ee8266c88d97a",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Çorum ilinin plaka kodu kaçtır?",
+    "correctAnswer": "19",
+    "distractors": [
+      "77",
+      "29",
+      "57"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-19",
+    "hash": "ef5c7558108255e628b408da22bb5e3b760647575f97e9948a6c0ab58667a61f",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Denizli ilinin plaka kodu kaçtır?",
+    "correctAnswer": "20",
+    "distractors": [
+      "02",
+      "69",
+      "06"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-20",
+    "hash": "68a9b47bcb70863730db258715faf930822e9ad0678c9f92799a8e488307c581",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Diyarbakır ilinin plaka kodu kaçtır?",
+    "correctAnswer": "21",
+    "distractors": [
+      "27",
+      "39",
+      "08"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-21",
+    "hash": "5ed0584090ddc1d5d21ef9f89c8092b785db5a3fc4c9d25435dee8eb77358caf",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Edirne ilinin plaka kodu kaçtır?",
+    "correctAnswer": "22",
+    "distractors": [
+      "43",
+      "13",
+      "34"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-22",
+    "hash": "b11205ed42fa030ad1d81efd037b2bb0ec3dbb548cbc9d62acf9fb6de792d949",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Elazığ ilinin plaka kodu kaçtır?",
+    "correctAnswer": "23",
+    "distractors": [
+      "20",
+      "57",
+      "64"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-23",
+    "hash": "f91b56cd97e831c896ae45973ee62a6f65a8098db9e127c7b750427139c36b49",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Erzincan ilinin plaka kodu kaçtır?",
+    "correctAnswer": "24",
+    "distractors": [
+      "77",
+      "35",
+      "11"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-24",
+    "hash": "2267866fc640b2857d1f90163d821be4dc47d9cdaf6c3fa07f72d934a07e8410",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Erzurum ilinin plaka kodu kaçtır?",
+    "correctAnswer": "25",
+    "distractors": [
+      "58",
+      "79",
+      "24"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-25",
+    "hash": "4a6ec1b839f30475daedd995ed96fca6d06e7327ec945a814702a66043f8d2db",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Eskişehir ilinin plaka kodu kaçtır?",
+    "correctAnswer": "26",
+    "distractors": [
+      "80",
+      "47",
+      "13"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-26",
+    "hash": "fdc623387a18fda57beb64d6ca5f43d7e4b773b26d70a0955d4ee3f1b5a6aae0",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Gaziantep ilinin plaka kodu kaçtır?",
+    "correctAnswer": "27",
+    "distractors": [
+      "68",
+      "75",
+      "20"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-27",
+    "hash": "fea982e57547d6bac8df3de56ec8e510f5cd31c9f0fea408198e71bd790620e0",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Giresun ilinin plaka kodu kaçtır?",
+    "correctAnswer": "28",
+    "distractors": [
+      "05",
+      "33",
+      "25"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-28",
+    "hash": "d01826e69c8cf14768a88391c17568f620c645293775198a9ab47249348bf16b",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Gümüşhane ilinin plaka kodu kaçtır?",
+    "correctAnswer": "29",
+    "distractors": [
+      "57",
+      "45",
+      "56"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-29",
+    "hash": "0bbfb3b8ab266e883f7a1a55e71ed29aa1f8bbc8bc828d6a9bdb40959a81a054",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Hakkari ilinin plaka kodu kaçtır?",
+    "correctAnswer": "30",
+    "distractors": [
+      "62",
+      "35",
+      "18"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-30",
+    "hash": "412d7ce2f17359054a4cdeea5e1822cc6788d0679ff04e1d58fe3cb5b2bde374",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Hatay ilinin plaka kodu kaçtır?",
+    "correctAnswer": "31",
+    "distractors": [
+      "63",
+      "22",
+      "16"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-31",
+    "hash": "a0ede48a0ca5bef91336d27c0238d82821396de19fd337c880a9b8c92ea65425",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Isparta ilinin plaka kodu kaçtır?",
+    "correctAnswer": "32",
+    "distractors": [
+      "53",
+      "75",
+      "34"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-32",
+    "hash": "49bbaa4e8cf2fd55be6dc8ea9dd1c0fcb502ba13729b4976603da2974a41e1ab",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Mersin ilinin plaka kodu kaçtır?",
+    "correctAnswer": "33",
+    "distractors": [
+      "18",
+      "28",
+      "15"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-33",
+    "hash": "de7dcb55384fd5be50b1018554f1d6ff273ce7460a6cadeb3328a2dde4054aae",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "İstanbul ilinin plaka kodu kaçtır?",
+    "correctAnswer": "34",
+    "distractors": [
+      "79",
+      "64",
+      "17"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-34",
+    "hash": "aa86f8bfc099e36dfe66e3960ed8f97469c893bd2d736e30b0013eafb6ea1c00",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "İzmir ilinin plaka kodu kaçtır?",
+    "correctAnswer": "35",
+    "distractors": [
+      "01",
+      "33",
+      "39"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-35",
+    "hash": "90604f43ff33c3243ae155233aa4a4090203521862adfd968d678831b26c7dd3",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Kars ilinin plaka kodu kaçtır?",
+    "correctAnswer": "36",
+    "distractors": [
+      "38",
+      "07",
+      "19"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-36",
+    "hash": "64a04eae853ce0b91c8b2ccd47b50a5a2986185a32c1b8e29c8eaeeca544aa85",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Kastamonu ilinin plaka kodu kaçtır?",
+    "correctAnswer": "37",
+    "distractors": [
+      "61",
+      "53",
+      "75"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-37",
+    "hash": "971d1cfc84b780d633b285ae0d9aef32eb3511b2d18c02cfa56ef4bc298014b6",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Kayseri ilinin plaka kodu kaçtır?",
+    "correctAnswer": "38",
+    "distractors": [
+      "39",
+      "78",
+      "58"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-38",
+    "hash": "71eb2b4bf52e4a068c7c6bd5965bf8711459f0277e1e07a50f711f20a3c1f218",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Kırklareli ilinin plaka kodu kaçtır?",
+    "correctAnswer": "39",
+    "distractors": [
+      "37",
+      "24",
+      "57"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-39",
+    "hash": "fc370a207daf4b38a589bcb5485b5e5fd0058fc35558cdffde65463a984199d2",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Kırşehir ilinin plaka kodu kaçtır?",
+    "correctAnswer": "40",
+    "distractors": [
+      "69",
+      "59",
+      "02"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-40",
+    "hash": "e24ec3f5c525f035d12c53168d548c78f8edada35c8776ee641e609a9c5b8e3e",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Kocaeli ilinin plaka kodu kaçtır?",
+    "correctAnswer": "41",
+    "distractors": [
+      "04",
+      "34",
+      "77"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-41",
+    "hash": "d6169b1a02fcd298ee60fdc90c51a77c86f2283489056c7575565d445c9c2715",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Konya ilinin plaka kodu kaçtır?",
+    "correctAnswer": "42",
+    "distractors": [
+      "49",
+      "37",
+      "70"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-42",
+    "hash": "1a12781bd2909c5f8f029d4461ce1d6df8817cffc39cf6414e996ab90d74ee60",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Kütahya ilinin plaka kodu kaçtır?",
+    "correctAnswer": "43",
+    "distractors": [
+      "31",
+      "62",
+      "55"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-43",
+    "hash": "18dc309fc61282254c10e932c628ec91b1ed0838dc87c82c5f9870e71d8b8937",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Malatya ilinin plaka kodu kaçtır?",
+    "correctAnswer": "44",
+    "distractors": [
+      "28",
+      "23",
+      "73"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-44",
+    "hash": "8f483a60172d789ea46a05b377c72cef0685184373532dfe9bec9b6990062b62",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Manisa ilinin plaka kodu kaçtır?",
+    "correctAnswer": "45",
+    "distractors": [
+      "46",
+      "09",
+      "35"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-45",
+    "hash": "088bacaea93847c5bbf3a150ed4520f4b119937643ed477bbe5a21c99cf6aa33",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Kahramanmaraş ilinin plaka kodu kaçtır?",
+    "correctAnswer": "46",
+    "distractors": [
+      "49",
+      "80",
+      "67"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-47",
+    "hash": "2415c09233683b4add6432618a6789f9eb8c0221977104ba8c94fc6b7f094290",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Muğla ilinin plaka kodu kaçtır?",
+    "correctAnswer": "48",
+    "distractors": [
+      "26",
+      "75",
+      "07"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-48",
+    "hash": "88366fa5924385acd553bc428bf6b2f8fcc8339de804f88e00ff7b6b05cb8107",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Muş ilinin plaka kodu kaçtır?",
+    "correctAnswer": "49",
+    "distractors": [
+      "29",
+      "45",
+      "27"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-49",
+    "hash": "31f1894a461308612554267246f553ce111cd6a77dc2e6a6af3d1941945ce340",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Nevşehir ilinin plaka kodu kaçtır?",
+    "correctAnswer": "50",
+    "distractors": [
+      "48",
+      "37",
+      "24"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-50",
+    "hash": "1bc4a6ce22dc344df67bbbd15fe44b876ade6e38617ce14e8c65a6f258189640",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Niğde ilinin plaka kodu kaçtır?",
+    "correctAnswer": "51",
+    "distractors": [
+      "75",
+      "67",
+      "41"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-51",
+    "hash": "b6d6757ae00f91028ad0941455af130ee641dc97b15c42e2034c6bddfe4ce2ee",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Ordu ilinin plaka kodu kaçtır?",
+    "correctAnswer": "52",
+    "distractors": [
+      "02",
+      "48",
+      "39"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-52",
+    "hash": "06c720d59bcabaaac2b4e30fec1ed36c2daf92bea058917bc85468bb80b5e016",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Rize ilinin plaka kodu kaçtır?",
+    "correctAnswer": "53",
+    "distractors": [
+      "62",
+      "32",
+      "81"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-53",
+    "hash": "eb485ad22de1c53a6c9d50e33e3f0d230945c36c1dac44f566cdbc10b0404cef",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Sakarya ilinin plaka kodu kaçtır?",
+    "correctAnswer": "54",
+    "distractors": [
+      "31",
+      "30",
+      "75"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-54",
+    "hash": "0b3ba35080c8dcdc8bb1819f996b9e9fbe68f33babee738ab6a6562857eaa7a9",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Samsun ilinin plaka kodu kaçtır?",
+    "correctAnswer": "55",
+    "distractors": [
+      "73",
+      "53",
+      "74"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-55",
+    "hash": "08f66547adbe87ed65f9a32324892550da92b37288da702de33d1b51b41fdc94",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Siirt ilinin plaka kodu kaçtır?",
+    "correctAnswer": "56",
+    "distractors": [
+      "46",
+      "27",
+      "67"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-56",
+    "hash": "b84942dec3a05eb1248570bbbb614aeb43f4050dbf8a433b080aa075cf620345",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Sinop ilinin plaka kodu kaçtır?",
+    "correctAnswer": "57",
+    "distractors": [
+      "12",
+      "19",
+      "25"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-57",
+    "hash": "f6f05577525ede8177b54dcadd3acb9cb8800181a101389af75ef0a53b94f742",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Sivas ilinin plaka kodu kaçtır?",
+    "correctAnswer": "58",
+    "distractors": [
+      "09",
+      "42",
+      "50"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-58",
+    "hash": "085d39506259bccbcf5f30c2431be7713204d2421e1263a4bb3d499c85014efd",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Tekirdağ ilinin plaka kodu kaçtır?",
+    "correctAnswer": "59",
+    "distractors": [
+      "74",
+      "27",
+      "73"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-59",
+    "hash": "c850da0819d193de0fce2d7e4deac165377e5d807ec6b09b13ccd4e915ecd396",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Tokat ilinin plaka kodu kaçtır?",
+    "correctAnswer": "60",
+    "distractors": [
+      "23",
+      "01",
+      "35"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-60",
+    "hash": "e7d14e3823773e579a0fa32cc62977becbca197f62c529b02f56c5cbdb764bfb",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Trabzon ilinin plaka kodu kaçtır?",
+    "correctAnswer": "61",
+    "distractors": [
+      "20",
+      "57",
+      "32"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-61",
+    "hash": "5a3c3f6d267d2e73d9fc084dbea25035b5ab957a3bb69cd42b9d9054c358c364",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Tunceli ilinin plaka kodu kaçtır?",
+    "correctAnswer": "62",
+    "distractors": [
+      "36",
+      "54",
+      "29"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-62",
+    "hash": "f32d1ba646ba9b86ae4adf3c7c9d7df41c05c2d34533c5bc69b418bae3cd5df9",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Şanlıurfa ilinin plaka kodu kaçtır?",
+    "correctAnswer": "63",
+    "distractors": [
+      "40",
+      "72",
+      "60"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-63",
+    "hash": "d17038ff5b45ccfeaa633a3a649f630a87c99dc811a3b094266068b69ddf281d",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Uşak ilinin plaka kodu kaçtır?",
+    "correctAnswer": "64",
+    "distractors": [
+      "22",
+      "71",
+      "02"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-64",
+    "hash": "de5d16167f23c8899bdfded525e5a342c7b85710a690736461365ae4439ebc86",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Van ilinin plaka kodu kaçtır?",
+    "correctAnswer": "65",
+    "distractors": [
+      "30",
+      "70",
+      "48"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-65",
+    "hash": "e802c22381a4b2d9c33033a618eb6a4d466c64e7f3cf9487872dd9a4d4705641",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Yozgat ilinin plaka kodu kaçtır?",
+    "correctAnswer": "66",
+    "distractors": [
+      "79",
+      "60",
+      "04"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-66",
+    "hash": "d2ba5e707659618414632efbde1b8648f1fea8450f8673f11f15ef8f41d324be",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Zonguldak ilinin plaka kodu kaçtır?",
+    "correctAnswer": "67",
+    "distractors": [
+      "18",
+      "60",
+      "59"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-67",
+    "hash": "a1110bc7746445fa786f7328f5b70d8f871a981e2f22c2e673f5ce0230e46dd7",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Aksaray ilinin plaka kodu kaçtır?",
+    "correctAnswer": "68",
+    "distractors": [
+      "77",
+      "59",
+      "51"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-68",
+    "hash": "6dab6849e072a1e918afe5c34c5527654bb260ed53460a9591a52b9d1422e5ed",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Bayburt ilinin plaka kodu kaçtır?",
+    "correctAnswer": "69",
+    "distractors": [
+      "27",
+      "73",
+      "33"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-69",
+    "hash": "4489a38d744b2a23db72a894e51a1c5e24becf74b8eb53aef15ae075029a5ed7",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Karaman ilinin plaka kodu kaçtır?",
+    "correctAnswer": "70",
+    "distractors": [
+      "65",
+      "21",
+      "62"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-70",
+    "hash": "d8e431e2e817b50e0d32af2a604b1b317010beb55d0cec125c60a2db4888556e",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Kırıkkale ilinin plaka kodu kaçtır?",
+    "correctAnswer": "71",
+    "distractors": [
+      "28",
+      "55",
+      "11"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-71",
+    "hash": "f8d5fd4aac516b3f8a99b601da59911618671e9ac4b135a635789969018adf3e",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Batman ilinin plaka kodu kaçtır?",
+    "correctAnswer": "72",
+    "distractors": [
+      "21",
+      "04",
+      "35"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-72",
+    "hash": "ce55c068662dc02d810de62431134eb978985f25e76883dc92887eea930e9a09",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Şırnak ilinin plaka kodu kaçtır?",
+    "correctAnswer": "73",
+    "distractors": [
+      "51",
+      "09",
+      "72"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-73",
+    "hash": "cc4e15f94681e3ea41f0022cf13b16ec56069ac283e83eadc659b7372f986d16",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Bartın ilinin plaka kodu kaçtır?",
+    "correctAnswer": "74",
+    "distractors": [
+      "55",
+      "07",
+      "70"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-74",
+    "hash": "354228345d365774a1708979d80549c202ebcc2917b46aec96c9ae83f3174b0b",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Ardahan ilinin plaka kodu kaçtır?",
+    "correctAnswer": "75",
+    "distractors": [
+      "34",
+      "56",
+      "24"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-75",
+    "hash": "f25e57f25cb91f90cfd18959871b220cd57bc098eb1708d4ba39c03160b124c3",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Iğdır ilinin plaka kodu kaçtır?",
+    "correctAnswer": "76",
+    "distractors": [
+      "74",
+      "67",
+      "69"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-76",
+    "hash": "c5c09f41cc05dd84d72795627b98d024a5f3cef60d78df891ac348d039e0d105",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Yalova ilinin plaka kodu kaçtır?",
+    "correctAnswer": "77",
+    "distractors": [
+      "16",
+      "58",
+      "66"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-77",
+    "hash": "68a08cca120e3e8cbb61b5a69c8998b385ee852068301a3a6c3f8ed48a438fbc",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Karabük ilinin plaka kodu kaçtır?",
+    "correctAnswer": "78",
+    "distractors": [
+      "70",
+      "80",
+      "24"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-79",
+    "hash": "d3c81e3577f3c1891d7d059af1b0439201edd2152497c7629d775de72747b5de",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Osmaniye ilinin plaka kodu kaçtır?",
+    "correctAnswer": "80",
+    "distractors": [
+      "51",
+      "31",
+      "24"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
+  },
+  {
+    "id": "plaka-01053-80",
+    "hash": "233ecb186317f0cd678005ed79ffe4276513479f8366e9f972adefbd8f555054",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Düzce ilinin plaka kodu kaçtır?",
+    "correctAnswer": "81",
+    "distractors": [
+      "46",
+      "06",
+      "17"
+    ],
+    "source": "static:il-plaka-kodlari",
+    "qualityScore": 100
   }
 ]

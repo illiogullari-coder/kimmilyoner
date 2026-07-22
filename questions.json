@@ -3820,5 +3820,122 @@
       "Atakum",
       "Taraklı"
     ]
+  },
+  {
+    "id": "gen-456058",
+    "hash": "dbb5cd2f8901ab2b7575bc7c60db330d998acba81333fee415121ea713dad254",
+    "category": "türk kültürü",
+    "difficulty": "Zor",
+    "question": "Ekümenik Jüri Ödülü ile ilgili: yıl?",
+    "correctAnswer": "1973",
+    "distractors": [
+      "Yunusemre",
+      "Karamanlı",
+      "Beyşehir"
+    ]
+  },
+  {
+    "id": "gen-205454",
+    "hash": "e3863a5ece92debc26b4e7efb6e281cb5cdec6772d3e70d77950a1b392c1f5f5",
+    "category": "türk tarihi",
+    "difficulty": "Orta",
+    "question": "Warren, Michigan ile ilgili: yıl?",
+    "correctAnswer": "2009",
+    "distractors": [
+      "Çamoluk",
+      "Çamlıdere",
+      "Merkez"
+    ]
+  },
+  {
+    "id": "gen-420554",
+    "hash": "f8d34621d2396f92fcf6a0131582d4c5fc34619f5eca6b1599c1de7231a179df",
+    "category": "türk siyaset",
+    "difficulty": "Orta",
+    "question": "1980 Eurovision Şarkı Yarışması'nda İtalya ile ilgili: yıl?",
+    "correctAnswer": "1980",
+    "distractors": [
+      "Diyarbakır",
+      "Aydın",
+      "Kuşadası"
+    ]
+  },
+  {
+    "id": "gen-881002",
+    "hash": "acfa65c4af58045e1b497928ad295c3c612b14f4bc2cfc6f1bae557ab194fed3",
+    "category": "türk basını",
+    "difficulty": "Normal",
+    "question": "Ellen Nakashima ile ilgili: yıl?",
+    "correctAnswer": "2014",
+    "distractors": [
+      "Ulukışla",
+      "Sarız",
+      "Günyüzü"
+    ]
+  },
+  {
+    "id": "gen-307696",
+    "hash": "2b1544b25636605be185949bbb89f3c149f2486cb79de1cde91f7dafec2c62f2",
+    "category": "türk yerel yönetim",
+    "difficulty": "Akademisyen",
+    "question": "Tekli sayı sistemi ile ilgili: Tekli sayı sistemi, doğal sayıları temsil eden en basit sayı?",
+    "correctAnswer": "bir N sayısını temsil etmek için",
+    "distractors": [
+      "Asarcık",
+      "Pazaryolu",
+      "Pamukova"
+    ]
+  },
+  {
+    "id": "gen-923751",
+    "hash": "859de3808fa932bb3da7ab3acad961b3563d2e1f2514a319941c59f824bd3cd3",
+    "category": "türk tarihi",
+    "difficulty": "Normal",
+    "question": "Casacalenda ile ilgili: yıl?",
+    "correctAnswer": "2017",
+    "distractors": [
+      "Honaz",
+      "Merkez",
+      "Keban"
+    ]
+  },
+  {
+    "id": "gen-223477",
+    "hash": "c58437901092ada02bc4ab64b44636f0e221b509e1f5d6e4c895f3cedfcdde18",
+    "category": "türk tarihi",
+    "difficulty": "Zor",
+    "question": "Jirair Sefilyan ile ilgili: yıl?",
+    "correctAnswer": "2016",
+    "distractors": [
+      "Tutak",
+      "Hendek",
+      "Akçakale"
+    ]
+  },
+  {
+    "id": "gen-411998",
+    "hash": "8a605d4bb173f64fa417f729edec762d4b9c3f9a847380bb19a269fb4ac51926",
+    "category": "türk tarihi",
+    "difficulty": "Normal",
+    "question": "Braunschweig bombardımanı (15 Ekim 1944) ile ilgili: yıl?",
+    "correctAnswer": "1942",
+    "distractors": [
+      "Gölbaşı",
+      "Sarıoğlan",
+      "Sivas"
+    ]
+  },
+  {
+    "id": "gen-354661",
+    "hash": "d3816f7bc7925b69737d9c6c53b15b0f50c4a74eaf47b67d804a929a1f0db662",
+    "category": "türk folklorü",
+    "difficulty": "Normal",
+    "question": "Maryborough, Queensland ile ilgili: yıl?",
+    "correctAnswer": "2021",
+    "distractors": [
+      "Karabağlar",
+      "Göksun",
+      "Şaphane"
+    ]
   }
 ]

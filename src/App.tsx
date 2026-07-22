@@ -50,9 +50,16 @@ export default function App() {
     audio.setVolume(s.volume);
   }
 
+  function updateUsername(username: string) {
+    if (!profile) return;
+    const updated = { ...profile, username };
+    setProfile(updated);
+    saveProfile(updated);
+  }
+
   function resetStats() {
     if (!profile) return;
-    const fresh = createDefaultProfile(profile.username, profile.avatar);
+    const fresh = createDefaultProfile(profile.username, profile.gender);
     setProfile(fresh);
     saveProfile(fresh);
     clearSave();
@@ -77,6 +84,7 @@ export default function App() {
         onStart={startGame}
         onShowStats={() => setScreen('stats')}
         onUpdateSettings={updateSettings}
+        onUpdateUsername={updateUsername}
       />
       {screen === 'stats' && profile && (
         <StatsPanel

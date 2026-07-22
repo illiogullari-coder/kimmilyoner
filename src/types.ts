@@ -25,12 +25,13 @@ export interface AnswerOption {
   isCorrect: boolean;
 }
 
-export type JokerType = 'double' | 'audience' | 'skip';
+export type JokerType = 'double' | 'audience' | 'skip' | 'extraTime';
 
 export interface JokerState {
   double: boolean;
   audience: boolean;
   skip: boolean;
+  extraTime: boolean;
 }
 
 export interface AudienceVote {
@@ -42,13 +43,14 @@ export interface GameStats {
   totalGames: number;
   totalCorrect: number;
   totalWrong: number;
-  highestPrize: number;
-  totalPrize: number;
+  highestPrize: bigint;
+  totalPrize: bigint;
   bestStreak: number;
   fastestAnswerMs: number;
   totalAnswerTimeMs: number;
   totalAnswers: number;
   categoryStats: Record<string, { correct: number; wrong: number }>;
+  jokersUsed: Record<JokerType, number>;
 }
 
 export interface Achievement {
@@ -60,13 +62,19 @@ export interface Achievement {
   unlockedAt?: number;
 }
 
+/** Kullanıcı sadece ilk açılışta cinsiyet sembolü seçer; avatar resmi yoktur. */
+export type Gender = 'erkek' | 'kadın';
+
 export interface UserProfile {
   username: string;
-  avatar: string;
+  /** @deprecated Avatar sistemi kaldırıldı, geriye dönük uyumluluk için tutulur. */
+  avatar?: string;
+  gender: Gender;
   level: number;
   xp: number;
   stats: GameStats;
   achievements: Achievement[];
+  createdAt: number;
 }
 
 export interface GameSettings {
@@ -77,7 +85,7 @@ export interface GameSettings {
 
 export interface GameSaveState {
   currentQuestionIndex: number;
-  currentPrize: number;
+  currentPrize: bigint;
   jokers: JokerState;
   usedQuestionHashes: string[];
   activeQuestion: Question | null;
@@ -87,11 +95,13 @@ export interface GameSaveState {
   eliminatedOptions: number[];
   audienceVotes: AudienceVote[] | null;
   status: 'playing' | 'won' | 'lost' | 'idle';
+  streak: number;
+  correctSinceJokerRefresh: number;
+  lastCategory: string | null;
 }
 
 export interface MoneyLevel {
   index: number;
-  amount: number;
+  amount: bigint;
   isSafe: boolean;
-  isFinal: boolean;
 }

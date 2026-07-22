@@ -1,0 +1,44 @@
+name: Soru Havuzunu Otomatik Büyüt
+
+# Her gün Türkiye saatiyle 04:00'te (01:00 UTC) çalışır.
+# Ayrıca Actions sekmesinden manuel de tetiklenebilir (workflow_dispatch).
+on:
+  schedule:
+    - cron: '0 1 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: soru-uretimi
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Depoyu al
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Soru üretim motorunu çalıştır
+        run: python python/build.py
+
+      - name: Değişiklikleri commit'le (varsa)
+        run: |
+          git config user.name "kimmilyoner-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add questions.json src/data/questions.ts python/.crawl_state.json
+          if git diff --cached --quiet; then
+            echo "Yeni soru üretilmedi (Wikipedia'dan uygun veri gelmedi), commit atlanıyor."
+          else
+            git commit -m "chore: soru havuzu otomatik güncellendi [skip ci]"
+            git push
+          fi

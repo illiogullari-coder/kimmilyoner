@@ -35,12 +35,23 @@ export function buildOptions(q: Question): AnswerOption[] {
   return shuffle(opts);
 }
 
-export function pickNextQuestion(exclude: Set<string>): Question | null {
+/**
+ * Sıradaki soruyu seçer.
+ * Öncelik: hiç gösterilmemiş sorular > gösterilmiş ama bu oyunda kullanılmamışlar.
+ * Mümkünse bir önceki soruyla aynı kategori arka arkaya gelmez.
+ */
+export function pickNextQuestion(exclude: Set<string>, lastCategory?: string | null): Question | null {
   const fullPool = getPool();
-  const available = fullPool.filter((q) => !exclude.has(q.hash) && !seenHashes.has(q.hash));
-  const list = available.length > 0 ? available : fullPool.filter((q) => !exclude.has(q.hash));
-  if (list.length === 0) return null;
-  return shuffle(list)[0];
+  const unseen = fullPool.filter((q) => !exclude.has(q.hash) && !seenHashes.has(q.hash));
+  let candidates = unseen.length > 0 ? unseen : fullPool.filter((q) => !exclude.has(q.hash));
+  if (candidates.length === 0) return null;
+
+  if (lastCategory) {
+    const differentCategory = candidates.filter((q) => q.category !== lastCategory);
+    if (differentCategory.length > 0) candidates = differentCategory;
+  }
+
+  return shuffle(candidates)[0];
 }
 
 export function pickQuestionsForLevel(count: number, exclude: Set<string>): Question[] {

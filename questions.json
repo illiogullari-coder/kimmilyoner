@@ -2838,5 +2838,110 @@
     ],
     "source": "tr.wikipedia.org/wiki/Türkiye_başbakanı",
     "qualityScore": 100
+  },
+  {
+    "id": "gen-178334104-0",
+    "hash": "e530c07460c82f6df5c2fd15c7d48bbd8b990ded0b57551df0b786cafdd684db",
+    "category": "İlk Türk Devletleri",
+    "difficulty": "Uzman",
+    "question": "Dukak'ı kim kurdu?",
+    "correctAnswer": "Selçuk Bey",
+    "distractors": [
+      "Yavuz Sultan Selim",
+      "Hacı Bektaş-ı Veli",
+      "Fatih Sultan Mehmet"
+    ],
+    "source": "tr.wikipedia.org/wiki/Dukak",
+    "qualityScore": 100
+  },
+  {
+    "id": "gen-89167202-0",
+    "hash": "279758e816ff3b851b3814ff94b0248305dc75f208c4764cf60258f6da5cb53e",
+    "category": "Osmanlı Tarihi",
+    "difficulty": "Normal",
+    "question": "Süleymaniye Camii hangi yıl inşa edildi?",
+    "correctAnswer": "1550",
+    "distractors": [
+      "1928",
+      "1980",
+      "2007"
+    ],
+    "source": "tr.wikipedia.org/wiki/Süleymaniye_Camii",
+    "qualityScore": 100
+  },
+  {
+    "id": "gen-178334307-0",
+    "hash": "c677db4015e148aa0fdc6fb07e73231baec888f6488932bf8ee37aff533378d1",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Normal",
+    "question": "Bursa Yenişehir Havalimanı hangi yıl oluşturuldu?",
+    "correctAnswer": "1944",
+    "distractors": [
+      "1990",
+      "2018",
+      "2013"
+    ],
+    "source": "tr.wikipedia.org/wiki/Bursa_Yenişehir_Havalimanı",
+    "qualityScore": 100
+  },
+  {
+    "id": "gen-178334306-0",
+    "hash": "a85ee9145e55263246bcc1161f8288b4d2f01040ae5c82fc814f1051d25e463f",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Durusu Terminali nedir / kimdir?",
+    "correctAnswer": "Doğalgaz İstasyonu",
+    "distractors": [
+      "Sabahattin Ali",
+      "Hakan Şükür",
+      "Nazım Hikmet"
+    ],
+    "source": "tr.wikipedia.org/wiki/Durusu_Terminali",
+    "qualityScore": 100
+  },
+  {
+    "id": "gen-178334301-0",
+    "hash": "a54be6f4f57b3264856bcc5cb73db0030f04aa57dbb0ec62a5641644f0f241b8",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Normal",
+    "question": "Beğendik Köprüsü hangi yıl inşa edildi?",
+    "correctAnswer": "2013",
+    "distractors": [
+      "1980",
+      "1299",
+      "1683"
+    ],
+    "source": "tr.wikipedia.org/wiki/Beğendik_Köprüsü",
+    "qualityScore": 100
+  },
+  {
+    "id": "gen-178334304-0",
+    "hash": "c5baa6cf81c4ddf0f7c0f9453cbe7e2b5baab86af457b3103efff49592336bdf",
+    "category": "Ulaşım ve Altyapı",
+    "difficulty": "Normal",
+    "question": "Devrimci Gençlik Köprüsü hangi yıl inşa edildi?",
+    "correctAnswer": "1969",
+    "distractors": [
+      "1922",
+      "1950",
+      "2016"
+    ],
+    "source": "tr.wikipedia.org/wiki/Devrimci_Gençlik_Köprüsü",
+    "qualityScore": 100
+  },
+  {
+    "id": "gen-178334303-0",
+    "hash": "bece6058d4a87535ce73a319be75b5457dffb0aecddd374cc3b7ec014d3bc231",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Normal",
+    "question": "Mavi Tünel hangi yıl inşa edildi?",
+    "correctAnswer": "1960",
+    "distractors": [
+      "1950",
+      "1928",
+      "1971"
+    ],
+    "source": "tr.wikipedia.org/wiki/Mavi_Tünel",
+    "qualityScore": 100
   }
 ]

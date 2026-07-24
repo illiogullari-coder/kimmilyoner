@@ -4,9 +4,12 @@
     "Osmanlı Tarihi": 2,
     "Kurtuluş Savaşı ve Cumhuriyet": 12,
     "Ulaşım ve Altyapı": 0,
-    "Doğal ve Kültürel Miras": 6,
-    "Türk Mutfağı": 3,
-    "Türk Kültürü": 6
+    "Doğal ve Kültürel Miras": 0,
+    "Türk Mutfağı": 9,
+    "Türk Kültürü": 2,
+    "Türk Edebiyatı": 6,
+    "Sanat, Sinema ve Müzik": 6,
+    "Bilim ve Teknoloji": 6
   },
   "category_cursor": {
     "Göktürkler": 16,
@@ -20,8 +23,15 @@
     "Türkiye'deki_limanlar": 8,
     "Türkiye'deki_köprüler": 8,
     "Türkiye'deki_tüneller": 0,
-    "Türk_mutfağı": 8,
-    "Türk_kültürü": 8,
-    "Türk_halk_oyunları": 8
+    "Türk_mutfağı": 16,
+    "Türk_kültürü": 16,
+    "Türk_halk_oyunları": 0,
+    "Türk_şairler": 8,
+    "Türk_yazarlar": 8,
+    "Türk_televizyon_dizileri": 0,
+    "Türk_müzisyenler": 8,
+    "Türk_besteciler": 0,
+    "Türk_bilim_insanları": 8,
+    "Türk_mucitler": 8
   }
 }

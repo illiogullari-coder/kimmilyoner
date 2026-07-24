@@ -2943,5 +2943,95 @@
     ],
     "source": "tr.wikipedia.org/wiki/Mavi_Tünel",
     "qualityScore": 100
+  },
+  {
+    "id": "gen-57344300-0",
+    "hash": "b26eadae8f47827e5a34ec1482e3f15353b321f92dd930d0bd5e12a0fee1ea8e",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Normal",
+    "question": "Türk halk müziği hangi yıl oluşturuldu?",
+    "correctAnswer": "1970",
+    "distractors": [
+      "1928",
+      "2016",
+      "1071"
+    ],
+    "source": "tr.wikipedia.org/wiki/Türk_halk_müziği",
+    "qualityScore": 100
+  },
+  {
+    "id": "gen-114688302-0",
+    "hash": "02f6201d734910188cd7f22126b133095d780f40e76d50e9936a66844b5cb676",
+    "category": "Türk Kültürü",
+    "difficulty": "Normal",
+    "question": "Milliyet Türkiye Liselerarası Müzik ve Halk Oyunları Yarışması hangi yıl inşa edildi?",
+    "correctAnswer": "1999",
+    "distractors": [
+      "1683",
+      "1920",
+      "2016"
+    ],
+    "source": "tr.wikipedia.org/wiki/Milliyet_Türkiye_Liselerarası_Müzik_ve_Halk_Oyunları_Yarışması",
+    "qualityScore": 100
+  },
+  {
+    "id": "gen-114688502-0",
+    "hash": "ddd8e7fe243bf9c7db6acab0300fb89ae0aca38ec39b28c605db00a0ca8f7636",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Kolay",
+    "question": "Türkan Hanım'ın Konağı nedir / kimdir?",
+    "correctAnswer": "Televizyon Dizisi Ve Programı",
+    "distractors": [
+      "Taha Akgül",
+      "Turgut Özal",
+      "Nazım Hikmet"
+    ],
+    "source": "tr.wikipedia.org/wiki/Türkan_Hanım'ın_Konağı",
+    "qualityScore": 100
+  },
+  {
+    "id": "gen-57344601-0",
+    "hash": "7bf2d488f148b1cb87093a4510e0ef01765ef871c699f61bcbe08c40701b3d19",
+    "category": "Ekonomi, Tarım ve Enerji",
+    "difficulty": "Normal",
+    "question": "ASELSAN hangi yıl oluşturuldu?",
+    "correctAnswer": "1975",
+    "distractors": [
+      "1934",
+      "1938",
+      "1990"
+    ],
+    "source": "tr.wikipedia.org/wiki/ASELSAN",
+    "qualityScore": 100
+  },
+  {
+    "id": "gen-57344602-0",
+    "hash": "2332ac60acb50e13dc23cd13989c4ec79186d0b30f685ac5c27ac429e1a66646",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Normal",
+    "question": "Baykar Teknoloji hangi yıl kuruldu?",
+    "correctAnswer": "1986",
+    "distractors": [
+      "1789",
+      "1930",
+      "1876"
+    ],
+    "source": "tr.wikipedia.org/wiki/Baykar_Teknoloji",
+    "qualityScore": 100
+  },
+  {
+    "id": "gen-516096009-0",
+    "hash": "938a4cac63325abfc2089ec85869cf75eb48b69b38c5db9f78a2ba258e95812b",
+    "category": "Türkiye Coğrafyası",
+    "difficulty": "Normal",
+    "question": "Choi Jin-sil hangi yıl hayatını kaybetti?",
+    "correctAnswer": "2008",
+    "distractors": [
+      "1960",
+      "1922",
+      "2023"
+    ],
+    "source": "tr.wikipedia.org/wiki/Choi_Jin-sil",
+    "qualityScore": 100
   }
 ]
